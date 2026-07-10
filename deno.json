@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-read main.ts",
+    "shop-sheets:import": "deno run --allow-read --allow-write scripts/shop-sheets-to-json.ts",
+    "equip-sheets:import": "deno run --allow-read --allow-write scripts/equip-sheets-to-json.ts",
+    "item-sheets:import": "deno run --allow-read --allow-write scripts/item-sheets-to-json.ts",
+    "scroll-sheets:import": "deno run --allow-read --allow-write scripts/scroll-sheets-to-json.ts",
+    "special-sheets:import": "deno run --allow-read --allow-write scripts/special-sheets-to-json.ts",
+    "hermit-sheets:import": "deno run --allow-read --allow-write scripts/hermit-sheets-to-json.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

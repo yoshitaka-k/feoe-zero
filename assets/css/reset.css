@@ -1,0 +1,42 @@
+/* 1. box-sizing を全体に */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  /* 2. margin のリセット（padding は触らないことが多い） */
+  * {
+    margin: 0;
+  }
+
+  /* 3. body のベース */
+  body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* 4. 見出し・フォームの line-height 調整 */
+  h1, h2, h3, h4, button, input, label {
+    line-height: 1.1;
+  }
+
+  /* 5. 画像・メディアの下余白対策 */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* 6. フォーム要素にフォントを継承（これがないと font-family が効かない） */
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  /* 7. （任意）見出しのテキスト折り返し */
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+
+  /* 8. （任意）アンカーリンクのスクロール余白 */
+  :target {
+    scroll-margin-block: 5ex;
+  }

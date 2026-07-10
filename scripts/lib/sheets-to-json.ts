@@ -2,21 +2,41 @@ import { basename, join } from "jsr:@std/path";
 import * as XLSX from "npm:xlsx@0.18.5";
 import { ASSETS_DATA_DIR } from "../../src/paths.ts";
 
+/** コマンドライン引数のオプション
+ * @property file 入力ファイル
+ * @property out 出力ディレクトリ
+ */
 export interface CliOptions {
   file: string;
   out: string;
 }
 
+/** シートのメタデータ
+ * @property name シート名
+ * @property file 出力ファイル名
+ * @property rows 行数
+ */
 export interface SheetMeta {
   name: string;
   file: string;
   rows: number;
 }
 
+/** シートのデータをフォーマットする関数
+ * @param records レコード
+ * @returns フォーマットされたデータ
+ */
 export type SheetFormatter = (
   records: Record<string, unknown>[],
 ) => unknown;
 
+/** シートのインポート設定
+ * @property defaultFile 既定の入力ファイル
+ * @property defaultOutDir 既定の出力ディレクトリ
+ * @property helpDefaultFile ヘルプの既定の入力ファイル
+ * @property sheetAliases シート名の別名
+ * @property formatters シートのデータをフォーマットする関数
+ */
 export interface SheetImportConfig {
   defaultFile: string;
   defaultOutDir?: string;
@@ -25,6 +45,11 @@ export interface SheetImportConfig {
   formatters: Record<string, SheetFormatter>;
 }
 
+/** コマンドライン引数をパースする関数
+ * @param args コマンドライン引数
+ * @param config シートのインポート設定
+ * @returns コマンドライン引数のオプション
+ */
 export function parseArgs(
   args: string[],
   config: SheetImportConfig,
@@ -49,6 +74,9 @@ export function parseArgs(
   return options;
 }
 
+/** ヘルプを表示する関数
+ * @param defaultFile ヘルプの既定の入力ファイル
+ */
 function printHelp(defaultFile: string): void {
   console.log(`スプレッドシート → JSON 変換
 
@@ -61,6 +89,10 @@ function printHelp(defaultFile: string): void {
 `);
 }
 
+/** シート名をファイル名に変換する関数
+ * @param sheetName シート名
+ * @returns ファイル名
+ */
 export function toFilename(sheetName: string): string {
   return sheetName
     .trim()
@@ -71,6 +103,11 @@ export function toFilename(sheetName: string): string {
     .replace(/^-|-$/g, "") || "sheet";
 }
 
+/** シート名をベース名に変換する関数
+ * @param sheetName シート名
+ * @param aliases シート名の別名
+ * @returns ベース名
+ */
 function outputBaseName(
   sheetName: string,
   aliases: Record<string, string>,
@@ -79,6 +116,11 @@ function outputBaseName(
   return aliases[normalized] ?? normalized;
 }
 
+/** 行のデータを取得する関数
+ * @param row 行
+ * @param keys キー
+ * @returns データ
+ */
 export function pick(row: Record<string, unknown>, keys: string[]): unknown {
   for (const key of keys) {
     if (key in row && row[key] !== null && row[key] !== "") {
@@ -88,6 +130,10 @@ export function pick(row: Record<string, unknown>, keys: string[]): unknown {
   return null;
 }
 
+/** セルの値を取得する関数
+ * @param value セルの値
+ * @returns セルの値
+ */
 function cellToValue(value: unknown): unknown {
   if (value === undefined || value === null) return null;
   if (typeof value === "number" || typeof value === "boolean") return value;
@@ -107,6 +153,10 @@ function cellToValue(value: unknown): unknown {
   return text;
 }
 
+/** ヘッダーを一意にする関数
+ * @param headers ヘッダー
+ * @returns 一意のヘッダー
+ */
 function uniqueHeaders(headers: string[]): string[] {
   const seen = new Map<string, number>();
   return headers.map((header, index) => {
@@ -117,6 +167,10 @@ function uniqueHeaders(headers: string[]): string[] {
   });
 }
 
+/** 行が空かどうかを判定する関数
+ * @param row 行
+ * @returns 行が空かどうか
+ */
 function isEmptyRow(row: unknown[]): boolean {
   return row.every((cell) => {
     if (cell === undefined || cell === null) return true;
@@ -124,6 +178,10 @@ function isEmptyRow(row: unknown[]): boolean {
   });
 }
 
+/** 行がコメントかどうかを判定する関数
+ * @param row 行
+ * @returns 行がコメントかどうか
+ */
 function isCommentRow(row: unknown[]): boolean {
   const first = row[0];
   if (first === undefined || first === null) return false;
@@ -131,6 +189,10 @@ function isCommentRow(row: unknown[]): boolean {
   return text.startsWith("#") || text.startsWith("//");
 }
 
+/** シートのデータをレコードに変換する関数
+ * @param sheet シート
+ * @returns レコード
+ */
 export function sheetToRecords(sheet: XLSX.WorkSheet): Record<string, unknown>[] {
   const rows = XLSX.utils.sheet_to_json<unknown[]>(sheet, {
     header: 1,
@@ -169,6 +231,12 @@ export function sheetToRecords(sheet: XLSX.WorkSheet): Record<string, unknown>[]
   return records;
 }
 
+/** シートのデータをフォーマットする関数
+ * @param sheetName シート名
+ * @param records レコード
+ * @param formatters シートのデータをフォーマットする関数
+ * @returns フォーマットされたデータ
+ */
 function formatSheetData(
   sheetName: string,
   records: Record<string, unknown>[],
@@ -178,6 +246,11 @@ function formatSheetData(
   return formatter ? formatter(records) : records;
 }
 
+/** デリミタ付きファイルを読み込む関数
+ * @param path パス
+ * @param text テキスト
+ * @returns ワークブック
+ */
 function readDelimitedFile(
   path: string,
   text: string,
@@ -197,6 +270,10 @@ function readDelimitedFile(
   return workbook;
 }
 
+/** ワークブックを読み込む関数
+ * @param file ファイル
+ * @returns ワークブック
+ */
 async function loadWorkbook(file: string): Promise<XLSX.WorkBook> {
   const ext = file.toLowerCase().split(".").pop();
 
@@ -209,6 +286,12 @@ async function loadWorkbook(file: string): Promise<XLSX.WorkBook> {
   return XLSX.read(data, { type: "buffer" });
 }
 
+/** シートを出力する関数
+ * @param workbook ワークブック
+ * @param outDir 出力ディレクトリ
+ * @param config シートのインポート設定
+ * @returns シートのメタデータ
+ */
 async function exportSheets(
   workbook: XLSX.WorkBook,
   outDir: string,
@@ -255,6 +338,11 @@ async function exportSheets(
   return meta;
 }
 
+/** シートをインポートする関数
+ * @param config シートのインポート設定
+ * @param args コマンドライン引数
+ * @returns シートのメタデータ
+ */
 export async function runSheetImport(
   config: SheetImportConfig,
   args: string[],

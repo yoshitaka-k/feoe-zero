@@ -1,3 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    padding: 1rem;
+  padding: 1rem;
+}
+
+#page-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.3rem 1rem;
+  background-color: #000;
+  color: #c2c7d0;
+  text-decoration: none;
+  border-radius: 0.5rem;
 }

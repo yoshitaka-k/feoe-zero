@@ -13,15 +13,27 @@ import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
 
 const DEFAULT_FILE = join(import.meta.dirname!, "tsv/shop.tsv");
 
+type CountryNode = {
+  国: string;
+  場所: Array<Record<string, unknown>>;
+};
+type CityNode = {
+  場所: string;
+  店: Array<Record<string, unknown>>;
+};
+
 type ShopNode = {
+  店: string;
   備考: string | number | null;
   商品: Array<Record<string, unknown>>;
 };
 
-type ShopJson = Record<string, Record<string, Record<string, ShopNode>>>;
+type ShopJson = Array<CountryNode>;
 
 function formatShopData(records: Record<string, unknown>[]): ShopJson {
-  const result: ShopJson = {};
+  const result: ShopJson = [];
+  const byCountry = new Map<string, CountryNode>();
+  const byCity = new Map<string, CityNode>();
   let currentCountry = "";
   let currentCity = "";
   let currentShop = "";
@@ -30,7 +42,7 @@ function formatShopData(records: Record<string, unknown>[]): ShopJson {
     const country = pick(row, ["国", "country"]);
     const city = pick(row, ["場所", "村", "街", "町", "city", "town"]);
     const shop = pick(row, ["店名", "店", "shop"]);
-    const shopNote = pick(row, ["店備考", "shop_note", "備考"]);
+    const shopNote = pick(row, ["備考", "note"]);
 
     if (country) currentCountry = String(country);
     if (city) currentCity = String(city);
@@ -41,29 +53,31 @@ function formatShopData(records: Record<string, unknown>[]): ShopJson {
       continue;
     }
 
-    result[currentCountry] ??= {};
-    result[currentCountry][currentCity] ??= {};
-    result[currentCountry][currentCity][currentShop] ??= {
-      備考: (shopNote ?? "") as string | number | null,
-      商品: [],
-    };
-
-    if (shopNote !== null) {
-      result[currentCountry][currentCity][currentShop].備考 =
-        shopNote as string | number | null;
+    let countryNode = byCountry.get(currentCountry);
+    if (!countryNode) {
+      countryNode = { 国: currentCountry, 場所: [] };
+      byCountry.set(currentCountry, countryNode);
+      result.push(countryNode);
     }
 
-    const product: Record<string, unknown> = {
+    let cityNode = byCity.get(currentCity);
+    if (!cityNode) {
+      cityNode = { 場所: currentCity, 店: [] };
+      byCity.set(currentCity, cityNode);
+      countryNode.場所.push(cityNode);
+    }
+
+    let shopNode = cityNode.店.find((node) => node.店 === currentShop);
+    if (!shopNode) {
+      shopNode = { 店: currentShop, 備考: (shopNote ?? "") as string | number | null, 商品: [] };
+      cityNode.店.push(shopNode);
+    }
+
+    const product = {
       名前: productName,
       値段: pick(row, ["値段", "price"]),
     };
-
-    const productNote = pick(row, ["商品備考", "product_note"]);
-    if (productNote !== null) {
-      product.備考 = productNote;
-    }
-
-    result[currentCountry][currentCity][currentShop].商品.push(product);
+    (shopNode.商品 as Array<Record<string, unknown>>).push(product);
   }
 
   return result;

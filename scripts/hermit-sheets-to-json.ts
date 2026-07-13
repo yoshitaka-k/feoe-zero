@@ -14,38 +14,41 @@ import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
 const DEFAULT_FILE = join(import.meta.dirname!, "tsv/hermit.tsv");
 
 type HermitNode = {
+  国: string;
   仙人: Array<Record<string, unknown>>;
 };
 
-type HermitJson = Record<string, HermitNode>;
+type HermitJson = Array<HermitNode>;
 
 function formatHermitData(records: Record<string, unknown>[]): HermitJson {
-  const result: HermitJson = {};
-  let currentCountory = "";
+  const result: HermitJson = [];
+  const byCountry = new Map<string, HermitNode>();
+  let currentCountry = "";
 
   for (const row of records) {
-    const countory = pick(row, ["国", "country"]);
+    const country = pick(row, ["国", "country"]);
 
-    if (countory) currentCountory = String(countory);
+    if (country) currentCountry = String(country);
 
     const hermitName = pick(row, ["仙人", "hermit"]);
-    if (!hermitName || !currentCountory) {
+    if (!hermitName || !currentCountry) {
       continue;
     }
 
-    result[currentCountory] ??= {
-      仙人: [],
-    };
+    let node = byCountry.get(currentCountry);
+    if (!node) {
+      node = { 国: currentCountry, 仙人: [] };
+      byCountry.set(currentCountry, node);
+      result.push(node);
+    }
 
-    const hermit: Record<string, unknown> = {
-      仙人: hermitName,
-      場所: pick(row, ["場所", "location"]),
-      巻物: pick(row, ["巻物", "scroll"]),
-      奥義: pick(row, ["奥義", "special"]),
-      備考: pick(row, ["備考", "note"]),
-    };
-
-    result[currentCountory].仙人.push(hermit);
+      node.仙人.push({
+        仙人: hermitName,
+        場所: pick(row, ["場所", "location"]),
+        巻物: pick(row, ["巻物", "scroll"]),
+        奥義: pick(row, ["奥義", "special"]),
+        備考: pick(row, ["備考", "note"]),
+      });
   }
 
   return result;

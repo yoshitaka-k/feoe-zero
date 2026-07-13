@@ -14,18 +14,18 @@ import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
 const DEFAULT_FILE = join(import.meta.dirname!, "tsv/shop.tsv");
 
 type CountryNode = {
-  国: string;
-  場所: Array<Record<string, unknown>>;
+  country: string;
+  location: Array<Record<string, unknown>>;
 };
 type CityNode = {
-  場所: string;
-  店: Array<Record<string, unknown>>;
+  location: string;
+  shop: Array<Record<string, unknown>>;
 };
 
 type ShopNode = {
-  店: string;
-  備考: string | number | null;
-  商品: Array<Record<string, unknown>>;
+  name: string;
+  note: string | number | null;
+  product: Array<Record<string, unknown>>;
 };
 
 type ShopJson = Array<CountryNode>;
@@ -55,29 +55,29 @@ function formatShopData(records: Record<string, unknown>[]): ShopJson {
 
     let countryNode = byCountry.get(currentCountry);
     if (!countryNode) {
-      countryNode = { 国: currentCountry, 場所: [] };
+      countryNode = { country: currentCountry, location: [] };
       byCountry.set(currentCountry, countryNode);
       result.push(countryNode);
     }
 
     let cityNode = byCity.get(currentCity);
     if (!cityNode) {
-      cityNode = { 場所: currentCity, 店: [] };
+      cityNode = { location: currentCity, shop: [] };
       byCity.set(currentCity, cityNode);
-      countryNode.場所.push(cityNode);
+      countryNode.location.push(cityNode);
     }
 
-    let shopNode = cityNode.店.find((node) => node.店 === currentShop);
+    let shopNode = cityNode.shop.find((node) => node.shop === currentShop);
     if (!shopNode) {
-      shopNode = { 店: currentShop, 備考: (shopNote ?? "") as string | number | null, 商品: [] };
-      cityNode.店.push(shopNode);
+      shopNode = { shop: currentShop, note: (shopNote ?? "") as string | number | null, product: [] };
+      cityNode.shop.push(shopNode);
     }
 
     const product = {
-      名前: productName,
-      値段: pick(row, ["値段", "price"]),
+      name: productName,
+      price: pick(row, ["値段", "price"]),
     };
-    (shopNode.商品 as Array<Record<string, unknown>>).push(product);
+    (shopNode.product as Array<Record<string, unknown>>).push(product);
   }
 
   return result;
@@ -88,6 +88,7 @@ if (import.meta.main) {
     defaultFile: DEFAULT_FILE,
     helpDefaultFile: "scripts/tsv/shop.tsv",
     sheetAliases: { spreadsheet: "shop" },
+    defaultFormatter: formatShopData,
     formatters: {
       shop: formatShopData,
       spreadsheet: formatShopData,

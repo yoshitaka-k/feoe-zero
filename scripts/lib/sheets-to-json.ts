@@ -35,14 +35,16 @@ export type SheetFormatter = (
  * @property defaultOutDir 既定の出力ディレクトリ
  * @property helpDefaultFile ヘルプの既定の入力ファイル
  * @property sheetAliases シート名の別名
- * @property formatters シートのデータをフォーマットする関数
+ * @property formatters シート名ごとのフォーマット関数
+ * @property defaultFormatter formatters に一致しないときの既定フォーマット関数
  */
 export interface SheetImportConfig {
   defaultFile: string;
   defaultOutDir?: string;
   helpDefaultFile: string;
   sheetAliases?: Record<string, string>;
-  formatters: Record<string, SheetFormatter>;
+  formatters?: Record<string, SheetFormatter>;
+  defaultFormatter?: SheetFormatter;
 }
 
 /** コマンドライン引数をパースする関数
@@ -234,15 +236,16 @@ export function sheetToRecords(sheet: XLSX.WorkSheet): Record<string, unknown>[]
 /** シートのデータをフォーマットする関数
  * @param sheetName シート名
  * @param records レコード
- * @param formatters シートのデータをフォーマットする関数
+ * @param config シートのインポート設定
  * @returns フォーマットされたデータ
  */
 function formatSheetData(
   sheetName: string,
   records: Record<string, unknown>[],
-  formatters: Record<string, SheetFormatter>,
+  config: SheetImportConfig,
 ): unknown {
-  const formatter = formatters[toFilename(sheetName)];
+  const key = toFilename(sheetName);
+  const formatter = config.formatters?.[key] ?? config.defaultFormatter;
   return formatter ? formatter(records) : records;
 }
 
@@ -306,7 +309,7 @@ async function exportSheets(
   for (const sheetName of workbook.SheetNames) {
     const sheet = workbook.Sheets[sheetName];
     const records = sheetToRecords(sheet);
-    const data = formatSheetData(sheetName, records, config.formatters);
+    const data = formatSheetData(sheetName, records, config);
 
     let baseName = outputBaseName(sheetName, aliases);
     const count = usedNames.get(baseName) ?? 0;

@@ -14,8 +14,8 @@ import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
 const DEFAULT_FILE = join(import.meta.dirname!, "tsv/special.tsv");
 
 type SpecialNode = {
-  キャラクター: string;
-  奥義: Array<Record<string, unknown>>;
+  character: string;
+  special: Array<Record<string, unknown>>;
 };
 
 type SpecialJson = Array<SpecialNode>;
@@ -37,16 +37,16 @@ function formatSpecialData(records: Record<string, unknown>[]): SpecialJson {
 
     let node = byCharacter.get(currentCharacter);
     if (!node) {
-      node = { キャラクター: currentCharacter, 奥義: [] };
+      node = { character: currentCharacter, special: [] };
       byCharacter.set(currentCharacter, node);
       result.push(node);
     }
 
-    node.奥義.push({
-      名前: productName,
-      効果: pick(row, ["効果", "effect"]),
-      消費: pick(row, ["消費", "consumption"]),
-      条件: pick(row, ["条件", "condition"]),
+    node.special.push({
+      name: productName,
+      effect: pick(row, ["効果", "effect"]),
+      magic_point: pick(row, ["消費", "magic_point"]),
+      note: pick(row, ["条件", "note"]),
     });
   }
 
@@ -58,6 +58,7 @@ if (import.meta.main) {
     defaultFile: DEFAULT_FILE,
     helpDefaultFile: "scripts/tsv/special.tsv",
     sheetAliases: { spreadsheet: "special" },
+    defaultFormatter: formatSpecialData,
     formatters: {
       special: formatSpecialData,
       spreadsheet: formatSpecialData,

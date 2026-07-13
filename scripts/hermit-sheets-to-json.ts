@@ -14,8 +14,8 @@ import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
 const DEFAULT_FILE = join(import.meta.dirname!, "tsv/hermit.tsv");
 
 type HermitNode = {
-  国: string;
-  仙人: Array<Record<string, unknown>>;
+  country: string;
+  hermit: Array<Record<string, unknown>>;
 };
 
 type HermitJson = Array<HermitNode>;
@@ -30,24 +30,24 @@ function formatHermitData(records: Record<string, unknown>[]): HermitJson {
 
     if (country) currentCountry = String(country);
 
-    const hermitName = pick(row, ["仙人", "hermit"]);
+    const hermitName = pick(row, ["仙人", "name"]);
     if (!hermitName || !currentCountry) {
       continue;
     }
 
     let node = byCountry.get(currentCountry);
     if (!node) {
-      node = { 国: currentCountry, 仙人: [] };
+      node = { country: currentCountry, hermit: [] };
       byCountry.set(currentCountry, node);
       result.push(node);
     }
 
-      node.仙人.push({
-        仙人: hermitName,
-        場所: pick(row, ["場所", "location"]),
-        巻物: pick(row, ["巻物", "scroll"]),
-        奥義: pick(row, ["奥義", "special"]),
-        備考: pick(row, ["備考", "note"]),
+      node.hermit.push({
+        name: hermitName,
+        location: pick(row, ["場所", "location"]),
+        scroll: pick(row, ["巻物", "scroll"]),
+        special: pick(row, ["奥義", "special"]),
+        note: pick(row, ["備考", "note"]),
       });
   }
 
@@ -59,6 +59,7 @@ if (import.meta.main) {
     defaultFile: DEFAULT_FILE,
     helpDefaultFile: "scripts/tsv/hermit.tsv",
     sheetAliases: { spreadsheet: "hermit" },
+    defaultFormatter: formatHermitData,
     formatters: {
       hermit: formatHermitData,
       spreadsheet: formatHermitData,

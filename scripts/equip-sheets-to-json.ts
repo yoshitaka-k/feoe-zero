@@ -13,10 +13,10 @@ import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
 
 const DEFAULT_FILE = join(import.meta.dirname!, "tsv/wepon.tsv");
 
-type WeponJson = Array<Record<string, unknown>>;
+type EquipJson = Array<Record<string, unknown>>;
 
-function formatWeponData(records: Record<string, unknown>[]): WeponJson {
-  const result: WeponJson = [];
+function formatEquipData(records: Record<string, unknown>[]): EquipJson {
+  const result: EquipJson = [];
 
   for (const row of records) {
     const productName = pick(row, ["名前", "name", "商品名"]);
@@ -25,11 +25,11 @@ function formatWeponData(records: Record<string, unknown>[]): WeponJson {
     }
 
     const product: Record<string, unknown> = {
-      名前: productName,
-      威力: pick(row, ["威力", "power"]),
-      対象: pick(row, ["対象", "target"]),
-      効果: pick(row, ["効果", "effect"]),
-      値段: pick(row, ["値段", "price"]),
+      name: productName,
+      power: pick(row, ["威力", "power"]),
+      target: pick(row, ["対象", "target"]),
+      effect: pick(row, ["効果", "effect"]),
+      price: pick(row, ["値段", "price"]),
     };
 
     result.push(product);
@@ -43,9 +43,13 @@ if (import.meta.main) {
     defaultFile: DEFAULT_FILE,
     helpDefaultFile: "scripts/tsv/wepon.tsv",
     sheetAliases: { spreadsheet: "wepon" },
+    // wepon / armor / accessory など、ファイル名が変わっても同一スキーマへ変換する
+    defaultFormatter: formatEquipData,
     formatters: {
-      wepon: formatWeponData,
-      spreadsheet: formatWeponData,
+      wepon: formatEquipData,
+      armor: formatEquipData,
+      accessory: formatEquipData,
+      spreadsheet: formatEquipData,
     },
   }, Deno.args);
 }

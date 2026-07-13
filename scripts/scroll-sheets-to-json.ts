@@ -25,11 +25,11 @@ function formatScrollData(records: Record<string, unknown>[]): ScrollJson {
     }
 
     const product: Record<string, unknown> = {
-      名前: productName,
-      効果: pick(row, ["効果", "effect"]),
-      消費技: pick(row, ["消費技", "magic_point"]),
-      対象: pick(row, ["対象", "target"]),
-      入手: pick(row, ["入手", "get"]),
+      name: productName,
+      effect: pick(row, ["効果", "effect"]),
+      magic_point: pick(row, ["消費技", "magic_point"]),
+      target: pick(row, ["対象", "target"]),
+      location: pick(row, ["入手", "location"]),
     };
 
     result.push(product);
@@ -43,6 +43,7 @@ if (import.meta.main) {
     defaultFile: DEFAULT_FILE,
     helpDefaultFile: "scripts/tsv/scroll.tsv",
     sheetAliases: { spreadsheet: "scroll" },
+    defaultFormatter: formatScrollData,
     formatters: {
       scroll: formatScrollData,
       spreadsheet: formatScrollData,

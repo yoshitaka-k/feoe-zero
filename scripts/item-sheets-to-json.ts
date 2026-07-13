@@ -25,9 +25,9 @@ function formatItemData(records: Record<string, unknown>[]): ItemJson {
     }
 
     const product: Record<string, unknown> = {
-      名前: productName,
-      効果: pick(row, ["効果", "effect"]),
-      値段: pick(row, ["値段", "price"]),
+      name: productName,
+      effect: pick(row, ["効果", "effect"]),
+      price: pick(row, ["値段", "price"]),
     };
 
     result.push(product);
@@ -41,6 +41,7 @@ if (import.meta.main) {
     defaultFile: DEFAULT_FILE,
     helpDefaultFile: "scripts/tsv/item.tsv",
     sheetAliases: { spreadsheet: "item" },
+    defaultFormatter: formatItemData,
     formatters: {
       item: formatItemData,
       spreadsheet: formatItemData,

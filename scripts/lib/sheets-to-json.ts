@@ -328,13 +328,6 @@ async function exportSheets(
     console.log(`  ${sheetName} → ${filePath} (${rows} 件)`);
   }
 
-  const indexPath = join(outDir, "_index.json");
-  await Deno.writeTextFile(
-    indexPath,
-    `${JSON.stringify({ sheets: meta }, null, 4)}\n`,
-  );
-  console.log(`  _index.json → ${indexPath}`);
-
   return meta;
 }
 

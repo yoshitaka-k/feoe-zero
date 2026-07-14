@@ -12,6 +12,8 @@ type Item = {
 
 const items = itemsJson as unknown as Item[];
 
+const rowsSpanTdItems = ["ち丹","へん丹","れん丹","らく丹","へい丹"];
+
 export async function handleItem(): Promise<Response> {
   const body = await Deno.readTextFile(
     join(STATIC_DIR, "pages/item.html"),
@@ -20,8 +22,10 @@ export async function handleItem(): Promise<Response> {
   const itemHtml = items.map((item) => {
     const effectCell = item.effect.replaceAll("、", "<br />");
     const priceCell = item.price != null ? `${item.price.toLocaleString("ja-JP")}両` : "";
+    const collCell = item.name == "たい丹" ? "rowspan=6" : "";
+    const tdEffectCell = rowsSpanTdItems.includes(item.name) ? `` : `<td ${collCell}>${effectCell}</td>`;
 
-    return `<tr><td>${item.name}</td><td>${effectCell}</td><td>${priceCell}</td></tr>`;
+    return `<tr><td>${item.name}</td>${tdEffectCell}<td>${priceCell}</td></tr>`;
   }).join("");
 
   const html = `<table class="item-item">

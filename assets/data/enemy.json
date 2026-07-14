@@ -1,0 +1,1864 @@
+[
+    {
+        "name": "火熊国",
+        "enemy": [
+            {
+                "name": "うっでぃいちごう",
+                "hp": 28,
+                "mp": 0,
+                "exp": 3,
+                "money": 6,
+                "special": "null",
+                "drop": "クサだんご"
+            },
+            {
+                "name": "うっでぃにごう",
+                "hp": 33,
+                "mp": 0,
+                "exp": 4,
+                "money": 7,
+                "special": "null",
+                "drop": "まんじゅう"
+            },
+            {
+                "name": "えはえは",
+                "hp": 40,
+                "mp": 0,
+                "exp": 3,
+                "money": 25,
+                "special": "たすけて！",
+                "drop": "null"
+            },
+            {
+                "name": "かいじんデディ",
+                "hp": 65,
+                "mp": 0,
+                "exp": 4,
+                "money": 94,
+                "special": "毒攻撃",
+                "drop": "どくけし"
+            },
+            {
+                "name": "カチワリ",
+                "hp": 60,
+                "mp": 0,
+                "exp": 5,
+                "money": 25,
+                "special": "分裂、氷のしぶき",
+                "drop": "null"
+            },
+            {
+                "name": "かまち",
+                "hp": 57,
+                "mp": 0,
+                "exp": 2,
+                "money": 14,
+                "special": "かまいたち",
+                "drop": "null"
+            },
+            {
+                "name": "きたかぜのサブ",
+                "hp": 57,
+                "mp": 0,
+                "exp": 9,
+                "money": 70,
+                "special": "おぼえてやがれ！",
+                "drop": "星の光"
+            },
+            {
+                "name": "ケワニ",
+                "hp": 76,
+                "mp": 0,
+                "exp": 3,
+                "money": 20,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ジャセツ",
+                "hp": 60,
+                "mp": 0,
+                "exp": 5,
+                "money": 17,
+                "special": "毒攻撃",
+                "drop": "どくけし"
+            },
+            {
+                "name": "せつげんじゅう",
+                "hp": 57,
+                "mp": 0,
+                "exp": 5,
+                "money": 44,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ダルマゆき",
+                "hp": 54,
+                "mp": 0,
+                "exp": 4,
+                "money": 16,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "つめたいシセン",
+                "hp": 64,
+                "mp": 0,
+                "exp": 4,
+                "money": 39,
+                "special": "氷の瞳",
+                "drop": "null"
+            },
+            {
+                "name": "つららねずみ",
+                "hp": 68,
+                "mp": 0,
+                "exp": 4,
+                "money": 28,
+                "special": "つらら飛ばし！",
+                "drop": "null"
+            },
+            {
+                "name": "てれてるぼうず",
+                "hp": 57,
+                "mp": 0,
+                "exp": 5,
+                "money": 32,
+                "special": "回復！",
+                "drop": "null"
+            },
+            {
+                "name": "ドンドコ",
+                "hp": 42,
+                "mp": 0,
+                "exp": 3,
+                "money": 30,
+                "special": "地ひびき",
+                "drop": "null"
+            },
+            {
+                "name": "なまはげ",
+                "hp": 57,
+                "mp": 0,
+                "exp": 4,
+                "money": 18,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ヒョウガ",
+                "hp": 60,
+                "mp": 0,
+                "exp": 5,
+                "money": 29,
+                "special": "青いキバ",
+                "drop": "null"
+            },
+            {
+                "name": "べにわかまる",
+                "hp": 44,
+                "mp": 0,
+                "exp": 3,
+                "money": 18,
+                "special": "かみつき攻撃",
+                "drop": "null"
+            },
+            {
+                "name": "みちびき",
+                "hp": 48,
+                "mp": 0,
+                "exp": 2,
+                "money": 36,
+                "special": "眠り攻撃",
+                "drop": "星の光"
+            },
+            {
+                "name": "も",
+                "hp": 36,
+                "mp": 0,
+                "exp": 2,
+                "money": 21,
+                "special": "もーっ！",
+                "drop": "クサだんご"
+            },
+            {
+                "name": "もりのジュウニン",
+                "hp": 30,
+                "mp": 0,
+                "exp": 2,
+                "money": 40,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ヤト",
+                "hp": 52,
+                "mp": 0,
+                "exp": 4,
+                "money": 40,
+                "special": "火炎",
+                "drop": "まんじゅう"
+            },
+            {
+                "name": "ゆきおとこ",
+                "hp": 95,
+                "mp": 0,
+                "exp": 6,
+                "money": 40,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ゆきおんな",
+                "hp": 57,
+                "mp": 0,
+                "exp": 5,
+                "money": 29,
+                "special": "吹雪のまえぶれ",
+                "drop": "星の光"
+            },
+            {
+                "name": "ゆきぼうず",
+                "hp": 74,
+                "mp": 0,
+                "exp": 6,
+                "money": 36,
+                "special": "冷たい吐息",
+                "drop": "null"
+            },
+            {
+                "name": "ゆきんこ",
+                "hp": 56,
+                "mp": 0,
+                "exp": 4,
+                "money": 30,
+                "special": "null",
+                "drop": "null"
+            }
+        ]
+    },
+    {
+        "name": "孔雀国",
+        "enemy": [
+            {
+                "name": "あんこくのはね",
+                "hp": 82,
+                "mp": 0,
+                "exp": 12,
+                "money": 133,
+                "special": "命中率低下",
+                "drop": "null"
+            },
+            {
+                "name": "いたちのジャック",
+                "hp": 100,
+                "mp": 0,
+                "exp": 8,
+                "money": 82,
+                "special": "また会おうぜっ！",
+                "drop": "null"
+            },
+            {
+                "name": "かいぞうデディ",
+                "hp": 99,
+                "mp": 0,
+                "exp": 12,
+                "money": 104,
+                "special": "さんだーデディ",
+                "drop": "null"
+            },
+            {
+                "name": "カメしょうぐん",
+                "hp": 110,
+                "mp": 0,
+                "exp": 9,
+                "money": 97,
+                "special": "null",
+                "drop": "たいよう丸"
+            },
+            {
+                "name": "ぎゅうへい",
+                "hp": 152,
+                "mp": 0,
+                "exp": 20,
+                "money": 212,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "きょだいイタチ",
+                "hp": 100,
+                "mp": 0,
+                "exp": 14,
+                "money": 139,
+                "special": "いらっしゃｰい！、いってらっしゃｰい！",
+                "drop": "どくけし"
+            },
+            {
+                "name": "くびウマ",
+                "hp": 102,
+                "mp": 0,
+                "exp": 9,
+                "money": 173,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "くろひつじ",
+                "hp": 73,
+                "mp": 0,
+                "exp": 7,
+                "money": 51,
+                "special": "毒攻撃",
+                "drop": "null"
+            },
+            {
+                "name": "こっくり",
+                "hp": 75,
+                "mp": 0,
+                "exp": 9,
+                "money": 66,
+                "special": "術封印",
+                "drop": "もどり石"
+            },
+            {
+                "name": "さいもん",
+                "hp": 95,
+                "mp": 0,
+                "exp": 9,
+                "money": 117,
+                "special": "ほどこし",
+                "drop": "イカず丸"
+            },
+            {
+                "name": "したがえる",
+                "hp": 70,
+                "mp": 0,
+                "exp": 8,
+                "money": 60,
+                "special": "毒攻撃",
+                "drop": "どくけし"
+            },
+            {
+                "name": "しびれるしっぽ",
+                "hp": 62,
+                "mp": 0,
+                "exp": 8,
+                "money": 64,
+                "special": "しびれ返し",
+                "drop": "null"
+            },
+            {
+                "name": "じゃのめ",
+                "hp": 72,
+                "mp": 0,
+                "exp": 10,
+                "money": 121,
+                "special": "毒攻撃",
+                "drop": "null"
+            },
+            {
+                "name": "そうとうのキツネ",
+                "hp": 87,
+                "mp": 0,
+                "exp": 15,
+                "money": 168,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "チー・ホウ",
+                "hp": 112,
+                "mp": 0,
+                "exp": 13,
+                "money": 150,
+                "special": "ウキキー",
+                "drop": "まんじゅう"
+            },
+            {
+                "name": "ちぬられたキバ",
+                "hp": 71,
+                "mp": 0,
+                "exp": 5,
+                "money": 54,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "テン・ホウ",
+                "hp": 112,
+                "mp": 0,
+                "exp": 13,
+                "money": 150,
+                "special": "ウッキー",
+                "drop": "まんじゅう"
+            },
+            {
+                "name": "とびぐま",
+                "hp": 81,
+                "mp": 0,
+                "exp": 6,
+                "money": 66,
+                "special": "毒攻撃",
+                "drop": "null"
+            },
+            {
+                "name": "ねずま",
+                "hp": 109,
+                "mp": 0,
+                "exp": 10,
+                "money": 118,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ねぶた",
+                "hp": 85,
+                "mp": 0,
+                "exp": 9,
+                "money": 88,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "のろいのムササビ",
+                "hp": 80,
+                "mp": 0,
+                "exp": 10,
+                "money": 80,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ひんけつコウモリ",
+                "hp": 65,
+                "mp": 0,
+                "exp": 11,
+                "money": 127,
+                "special": "体力吸収",
+                "drop": "まんじゅう"
+            },
+            {
+                "name": "ラッコおんな",
+                "hp": 95,
+                "mp": 0,
+                "exp": 9,
+                "money": 68,
+                "special": "ラッコおんなの涙",
+                "drop": "null"
+            },
+            {
+                "name": "レン・ホウ",
+                "hp": 112,
+                "mp": 0,
+                "exp": 13,
+                "money": 150,
+                "special": "ウキキキー",
+                "drop": "まんじゅう"
+            }
+        ]
+    },
+    {
+        "name": "鶴国",
+        "enemy": [
+            {
+                "name": "あわびおんな",
+                "hp": 195,
+                "mp": 0,
+                "exp": 20,
+                "money": 334,
+                "special": "1段下がりまｰす！",
+                "drop": "null"
+            },
+            {
+                "name": "いもーむ",
+                "hp": 150,
+                "mp": 0,
+                "exp": 20,
+                "money": 379,
+                "special": "変体！、防御本能",
+                "drop": "null"
+            },
+            {
+                "name": "うみづき",
+                "hp": 153,
+                "mp": 0,
+                "exp": 15,
+                "money": 304,
+                "special": "びりびりショック",
+                "drop": "null"
+            },
+            {
+                "name": "うみのジミー",
+                "hp": 208,
+                "mp": 0,
+                "exp": 22,
+                "money": 240,
+                "special": "海辺のギター、キザな口笛",
+                "drop": "null"
+            },
+            {
+                "name": "うみぼし",
+                "hp": 114,
+                "mp": 0,
+                "exp": 9,
+                "money": 231,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ががんぼ",
+                "hp": 135,
+                "mp": 0,
+                "exp": 8,
+                "money": 234,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "かつおぶし",
+                "hp": 178,
+                "mp": 0,
+                "exp": 19,
+                "money": 300,
+                "special": "大漁祈願",
+                "drop": "null"
+            },
+            {
+                "name": "カブトのきし",
+                "hp": 163,
+                "mp": 0,
+                "exp": 15,
+                "money": 348,
+                "special": "反射！",
+                "drop": "null"
+            },
+            {
+                "name": "からからバッタ",
+                "hp": 158,
+                "mp": 0,
+                "exp": 15,
+                "money": 339,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ぐんたいアリ",
+                "hp": 145,
+                "mp": 0,
+                "exp": 11,
+                "money": 174,
+                "special": "整列ーっ！！！",
+                "drop": "null"
+            },
+            {
+                "name": "ケツギョ",
+                "hp": 163,
+                "mp": 0,
+                "exp": 13,
+                "money": 264,
+                "special": "null",
+                "drop": "まんじゅう"
+            },
+            {
+                "name": "こうやのカゲロウ",
+                "hp": 131,
+                "mp": 0,
+                "exp": 16,
+                "money": 349,
+                "special": "荒野の嵐",
+                "drop": "null"
+            },
+            {
+                "name": "サバクのかりうど",
+                "hp": 162,
+                "mp": 0,
+                "exp": 21,
+                "money": 381,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "サバクのしにがみ",
+                "hp": 176,
+                "mp": 0,
+                "exp": 18,
+                "money": 370,
+                "special": "死者への祈り",
+                "drop": "null"
+            },
+            {
+                "name": "サバト",
+                "hp": 168,
+                "mp": 0,
+                "exp": 22,
+                "money": 414,
+                "special": "ざばーんと！",
+                "drop": "体のモト"
+            },
+            {
+                "name": "サンゴのむすめ",
+                "hp": 153,
+                "mp": 0,
+                "exp": 16,
+                "money": 256,
+                "special": "サンゴのゆらめき",
+                "drop": "null"
+            },
+            {
+                "name": "サンドあみーば",
+                "hp": 135,
+                "mp": 0,
+                "exp": 12,
+                "money": 327,
+                "special": "分裂",
+                "drop": "null"
+            },
+            {
+                "name": "しおひがりゃー",
+                "hp": 195,
+                "mp": 0,
+                "exp": 25,
+                "money": 370,
+                "special": "解禁！",
+                "drop": "力のモト"
+            },
+            {
+                "name": "じごくのおどりこ",
+                "hp": 125,
+                "mp": 0,
+                "exp": 8,
+                "money": 216,
+                "special": "混乱",
+                "drop": "コンランのこな"
+            },
+            {
+                "name": "しにタニシ",
+                "hp": 134,
+                "mp": 0,
+                "exp": 11,
+                "money": 246,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "しゃくねつアリ",
+                "hp": 122,
+                "mp": 0,
+                "exp": 9,
+                "money": 172,
+                "special": "灼熱地獄",
+                "drop": "null"
+            },
+            {
+                "name": "すあしのゲイジー",
+                "hp": 141,
+                "mp": 0,
+                "exp": 9,
+                "money": 277,
+                "special": "装備品一時預かりマス！、さわさわ",
+                "drop": "null"
+            },
+            {
+                "name": "すなかぜのシシャ",
+                "hp": 140,
+                "mp": 0,
+                "exp": 15,
+                "money": 285,
+                "special": "竜巻",
+                "drop": "null"
+            },
+            {
+                "name": "すなぐも",
+                "hp": 130,
+                "mp": 0,
+                "exp": 12,
+                "money": 282,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "チャバネフスキー",
+                "hp": 163,
+                "mp": 0,
+                "exp": 5,
+                "money": 198,
+                "special": "交響曲「大和王子」",
+                "drop": "null"
+            },
+            {
+                "name": "ドクガ",
+                "hp": 148,
+                "mp": 0,
+                "exp": 17,
+                "money": 328,
+                "special": "毒攻撃",
+                "drop": "どくけし"
+            },
+            {
+                "name": "ドクロぐも",
+                "hp": 164,
+                "mp": 0,
+                "exp": 13,
+                "money": 402,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "なまこおとこ",
+                "hp": 160,
+                "mp": 0,
+                "exp": 18,
+                "money": 439,
+                "special": "ぶにゅっ！",
+                "drop": "イカず丸"
+            },
+            {
+                "name": "にんげんじごく",
+                "hp": 139,
+                "mp": 0,
+                "exp": 11,
+                "money": 238,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ぬすっとヤス",
+                "hp": 143,
+                "mp": 0,
+                "exp": 14,
+                "money": 562,
+                "special": "へっへっへ・・・、いただきヤス、ずらかりヤス",
+                "drop": "null"
+            },
+            {
+                "name": "ぬれワカメ",
+                "hp": 132,
+                "mp": 0,
+                "exp": 13,
+                "money": 312,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "のこりガ",
+                "hp": 160,
+                "mp": 0,
+                "exp": 18,
+                "money": 318,
+                "special": "混乱攻撃",
+                "drop": "ひこう石"
+            },
+            {
+                "name": "のみーら",
+                "hp": 164,
+                "mp": 0,
+                "exp": 15,
+                "money": 306,
+                "special": "マヒ攻撃",
+                "drop": "null"
+            },
+            {
+                "name": "ひとくいタニシ",
+                "hp": 132,
+                "mp": 0,
+                "exp": 12,
+                "money": 249,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ぺぺん",
+                "hp": 120,
+                "mp": 0,
+                "exp": 7,
+                "money": 231,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ほたるだま",
+                "hp": 118,
+                "mp": 0,
+                "exp": 7,
+                "money": 208,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "マドラ",
+                "hp": 133,
+                "mp": 0,
+                "exp": 8,
+                "money": 244,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "みつめうお",
+                "hp": 161,
+                "mp": 0,
+                "exp": 24,
+                "money": 435,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "みみずバレリーナ",
+                "hp": 112,
+                "mp": 0,
+                "exp": 8,
+                "money": 211,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ムシだんご",
+                "hp": 115,
+                "mp": 0,
+                "exp": 9,
+                "money": 219,
+                "special": "反射！",
+                "drop": "null"
+            },
+            {
+                "name": "ヤマトのおうじ",
+                "hp": 150,
+                "mp": 0,
+                "exp": 9,
+                "money": 213,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ヤミのけしん",
+                "hp": 133,
+                "mp": 0,
+                "exp": 8,
+                "money": 232,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ライギョ",
+                "hp": 158,
+                "mp": 0,
+                "exp": 14,
+                "money": 319,
+                "special": "null",
+                "drop": "まんじゅう"
+            }
+        ]
+    },
+    {
+        "name": "亀国",
+        "enemy": [
+            {
+                "name": "アーブラ",
+                "hp": 180,
+                "mp": 0,
+                "exp": 14,
+                "money": 232,
+                "special": "短いセミの一生",
+                "drop": "null"
+            },
+            {
+                "name": "おにゆり",
+                "hp": 262,
+                "mp": 0,
+                "exp": 28,
+                "money": 265,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "かすみそう",
+                "hp": 120,
+                "mp": 0,
+                "exp": 9,
+                "money": 173,
+                "special": "自爆",
+                "drop": "null"
+            },
+            {
+                "name": "きくにんぎょう",
+                "hp": 175,
+                "mp": 0,
+                "exp": 16,
+                "money": 227,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "きゅうけつヒル",
+                "hp": 188,
+                "mp": 0,
+                "exp": 18,
+                "money": 312,
+                "special": "技吸収",
+                "drop": "null"
+            },
+            {
+                "name": "きりさきてんし",
+                "hp": 209,
+                "mp": 0,
+                "exp": 26,
+                "money": 256,
+                "special": "天使のはばたき",
+                "drop": "星の光"
+            },
+            {
+                "name": "じょろうぐも",
+                "hp": 204,
+                "mp": 0,
+                "exp": 25,
+                "money": 207,
+                "special": "火炎地獄",
+                "drop": "null"
+            },
+            {
+                "name": "ダニィ",
+                "hp": 184,
+                "mp": 0,
+                "exp": 17,
+                "money": 147,
+                "special": "えぶりばでぃ！",
+                "drop": "たいあんのﾀｲｺ"
+            },
+            {
+                "name": "なげきのカーラ",
+                "hp": 175,
+                "mp": 0,
+                "exp": 16,
+                "money": 214,
+                "special": "変体！",
+                "drop": "null"
+            },
+            {
+                "name": "ねむりかずら",
+                "hp": 185,
+                "mp": 0,
+                "exp": 18,
+                "money": 232,
+                "special": "かずらのひざ枕",
+                "drop": "null"
+            },
+            {
+                "name": "ねむりごけ",
+                "hp": 177,
+                "mp": 0,
+                "exp": 18,
+                "money": 231,
+                "special": "うとうと・・・、火炎",
+                "drop": "null"
+            },
+            {
+                "name": "ハスカッパ",
+                "hp": 185,
+                "mp": 0,
+                "exp": 16,
+                "money": 248,
+                "special": "ほどこし",
+                "drop": "null"
+            },
+            {
+                "name": "はなのキフジン",
+                "hp": 195,
+                "mp": 0,
+                "exp": 18,
+                "money": 790,
+                "special": "ほどこし",
+                "drop": "null"
+            },
+            {
+                "name": "はなのじょてい",
+                "hp": 193,
+                "mp": 0,
+                "exp": 30,
+                "money": 401,
+                "special": "体力吸収",
+                "drop": "null"
+            },
+            {
+                "name": "はなびらひめ",
+                "hp": 182,
+                "mp": 0,
+                "exp": 15,
+                "money": 443,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "バラバラ",
+                "hp": 167,
+                "mp": 0,
+                "exp": 14,
+                "money": 236,
+                "special": "毒攻撃",
+                "drop": "null"
+            },
+            {
+                "name": "ひゃくそくぜくう",
+                "hp": 227,
+                "mp": 0,
+                "exp": 41,
+                "money": 312,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ふたば",
+                "hp": 177,
+                "mp": 0,
+                "exp": 9,
+                "money": 98,
+                "special": "花が咲くよっ！",
+                "drop": "null"
+            },
+            {
+                "name": "ふゆか",
+                "hp": 200,
+                "mp": 0,
+                "exp": 24,
+                "money": 178,
+                "special": "ふゆかのとりこ",
+                "drop": "イカず丸"
+            },
+            {
+                "name": "みだれヅタ",
+                "hp": 185,
+                "mp": 0,
+                "exp": 16,
+                "money": 236,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "みつのしずく",
+                "hp": 188,
+                "mp": 0,
+                "exp": 24,
+                "money": 319,
+                "special": "甘い水",
+                "drop": "かいふく丸"
+            },
+            {
+                "name": "ムゲンほうし",
+                "hp": 115,
+                "mp": 0,
+                "exp": 28,
+                "money": 326,
+                "special": "ぷぉあーっ！",
+                "drop": "ガマのあぶら"
+            },
+            {
+                "name": "ヤーゴ",
+                "hp": 188,
+                "mp": 0,
+                "exp": 15,
+                "money": 226,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ヤーゴのはは",
+                "hp": 191,
+                "mp": 0,
+                "exp": 18,
+                "money": 265,
+                "special": "金色の光",
+                "drop": "null"
+            },
+            {
+                "name": "やりスギ",
+                "hp": 172,
+                "mp": 0,
+                "exp": 15,
+                "money": 231,
+                "special": "自然発火！",
+                "drop": "はやさのモト"
+            },
+            {
+                "name": "ゆうわくのススキ",
+                "hp": 203,
+                "mp": 0,
+                "exp": 24,
+                "money": 270,
+                "special": "夕暮れのそよかぜ",
+                "drop": "かいふく丸"
+            },
+            {
+                "name": "れいか",
+                "hp": 200,
+                "mp": 0,
+                "exp": 24,
+                "money": 183,
+                "special": "れいかに夢中",
+                "drop": "バクチ丸"
+            }
+        ]
+    },
+    {
+        "name": "犬神国",
+        "enemy": [
+            {
+                "name": "アルメン",
+                "hp": 238,
+                "mp": 0,
+                "exp": 55,
+                "money": 208,
+                "special": "一輪のバラ",
+                "drop": "にじのカケラ"
+            },
+            {
+                "name": "いしのつぶて",
+                "hp": 124,
+                "mp": 0,
+                "exp": 36,
+                "money": 106,
+                "special": "石あられ",
+                "drop": "null"
+            },
+            {
+                "name": "いしばしら",
+                "hp": 192,
+                "mp": 0,
+                "exp": 21,
+                "money": 150,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "うてつ",
+                "hp": 249,
+                "mp": 0,
+                "exp": 80,
+                "money": 77,
+                "special": "嵐のみぎうで",
+                "drop": "null"
+            },
+            {
+                "name": "ガーネッタ",
+                "hp": 224,
+                "mp": 0,
+                "exp": 41,
+                "money": 175,
+                "special": "ガーネッタの涙、かがやく瞳",
+                "drop": "かいせき丸"
+            },
+            {
+                "name": "かたくななヒト",
+                "hp": 232,
+                "mp": 0,
+                "exp": 44,
+                "money": 57,
+                "special": "かたくなな心",
+                "drop": "月の光"
+            },
+            {
+                "name": "からくりやっこ",
+                "hp": 205,
+                "mp": 0,
+                "exp": 42,
+                "money": 316,
+                "special": "1段下がりまーす！",
+                "drop": "null"
+            },
+            {
+                "name": "きょじんのあし",
+                "hp": 216,
+                "mp": 0,
+                "exp": 40,
+                "money": 140,
+                "special": "踏むぞーっ！",
+                "drop": "イカず丸"
+            },
+            {
+                "name": "ぐーたん",
+                "hp": 225,
+                "mp": 0,
+                "exp": 46,
+                "money": 149,
+                "special": "じゃんけんぐー",
+                "drop": "null"
+            },
+            {
+                "name": "くやしいわ",
+                "hp": 193,
+                "mp": 0,
+                "exp": 33,
+                "money": 147,
+                "special": "たすけて！、もうダメだ・・・",
+                "drop": "かいふく丸"
+            },
+            {
+                "name": "くるまジャキ",
+                "hp": 223,
+                "mp": 0,
+                "exp": 51,
+                "money": 157,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "こんごうのきし",
+                "hp": 236,
+                "mp": 0,
+                "exp": 53,
+                "money": 294,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "さてつ",
+                "hp": 249,
+                "mp": 0,
+                "exp": 80,
+                "money": 77,
+                "special": "炎のひだりうで",
+                "drop": "null"
+            },
+            {
+                "name": "さんだんせき",
+                "hp": 190,
+                "mp": 0,
+                "exp": 21,
+                "money": 153,
+                "special": "飛び散る石",
+                "drop": "null"
+            },
+            {
+                "name": "しゃろん",
+                "hp": 215,
+                "mp": 0,
+                "exp": 49,
+                "money": 253,
+                "special": "危険な女",
+                "drop": "null"
+            },
+            {
+                "name": "せいどうまる",
+                "hp": 230,
+                "mp": 0,
+                "exp": 67,
+                "money": 247,
+                "special": "装備品一時預かりマス！",
+                "drop": "null"
+            },
+            {
+                "name": "ただれいわ",
+                "hp": 199,
+                "mp": 0,
+                "exp": 28,
+                "money": 132,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ちょきたん",
+                "hp": 225,
+                "mp": 0,
+                "exp": 46,
+                "money": 149,
+                "special": "じゃんけんちょき",
+                "drop": "null"
+            },
+            {
+                "name": "てっかめん",
+                "hp": 236,
+                "mp": 0,
+                "exp": 54,
+                "money": 246,
+                "special": "竜巻",
+                "drop": "null"
+            },
+            {
+                "name": "テッペイ",
+                "hp": 212,
+                "mp": 0,
+                "exp": 29,
+                "money": 230,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ナゾのせきばん",
+                "hp": 210,
+                "mp": 0,
+                "exp": 43,
+                "money": 274,
+                "special": "混乱攻撃",
+                "drop": "null"
+            },
+            {
+                "name": "ぱーたん",
+                "hp": 225,
+                "mp": 0,
+                "exp": 46,
+                "money": 149,
+                "special": "じゃんけんぱー、ぱーたんの手",
+                "drop": "かいふく丸"
+            },
+            {
+                "name": "ひらきいわ",
+                "hp": 199,
+                "mp": 0,
+                "exp": 28,
+                "money": 54,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "べらんめ",
+                "hp": 190,
+                "mp": 0,
+                "exp": 27,
+                "money": 155,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ぼせきんぐ",
+                "hp": 202,
+                "mp": 0,
+                "exp": 29,
+                "money": 154,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ほりほり",
+                "hp": 172,
+                "mp": 0,
+                "exp": 32,
+                "money": 383,
+                "special": "null",
+                "drop": "カラクリこけし"
+            },
+            {
+                "name": "メッキのせんし",
+                "hp": 218,
+                "mp": 0,
+                "exp": 45,
+                "money": 50,
+                "special": "はがれたメッキ、かがやくメッキ",
+                "drop": "null"
+            },
+            {
+                "name": "やどりいわ",
+                "hp": 240,
+                "mp": 0,
+                "exp": 71,
+                "money": 144,
+                "special": "命中率低下、宿る力",
+                "drop": "いのちのさけ"
+            }
+        ]
+    },
+    {
+        "name": "竜王国",
+        "enemy": [
+            {
+                "name": "あび",
+                "hp": 248,
+                "mp": 0,
+                "exp": 55,
+                "money": 380,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "あんこ",
+                "hp": 247,
+                "mp": 0,
+                "exp": 71,
+                "money": 195,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "あんこくたいし",
+                "hp": 314,
+                "mp": 0,
+                "exp": 75,
+                "money": 389,
+                "special": "闇の洗礼、暗黒の霧、暗黒のしずく",
+                "drop": "かいふく丸"
+            },
+            {
+                "name": "イタコがさ",
+                "hp": 266,
+                "mp": 0,
+                "exp": 62,
+                "money": 461,
+                "special": "除霊",
+                "drop": "null"
+            },
+            {
+                "name": "うーじー",
+                "hp": 274,
+                "mp": 0,
+                "exp": 54,
+                "money": 279,
+                "special": "繁殖！、食べちゃう！",
+                "drop": "null"
+            },
+            {
+                "name": "うらぎりのエミ",
+                "hp": 246,
+                "mp": 0,
+                "exp": 50,
+                "money": 380,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ウラミ",
+                "hp": 256,
+                "mp": 0,
+                "exp": 45,
+                "money": 384,
+                "special": "null",
+                "drop": "かいふく丸"
+            },
+            {
+                "name": "おおあし",
+                "hp": 248,
+                "mp": 0,
+                "exp": 56,
+                "money": 383,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "おなめ",
+                "hp": 230,
+                "mp": 0,
+                "exp": 47,
+                "money": 274,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "かいじんサイレン",
+                "hp": 222,
+                "mp": 0,
+                "exp": 68,
+                "money": 315,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "かいぼうず",
+                "hp": 240,
+                "mp": 0,
+                "exp": 65,
+                "money": 402,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "かげろうびと",
+                "hp": 200,
+                "mp": 0,
+                "exp": 22,
+                "money": 174,
+                "special": "null",
+                "drop": "かいふく丸"
+            },
+            {
+                "name": "かたりオニ",
+                "hp": 264,
+                "mp": 0,
+                "exp": 67,
+                "money": 392,
+                "special": "足かせ、語り",
+                "drop": "null"
+            },
+            {
+                "name": "きゅうけつどうじ",
+                "hp": 261,
+                "mp": 0,
+                "exp": 56,
+                "money": 381,
+                "special": "体吸収、技吸収",
+                "drop": "null"
+            },
+            {
+                "name": "じごくジャキ",
+                "hp": 290,
+                "mp": 0,
+                "exp": 132,
+                "money": 403,
+                "special": "混乱攻撃",
+                "drop": "null"
+            },
+            {
+                "name": "したぬきジゾウ",
+                "hp": 260,
+                "mp": 0,
+                "exp": 60,
+                "money": 384,
+                "special": "術封印",
+                "drop": "null"
+            },
+            {
+                "name": "シナズ",
+                "hp": 292,
+                "mp": 0,
+                "exp": 90,
+                "money": 402,
+                "special": "暗黒の霧",
+                "drop": "null"
+            },
+            {
+                "name": "すいすいちゅー",
+                "hp": 243,
+                "mp": 0,
+                "exp": 55,
+                "money": 278,
+                "special": "体力吸収、技吸収",
+                "drop": "null"
+            },
+            {
+                "name": "だいかいじんズウ",
+                "hp": 312,
+                "mp": 0,
+                "exp": 133,
+                "money": 617,
+                "special": "天災、ズーゥッ！！！",
+                "drop": "バクチ丸"
+            },
+            {
+                "name": "ダイソウジョウ",
+                "hp": 281,
+                "mp": 0,
+                "exp": 116,
+                "money": 1250,
+                "special": "反射！",
+                "drop": "null"
+            },
+            {
+                "name": "ダイダラ",
+                "hp": 271,
+                "mp": 0,
+                "exp": 100,
+                "money": 529,
+                "special": "大あくび、うたたね",
+                "drop": "null"
+            },
+            {
+                "name": "ちんねん",
+                "hp": 222,
+                "mp": 0,
+                "exp": 45,
+                "money": 220,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "ツラミ",
+                "hp": 256,
+                "mp": 0,
+                "exp": 45,
+                "money": 384,
+                "special": "つらすぎる・・・",
+                "drop": "星の光"
+            },
+            {
+                "name": "とまどうし",
+                "hp": 265,
+                "mp": 0,
+                "exp": 99,
+                "money": 297,
+                "special": "らいらら・ライライライ、ひっひひっひ・ヒヒヒヒ、天災",
+                "drop": "null"
+            },
+            {
+                "name": "ドン・イカス",
+                "hp": 365,
+                "mp": 0,
+                "exp": 152,
+                "money": 553,
+                "special": "ドンのもて、ドンの指名、ドンのやさしさ",
+                "drop": "ツウコンのこな"
+            },
+            {
+                "name": "ナルシスターズ",
+                "hp": 242,
+                "mp": 0,
+                "exp": 48,
+                "money": 279,
+                "special": "1段下がりまーす！",
+                "drop": "null"
+            },
+            {
+                "name": "にんぎょうつかい",
+                "hp": 283,
+                "mp": 0,
+                "exp": 76,
+                "money": 336,
+                "special": "呪いの人形",
+                "drop": "守りのクマさん"
+            },
+            {
+                "name": "ぬめり",
+                "hp": 200,
+                "mp": 0,
+                "exp": 60,
+                "money": 271,
+                "special": "ぬーるるる、ぬめっ！",
+                "drop": "null"
+            },
+            {
+                "name": "ふらんチャン",
+                "hp": 218,
+                "mp": 0,
+                "exp": 42,
+                "money": 269,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "まいくび",
+                "hp": 232,
+                "mp": 0,
+                "exp": 49,
+                "money": 279,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "まじんアッシュ",
+                "hp": 572,
+                "mp": 0,
+                "exp": 224,
+                "money": 405,
+                "special": "不敵なアッシュ、アッシュの怒り",
+                "drop": "てんおう丸"
+            },
+            {
+                "name": "まじんデューサ",
+                "hp": 575,
+                "mp": 0,
+                "exp": 240,
+                "money": 782,
+                "special": "デューサの涙、嘲笑のデューサ、恐怖の眼差し",
+                "drop": "null"
+            },
+            {
+                "name": "まじんのつかい",
+                "hp": 424,
+                "mp": 0,
+                "exp": 77,
+                "money": 372,
+                "special": "きーきー！！",
+                "drop": "null"
+            },
+            {
+                "name": "まじんのへい",
+                "hp": 439,
+                "mp": 0,
+                "exp": 80,
+                "money": 542,
+                "special": "null",
+                "drop": "水のカブト"
+            },
+            {
+                "name": "まじんべルゼ",
+                "hp": 516,
+                "mp": 0,
+                "exp": 218,
+                "money": 632,
+                "special": "恐怖のはばたき、ベルゼの吐息、やすらぎのベルゼ、ベルゼの贈り物",
+                "drop": "いのちの水"
+            },
+            {
+                "name": "まじんリベーザ",
+                "hp": 572,
+                "mp": 0,
+                "exp": 225,
+                "money": 713,
+                "special": "不屈のリベーザ、リベーザの裁き、恐怖の瞬間",
+                "drop": "日の光"
+            },
+            {
+                "name": "まじんルシフェル",
+                "hp": 582,
+                "mp": 0,
+                "exp": 256,
+                "money": 2395,
+                "special": "恐怖の指先、沈黙のルシフェル、ルシフェルの暴走",
+                "drop": "きせきのさけ"
+            },
+            {
+                "name": "まんげつタロウ",
+                "hp": 290,
+                "mp": 0,
+                "exp": 91,
+                "money": 301,
+                "special": "復活！、まんげつの夜",
+                "drop": "null"
+            },
+            {
+                "name": "みかづきジロウ",
+                "hp": 290,
+                "mp": 0,
+                "exp": 91,
+                "money": 301,
+                "special": "おぼえてやがれ！、みかづきの夜",
+                "drop": "null"
+            },
+            {
+                "name": "めだまりあ",
+                "hp": 424,
+                "mp": 0,
+                "exp": 76,
+                "money": 390,
+                "special": "うとうと・・・、火炎",
+                "drop": "ゆめのくびかざり"
+            },
+            {
+                "name": "やっく",
+                "hp": 215,
+                "mp": 0,
+                "exp": 39,
+                "money": 99,
+                "special": "投薬",
+                "drop": "ゾウキョウざい"
+            },
+            {
+                "name": "やみのたびびと",
+                "hp": 302,
+                "mp": 0,
+                "exp": 96,
+                "money": 403,
+                "special": "術封印",
+                "drop": "null"
+            },
+            {
+                "name": "ヤミのふうけつ",
+                "hp": 251,
+                "mp": 0,
+                "exp": 56,
+                "money": 384,
+                "special": "装備品一時預かりマス！",
+                "drop": "null"
+            },
+            {
+                "name": "ゆうわくけんし",
+                "hp": 240,
+                "mp": 0,
+                "exp": 48,
+                "money": 438,
+                "special": "攻撃力低下",
+                "drop": "イカず丸"
+            },
+            {
+                "name": "よるのともしび",
+                "hp": 265,
+                "mp": 0,
+                "exp": 72,
+                "money": 290,
+                "special": "炎のゆらめき、さん・にぃ・いち",
+                "drop": "null"
+            },
+            {
+                "name": "ランババ",
+                "hp": 238,
+                "mp": 0,
+                "exp": 31,
+                "money": 254,
+                "special": "混乱攻撃",
+                "drop": "コンランのこな"
+            }
+        ]
+    },
+    {
+        "name": "高天原",
+        "enemy": [
+            {
+                "name": "イッカクまじゅう",
+                "hp": 433,
+                "mp": 0,
+                "exp": 144,
+                "money": 2328,
+                "special": "また会おうぜっ！",
+                "drop": "王のうでわ"
+            },
+            {
+                "name": "かなめいし",
+                "hp": 435,
+                "mp": 0,
+                "exp": 82,
+                "money": 0,
+                "special": "回復！",
+                "drop": "かぜのカブト"
+            },
+            {
+                "name": "しきおう",
+                "hp": 458,
+                "mp": 0,
+                "exp": 87,
+                "money": 0,
+                "special": "天の怒り",
+                "drop": "火のカブト"
+            },
+            {
+                "name": "じゃーま",
+                "hp": 431,
+                "mp": 0,
+                "exp": 74,
+                "money": 519,
+                "special": "null",
+                "drop": "水のカブト"
+            },
+            {
+                "name": "だいてんし",
+                "hp": 445,
+                "mp": 0,
+                "exp": 123,
+                "money": 547,
+                "special": "混乱攻撃",
+                "drop": "カミナリのカブト"
+            },
+            {
+                "name": "テンカイのひかり",
+                "hp": 416,
+                "mp": 0,
+                "exp": 75,
+                "money": 388,
+                "special": "回復！、天のかがやき",
+                "drop": "null"
+            },
+            {
+                "name": "まじょるか",
+                "hp": 446,
+                "mp": 0,
+                "exp": 101,
+                "money": 526,
+                "special": "回復！",
+                "drop": "null"
+            },
+            {
+                "name": "まじんが",
+                "hp": 439,
+                "mp": 0,
+                "exp": 92,
+                "money": 477,
+                "special": "null",
+                "drop": "null"
+            },
+            {
+                "name": "まもりふだ",
+                "hp": 421,
+                "mp": 0,
+                "exp": 78,
+                "money": 390,
+                "special": "術封印",
+                "drop": "星のくびかざり"
+            }
+        ]
+    }
+]

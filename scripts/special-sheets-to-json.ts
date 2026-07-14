@@ -45,7 +45,7 @@ function formatSpecialData(records: Record<string, unknown>[]): SpecialJson {
     node.special.push({
       name: productName,
       effect: pick(row, ["効果", "effect"]),
-      magic_point: pick(row, ["消費技", "magic_point"]),
+      point: pick(row, ["消費", "point"]),
       note: pick(row, ["条件", "note"]),
     });
   }

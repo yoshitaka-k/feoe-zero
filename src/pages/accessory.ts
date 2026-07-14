@@ -20,9 +20,9 @@ export async function handleAccessory(): Promise<Response> {
   );
 
   const accessoryHtml = accessories.map((accessory) => {
-    const powerCell = accessory.power != null ? accessory.power : "";
-    const effectCell = accessory.effect != null ? accessory.effect : "";
-    const priceCell = accessory.price != null ? `${accessory.price.toLocaleString("ja-JP")}両` : "";
+    const powerCell = accessory.power != null ? accessory.power : "--";
+    const effectCell = accessory.effect != null ? accessory.effect : "--";
+    const priceCell = accessory.price != null ? `${accessory.price.toLocaleString("ja-JP")}両` : "--";
 
     return `<tr>
 <td class="accessory-name no-wrap">${accessory.name}</td>

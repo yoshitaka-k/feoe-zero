@@ -248,7 +248,7 @@
         "name": "平気",
         "effect": "毒沼の無効",
         "magic_point": 10,
-        "target": "ステ",
+        "target": "スバル、テンジン",
         "location": "孔雀国"
     }
 ]

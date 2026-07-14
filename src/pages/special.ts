@@ -8,7 +8,7 @@ type Special = {
   character: string;
   name: string;
   effect: string;
-  magic_point: string;
+  point: string;
   note: string;
 };
 
@@ -32,12 +32,12 @@ export async function handleSpecial(): Promise<Response> {
   const characterHtml = specials.map((character) => {
     const specialHtml = character.special
       .map((special) => {
-        const magicPoint = special.magic_point != null ? special.magic_point : "";
+        const point = special.point != null ? special.point : "--";
 
         return `<tr>
   <td class="special-name no-wrap">${special.name}</td>
   <td>${special.effect}</td>
-  <td>${magicPoint}</td>
+  <td>${point}</td>
   <td>${special.note}</td>
 </tr>`;
 }).join("");
@@ -49,7 +49,7 @@ export async function handleSpecial(): Promise<Response> {
   <tr>
     <th>奥義名</th>
     <th>効果</th>
-    <th>消費技</th>
+    <th>消費</th>
     <th>条件</th>
   </tr>
 </thead>

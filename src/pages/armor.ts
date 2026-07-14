@@ -24,8 +24,8 @@ export async function handleArmor(): Promise<Response> {
 
   const armorHtml = armors.map((armor) => {
     const powerCell = String(armor.power).replaceAll("、", "<br />");
-    const effectCell = armor.effect != null ? armor.effect : "";
-    const priceCell = armor.price != null ? `${armor.price.toLocaleString("ja-JP")}両` : "";
+    const effectCell = armor.effect != null ? armor.effect : "--";
+    const priceCell = armor.price != null ? `${armor.price.toLocaleString("ja-JP")}両` : "--";
 
     const collCell = armor.name == rowSpanTdArmor ? "rowspan=4" : "";
     const tdPowerCell = rowSpanTdArmors.includes(armor.name) ? `` : `<td ${collCell}>${powerCell}</td>`;

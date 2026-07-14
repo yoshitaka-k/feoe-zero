@@ -20,8 +20,8 @@ export async function handleWepon(): Promise<Response> {
   );
 
   const weponHtml = wepons.map((wepon) => {
-    const effectCell = wepon.effect != null ? wepon.effect : "";
-    const priceCell = wepon.price != null ? `${wepon.price.toLocaleString("ja-JP")}両` : "";
+    const effectCell = wepon.effect != null ? wepon.effect : "--";
+    const priceCell = wepon.price != null ? `${wepon.price.toLocaleString("ja-JP")}両` : "--";
 
     return `<tr>
 <td class="wepon-name no-wrap">${wepon.name}</td>

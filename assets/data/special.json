@@ -5,37 +5,37 @@
             {
                 "name": "火炎斬り",
                 "effect": "敵1〜2体に通常攻撃ダメージ半分を2回攻撃",
-                "magic_point": null,
+                "point": null,
                 "note": "炭仙人"
             },
             {
                 "name": "稲妻斬り",
                 "effect": "1ターンためて、敵1体に通常攻撃2.5倍ダメージ",
-                "magic_point": null,
+                "point": null,
                 "note": "カミナリ仙人"
             },
             {
                 "name": "爆裂斬り",
                 "effect": "敵全体に通常攻撃ダメージ",
-                "magic_point": "体25%",
+                "point": "体25%",
                 "note": "ばくれつ仙人"
             },
             {
                 "name": "千人斬り",
                 "effect": "敵全体に通常攻撃1/2ダメージ",
-                "magic_point": "体10%",
+                "point": "体10%",
                 "note": "仙人仙人"
             },
             {
                 "name": "ばさら斬り",
                 "effect": "敵全体の体を半分にする",
-                "magic_point": "体50%",
+                "point": "体50%",
                 "note": "バサラ仙人"
             },
             {
                 "name": "竜神斬り",
                 "effect": "敵1体に会心の一撃2.5倍ダメージ",
-                "magic_point": "体60%",
+                "point": "体60%",
                 "note": "闇の剣士"
             }
         ]
@@ -46,55 +46,55 @@
             {
                 "name": "火炎の像",
                 "effect": "敵全体に約110の火炎ダメージ",
-                "magic_point": "技40",
+                "point": "技40",
                 "note": "初期"
             },
             {
                 "name": "電気なまず",
                 "effect": "敵全体に約130の雷系ダメージ",
-                "magic_point": "技60",
+                "point": "技60",
                 "note": "孔雀神社の宿屋2F"
             },
             {
                 "name": "風のはやぶさ",
                 "effect": "敵全体に約150の風系ダメージ",
-                "magic_point": "技70",
+                "point": "技70",
                 "note": "鶴国のネズミ村"
             },
             {
                 "name": "鋼鉄の獅子",
                 "effect": "敵全体に通常攻撃の3倍",
-                "magic_point": "技90",
+                "point": "技90",
                 "note": "亀国のあたま山村"
             },
             {
                 "name": "冷界グモ",
                 "effect": "敵全体に約250の水系ダメージ",
-                "magic_point": "技120",
+                "point": "技120",
                 "note": "犬神国の大虎村"
             },
             {
                 "name": "舌好チョウ",
                 "effect": "味方全員の運が1.25倍",
-                "magic_point": "技30",
+                "point": "技30",
                 "note": "卵屋の大きな卵"
             },
             {
                 "name": "歌舞伎チョウ",
                 "effect": "敵全体が金を置いて逃げ出す",
-                "magic_point": "技50",
+                "point": "技50",
                 "note": "卵屋の大きな卵"
             },
             {
                 "name": "猪鹿チョウ",
                 "effect": "敵全体に20固定ダメージ",
-                "magic_point": "技40",
+                "point": "技40",
                 "note": "卵屋の大きな卵"
             },
             {
                 "name": "極楽チョウ",
                 "effect": "敵全体に500固定ダメージ",
-                "magic_point": "技150",
+                "point": "技150",
                 "note": "卵屋の大きな卵"
             }
         ]
@@ -105,37 +105,37 @@
             {
                 "name": "口うつし",
                 "effect": "味方1人の最大技の30%を吸収",
-                "magic_point": null,
+                "point": null,
                 "note": "初期"
             },
             {
                 "name": "姿うつし",
                 "effect": "敵1体を分裂させ、全能力を半減させる",
-                "magic_point": "体20%",
+                "point": "体20%",
                 "note": "初期"
             },
             {
                 "name": "闇うつし",
                 "effect": "テンジンが受ける敵の術攻撃を1回だけ無効化",
-                "magic_point": "技45",
+                "point": "技45",
                 "note": "32段"
             },
             {
                 "name": "夢うつし",
                 "effect": "テンジンが受けた敵の術攻撃を反射",
-                "magic_point": "技55",
+                "point": "技55",
                 "note": "37段"
             },
             {
                 "name": "月うつし",
                 "effect": "テンジンが受けた敵の術攻撃を無効化し、その分のダメージを技に吸収",
-                "magic_point": "体30%",
+                "point": "体30%",
                 "note": "44段"
             },
             {
                 "name": "心うつし",
                 "effect": "テンジンが全巻物使用可能になるが、消費技が2倍に",
-                "magic_point": "体50%",
+                "point": "体50%",
                 "note": "50段"
             }
         ]
@@ -146,37 +146,37 @@
             {
                 "name": "火炎返し",
                 "effect": "1ターンためて、敵1体に会心の一撃",
-                "magic_point": null,
+                "point": null,
                 "note": "初期"
             },
             {
                 "name": "やまびこ返し",
                 "effect": "敵から受けたダメージを倍返し",
-                "magic_point": "体10%",
+                "point": "体10%",
                 "note": "初期"
             },
             {
                 "name": "地獄返し",
                 "effect": "成功すれば敵1体を即死",
-                "magic_point": "体20%",
+                "point": "体20%",
                 "note": "初期"
             },
             {
                 "name": "ちゃぶ台返し",
                 "effect": "敵全体に通常攻撃の3倍",
-                "magic_point": "体50%",
+                "point": "体50%",
                 "note": "47段"
             },
             {
                 "name": "つばめ返し",
                 "effect": "敵から受けたダメージ半分を敵全体に返す",
-                "magic_point": null,
+                "point": null,
                 "note": "42段"
             },
             {
                 "name": "どんでん返し",
                 "effect": "敵味方全員の体を均一化",
-                "magic_point": "体50%",
+                "point": "体50%",
                 "note": "52段"
             }
         ]
@@ -187,7 +187,7 @@
             {
                 "name": "大げんこつ",
                 "effect": "敵1体に会心の一撃",
-                "magic_point": "体20%",
+                "point": "体20%",
                 "note": "初期"
             }
         ]
@@ -198,7 +198,7 @@
             {
                 "name": "往復びんた",
                 "effect": "敵1体に通常攻撃2回",
-                "magic_point": "体20%",
+                "point": "体20%",
                 "note": "初期"
             }
         ]
@@ -209,7 +209,7 @@
             {
                 "name": "さよなら",
                 "effect": "戦闘から逃げる",
-                "magic_point": "技20",
+                "point": "技20",
                 "note": "初期"
             }
         ]

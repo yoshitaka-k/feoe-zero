@@ -31,7 +31,7 @@ export async function handleItem(): Promise<Response> {
   const html = `<table class="item-item">
 <thead><tr><th>商品名</th><th>効果</th><th>価格</th></tr></thead>
 <tbody>
-${body.replace("{{items}}", itemHtml)}</tbody></table>`;
+  ${body.replace("{{items}}", itemHtml)}</tbody></table>`;
 
   return renderPage(html);
 }

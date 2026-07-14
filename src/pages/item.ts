@@ -2,7 +2,7 @@ import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 
-import itemsJson from "../../assets/data/item.json" with { type: "json" };
+import itemJson from "../../assets/data/item.json" with { type: "json" };
 
 type Item = {
   name: string;
@@ -10,7 +10,7 @@ type Item = {
   price: number;
 };
 
-const items = itemsJson as unknown as Item[];
+const items = itemJson as unknown as Item[];
 
 const rowSpanTdItem = "たい丹";
 const rowsSpanTdItems = ["ち丹", "へん丹", "れん丹", "らく丹", "へい丹"];

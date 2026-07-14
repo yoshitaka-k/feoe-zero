@@ -2,7 +2,7 @@ import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 
-import weponsJson from "../../assets/data/wepon.json" with { type: "json" };
+import weponJson from "../../assets/data/wepon.json" with { type: "json" };
 
 type Wepon = {
   name: string;
@@ -12,7 +12,7 @@ type Wepon = {
   price: number;
 };
 
-const wepons = weponsJson as unknown as Wepon[];
+const wepons = weponJson as unknown as Wepon[];
 
 export async function handleWepon(): Promise<Response> {
   const body = await Deno.readTextFile(

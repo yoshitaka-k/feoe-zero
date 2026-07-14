@@ -26,7 +26,11 @@ export async function handleItem(): Promise<Response> {
     const collCell = item.name == rowSpanTdItem ? "rowspan=6" : "";
     const tdEffectCell = rowsSpanTdItems.includes(item.name) ? `` : `<td ${collCell}>${effectCell}</td>`;
 
-    return `<tr><td>${item.name}</td>${tdEffectCell}<td>${priceCell}</td></tr>`;
+    return `<tr>
+<td>${item.name}</td>
+${tdEffectCell}
+<td>${priceCell}</td>
+</tr>`;
   }).join("");
 
   const html = `<table class="item-item">

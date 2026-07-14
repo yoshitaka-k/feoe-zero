@@ -9,9 +9,9 @@
  */
 
 import { join } from "jsr:@std/path";
-import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
+import { pick, runSheetImport } from "../lib/sheets-to-json.ts";
 
-const DEFAULT_FILE = join(import.meta.dirname!, "tsv/enemy.tsv");
+const DEFAULT_FILE = join(import.meta.dirname!, "../tsv/enemy.tsv");
 
 type EnemyNode = {
   name: string;

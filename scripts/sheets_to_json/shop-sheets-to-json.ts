@@ -9,9 +9,9 @@
  */
 
 import { join } from "jsr:@std/path";
-import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
+import { pick, runSheetImport } from "../lib/sheets-to-json.ts";
 
-const DEFAULT_FILE = join(import.meta.dirname!, "tsv/shop.tsv");
+const DEFAULT_FILE = join(import.meta.dirname!, "../tsv/shop.tsv");
 
 type CountryNode = {
   country: string;

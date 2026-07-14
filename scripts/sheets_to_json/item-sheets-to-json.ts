@@ -9,9 +9,9 @@
  */
 
 import { join } from "jsr:@std/path";
-import { pick, runSheetImport } from "./lib/sheets-to-json.ts";
+import { pick, runSheetImport } from "../lib/sheets-to-json.ts";
 
-const DEFAULT_FILE = join(import.meta.dirname!, "tsv/item.tsv");
+const DEFAULT_FILE = join(import.meta.dirname!, "../tsv/item.tsv");
 
 type ItemJson = Array<Record<string, unknown>>;
 

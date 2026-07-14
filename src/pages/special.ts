@@ -14,17 +14,16 @@ export async function handleSpecial(): Promise<Response> {
   navHtml = `<nav><ul>${navHtml}</ul></nav>`;
 
   const characterHtml = specials.map((character) => {
-    const specialHtml = character.special
-      .map((special) => {
-        const point = special.point != null ? special.point : "--";
+    const specialHtml = character.special.map((special) => {
+      const point = special.point != null ? special.point : "--";
 
-        return `<tr>
+      return `<tr>
   <td class="special-name no-wrap">${special.name}</td>
   <td>${special.effect}</td>
   <td>${point}</td>
   <td>${special.note}</td>
 </tr>`;
-}).join("");
+      }).join("");
 
     return `<div class="special-character">
 <h4 id="${character.character}">${character.character}</h4>

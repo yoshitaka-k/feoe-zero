@@ -2,7 +2,7 @@ import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 
-import accessoriesJson from "../../assets/data/accessory.json" with { type: "json" };
+import accessoryJson from "../../assets/data/accessory.json" with { type: "json" };
 
 type Accessory = {
   name: string;
@@ -12,7 +12,7 @@ type Accessory = {
   price: number;
 };
 
-const accessories = accessoriesJson as unknown as Accessory[];
+const accessories = accessoryJson as unknown as Accessory[];
 
 export async function handleAccessory(): Promise<Response> {
   const body = await Deno.readTextFile(
@@ -25,16 +25,26 @@ export async function handleAccessory(): Promise<Response> {
     const priceCell = accessory.price != null ? `${accessory.price.toLocaleString("ja-JP")}両` : "";
 
     return `<tr>
-<td>${accessory.name}</td>
+<td class="accessory-name no-wrap">${accessory.name}</td>
 <td>${powerCell}</td>
 <td>${accessory.target}</td>
 <td>${effectCell}</td>
-<td>${priceCell}</td>
+<td class="no-wrap">${priceCell}</td>
 </tr>`;
   }).join("");
 
   return renderPage(`<table class="accessory-accessory">
-<thead><tr><th>アクセサリー名</th><th>威力</th><th>対象</th><th>効果</th><th>価格</th></tr></thead>
+<thead>
+  <tr>
+    <th>アクセサリー名</th>
+    <th>威力</th>
+    <th>対象</th>
+    <th>効果</th>
+    <th>価格</th>
+  </tr>
+</thead>
 <tbody>
-  ${body.replace("{{accessories}}", accessoryHtml)}</tbody></table>`);
+  ${body.replace("{{accessories}}", accessoryHtml)}
+</tbody>
+</table>`);
 }

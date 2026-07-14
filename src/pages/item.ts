@@ -27,16 +27,24 @@ export async function handleItem(): Promise<Response> {
     const tdEffectCell = rowsSpanTdItems.includes(item.name) ? `` : `<td ${collCell}>${effectCell}</td>`;
 
     return `<tr>
-<td>${item.name}</td>
+<td class="item-name no-wrap">${item.name}</td>
 ${tdEffectCell}
-<td>${priceCell}</td>
+<td class="no-wrap">${priceCell}</td>
 </tr>`;
   }).join("");
 
   const html = `<table class="item-item">
-<thead><tr><th>商品名</th><th>効果</th><th>価格</th></tr></thead>
+<thead>
+  <tr>
+    <th>商品名</th>
+    <th>効果</th>
+    <th>価格</th>
+  </tr>
+</thead>
 <tbody>
-  ${body.replace("{{items}}", itemHtml)}</tbody></table>`;
+  ${body.replace("{{items}}", itemHtml)}
+</tbody>
+</table>`;
 
   return renderPage(html);
 }

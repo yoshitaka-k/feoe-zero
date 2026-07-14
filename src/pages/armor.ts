@@ -32,16 +32,26 @@ export async function handleArmor(): Promise<Response> {
     const tdEffectCell = rowSpanTdArmors.includes(armor.name) ? `` : `<td ${collCell}>${effectCell}</td>`;
 
     return `<tr>
-<td>${armor.name}</td>
+<td class="armor-name no-wrap">${armor.name}</td>
 ${tdPowerCell}
 <td>${armor.target}</td>
 ${tdEffectCell}
-<td>${priceCell}</td>
+<td class="no-wrap">${priceCell}</td>
 </tr>`;
   }).join("");
 
   return renderPage(`<table class="armor-armor">
-<thead><tr><th>防具名</th><th>威力</th><th>対象</th><th>効果</th><th>価格</th></tr></thead>
+<thead>
+  <tr>
+    <th>防具名</th>
+    <th>威力</th>
+    <th>対象</th>
+    <th>効果</th>
+    <th>価格</th>
+  </tr>
+</thead>
 <tbody>
-  ${body.replace("{{armors}}", armorHtml)}</tbody></table>`);
+  ${body.replace("{{armors}}", armorHtml)}
+</tbody>
+</table>`);
 }

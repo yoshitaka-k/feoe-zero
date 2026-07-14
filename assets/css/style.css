@@ -6,6 +6,10 @@ body {
   padding: 1rem;
 }
 
+td.no-wrap {
+  white-space: nowrap;
+}
+
 #page-top {
   position: fixed;
   bottom: 1rem;

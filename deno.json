@@ -1,4 +1,6 @@
 {
+  "name": "feoe-zero",
+  "version": "0.1.0",
   "tasks": {
     "dev": "deno run --watch --allow-net --allow-read main.ts",
     "shop-sheets:import": "deno run --allow-read --allow-write scripts/shop-sheets-to-json.ts",

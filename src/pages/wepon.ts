@@ -6,7 +6,7 @@ import weponsJson from "../../assets/data/wepon.json" with { type: "json" };
 
 type Wepon = {
   name: string;
-  power: string;
+  power: string | number;
   target: string;
   effect: string;
   price: number;

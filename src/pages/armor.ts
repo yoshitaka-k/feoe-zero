@@ -13,6 +13,7 @@ type Armor = {
 };
 
 const armors = armorJson as unknown as Armor[];
+
 const rowSpanTdArmor = "手あみのセーター";
 const rowSpanTdArmors = ["手あみのぼうし", "手あみの手ぶくろ", "手あみのえりまき"];
 

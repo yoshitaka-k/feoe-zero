@@ -13,19 +13,9 @@ import { pick, runSheetImport } from "../lib/sheets-to-json.ts";
 
 const DEFAULT_FILE = join(import.meta.dirname!, "../tsv/enemy.tsv");
 
-type EnemyNode = {
-  name: string;
-  hp: number;
-  mp: number;
-  exp: number;
-  money: number;
-  special: string;
-  drop: string;
-};
-
 type Country = {
   name: string;
-  enemy: EnemyNode[];
+  enemy: Array<Record<string, unknown>>;
 };
 
 function formatEnemyData(records: Record<string, unknown>[]): Country[] {
@@ -51,13 +41,12 @@ function formatEnemyData(records: Record<string, unknown>[]): Country[] {
     }
 
     node.enemy.push({
-      name: String(name),
-      hp: Number(pick(row, ["体", "hp"])),
-      mp: Number(pick(row, ["技", "mp"])),
-      exp: Number(pick(row, ["徳", "exp"])),
-      money: Number(pick(row, ["両", "money"])),
-      special: String(pick(row, ["特殊攻撃", "special"])),
-      drop: String(pick(row, ["落とすアイテム", "drop"])),
+      name: name,
+      hp: pick(row, ["体", "hp"]),
+      exp: pick(row, ["徳", "exp"]),
+      money: pick(row, ["両", "money"]),
+      special: pick(row, ["特殊攻撃", "special"]),
+      drop: pick(row, ["落とすアイテム", "drop"]),
     });
   }
 

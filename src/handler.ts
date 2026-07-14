@@ -9,6 +9,7 @@ import { handleHermit } from "./pages/hermit.ts";
 import { handleWepon } from "./pages/wepon.ts";
 import { handleArmor } from "./pages/armor.ts";
 import { handleAccessory } from "./pages/accessory.ts";
+import { handleEnemy } from "./pages/enemy.ts";
 
 // ハンドラー — パスを見て振り分けるだけ
 export async function handler(req: Request): Promise<Response> {
@@ -27,6 +28,7 @@ export async function handler(req: Request): Promise<Response> {
   if (pathname === "/wepon") return handleWepon();
   if (pathname === "/armor") return handleArmor();
   if (pathname === "/accessory") return handleAccessory();
+  if (pathname === "/enemy") return handleEnemy();
 
   return notFound();
 }

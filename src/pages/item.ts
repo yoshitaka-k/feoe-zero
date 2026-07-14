@@ -1,16 +1,7 @@
 import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
-
-import itemJson from "../../assets/data/item.json" with { type: "json" };
-
-type Item = {
-  name: string;
-  effect: string;
-  price: number;
-};
-
-const items = itemJson as unknown as Item[];
+import { items } from "../data/item.ts";
 
 const rowSpanTdItem = "たい丹";
 const rowsSpanTdItems = ["ち丹", "へん丹", "れん丹", "らく丹", "へい丹"];

@@ -1,23 +1,7 @@
 import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
-
-import hermitJson from "../../assets/data/hermit.json" with { type: "json" };
-
-type Hermit = {
-  name: string;
-  location: string;
-  scroll: string | null;
-  special: string | null;
-  note: string | null;
-};
-
-type Country = {
-  country: string;
-  hermit: Hermit[];
-};
-
-const hermits = hermitJson as unknown as Country[];
+import { hermits } from "../data/hermit.ts";
 
 export async function handleHermit(): Promise<Response> {
   const body = await Deno.readTextFile(

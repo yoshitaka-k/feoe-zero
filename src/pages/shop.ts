@@ -1,31 +1,7 @@
 import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
-
-import shopsJson from "../../assets/data/shop.json" with { type: "json" };
-
-type Product = {
-  name: string;
-  price: number;
-};
-
-type Shop = {
-  shop: string;
-  note: string;
-  product: Product[];
-};
-
-type Location = {
-  location: string;
-  shop: Shop[];
-};
-
-type Country = {
-  country: string;
-  location: Location[];
-};
-
-const shops = shopsJson as unknown as Country[];
+import { shops } from "../data/shop.ts";
 
 export async function handleShop(): Promise<Response> {
   const body = await Deno.readTextFile(

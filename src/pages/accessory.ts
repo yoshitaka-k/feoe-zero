@@ -1,18 +1,7 @@
 import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
-
-import accessoryJson from "../../assets/data/accessory.json" with { type: "json" };
-
-type Accessory = {
-  name: string;
-  power: string | number;
-  target: string;
-  effect: string;
-  price: number;
-};
-
-const accessories = accessoryJson as unknown as Accessory[];
+import { accessories } from "../data/accessory.ts";
 
 export async function handleAccessory(): Promise<Response> {
   const body = await Deno.readTextFile(

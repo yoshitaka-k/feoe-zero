@@ -1,18 +1,7 @@
 import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
-
-import armorJson from "../../assets/data/armor.json" with { type: "json" };
-
-type Armor = {
-  name: string;
-  power: string | number;
-  target: string;
-  effect: string;
-  price: number;
-};
-
-const armors = armorJson as unknown as Armor[];
+import { armors } from "../data/armor.ts";
 
 const rowSpanTdArmor = "手あみのセーター";
 const rowSpanTdArmors = ["手あみのぼうし", "手あみの手ぶくろ", "手あみのえりまき"];

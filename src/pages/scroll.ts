@@ -1,18 +1,7 @@
 import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
-
-import scrollJson from "../../assets/data/scroll.json" with { type: "json" };
-
-type Scroll = {
-  name: string;
-  effect: string;
-  magic_point: number;
-  target: string;
-  location: string;
-};
-
-const scrolls = scrollJson as unknown as Scroll[];
+import { scrolls } from "../data/scroll.ts";
 
 export async function handleScroll(): Promise<Response> {
   const body = await Deno.readTextFile(

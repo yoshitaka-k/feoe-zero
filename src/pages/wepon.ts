@@ -1,18 +1,7 @@
 import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
-
-import weponJson from "../../assets/data/wepon.json" with { type: "json" };
-
-type Wepon = {
-  name: string;
-  power: string | number;
-  target: string;
-  effect: string;
-  price: number;
-};
-
-const wepons = weponJson as unknown as Wepon[];
+import { wepons } from "../data/wepon.ts";
 
 export async function handleWepon(): Promise<Response> {
   const body = await Deno.readTextFile(

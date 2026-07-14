@@ -1,23 +1,7 @@
 import { join } from "jsr:@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
-
-import specialJson from "../../assets/data/special.json" with { type: "json" };
-
-type Special = {
-  character: string;
-  name: string;
-  effect: string;
-  point: string;
-  note: string;
-};
-
-type Character = {
-  character: string;
-  special: Special[];
-};
-
-const specials = specialJson as unknown as Character[];
+import { specials } from "../data/special.ts";
 
 export async function handleSpecial(): Promise<Response> {
   const body = await Deno.readTextFile(

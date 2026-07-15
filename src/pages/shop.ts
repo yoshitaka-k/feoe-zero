@@ -1,4 +1,5 @@
 import { join } from "jsr:@std/path";
+import { withBase } from "../common/base_path.ts";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 import { shops } from "../data/shop.ts";
@@ -9,7 +10,7 @@ export async function handleShop(): Promise<Response> {
   );
 
   let navHtml = shops.map((country) => {
-    return `<li><a href="/shop#${country.country}">${country.country}</a></li>`;
+    return `<li><a href="${withBase("/shop")}#${country.country}">${country.country}</a></li>`;
   }).join("");
   navHtml = `<nav><ul>${navHtml}</ul></nav>`;
 

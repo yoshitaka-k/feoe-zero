@@ -1,0 +1,13 @@
+# npm 互換モードを使う場合
+node_modules/
+
+# Fresh / Vite ビルド成果物
+_fresh/
+dist/
+
+# 環境変数・秘密情報
+.env
+.env.*
+
+# OS・エディタ
+.DS_Store

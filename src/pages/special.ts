@@ -1,4 +1,5 @@
 import { join } from "jsr:@std/path";
+import { withBase } from "../common/base_path.ts";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 import { specials } from "../data/special.ts";
@@ -9,7 +10,7 @@ export async function handleSpecial(): Promise<Response> {
   );
 
   let navHtml = specials.map((character) => {
-    return `<li><a href="/special#${character.character}">${character.character}</a></li>`;
+    return `<li><a href="${withBase("/special")}#${character.character}">${character.character}</a></li>`;
   }).join("");
   navHtml = `<nav><ul>${navHtml}</ul></nav>`;
 

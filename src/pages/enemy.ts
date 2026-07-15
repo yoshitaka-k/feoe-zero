@@ -1,4 +1,5 @@
 import { join } from "jsr:@std/path";
+import { withBase } from "../common/base_path.ts";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 import { enemies } from "../data/enemy.ts";
@@ -9,7 +10,7 @@ export async function handleEnemy(): Promise<Response> {
   );
 
   let navHtml = enemies.map((country) => {
-    return `<li><a href="/enemy#${country.name}">${country.name}</a></li>`;
+    return `<li><a href="${withBase("/enemy")}#${country.name}">${country.name}</a></li>`;
   }).join("");
   navHtml = `<nav><ul>${navHtml}</ul></nav>`;
 

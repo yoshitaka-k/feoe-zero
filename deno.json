@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "tasks": {
     "dev": "deno run --watch --allow-net --allow-read main.ts",
+    "build": "deno run -A scripts/build-static.ts",
     "shop-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/shop-sheets-to-json.ts",
     "equip-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/equip-sheets-to-json.ts",
     "item-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/item-sheets-to-json.ts",

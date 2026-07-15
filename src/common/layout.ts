@@ -1,4 +1,5 @@
 import { join } from "jsr:@std/path";
+import { applyBasePath } from "./base_path.ts";
 import { STATIC_DIR } from "../paths.ts";
 
 // body を head / header / footer で包んで HTML レスポンスを返す
@@ -12,12 +13,12 @@ export async function renderPage(body: string): Promise<Response> {
   const html = `<!DOCTYPE html>
 <html lang="ja">
 <head>
-${head}
+${applyBasePath(head)}
 </head>
 <body>
-${header}
+${applyBasePath(header)}
 ${body}
-${footer}
+${applyBasePath(footer)}
 </body>
 </html>`;
 

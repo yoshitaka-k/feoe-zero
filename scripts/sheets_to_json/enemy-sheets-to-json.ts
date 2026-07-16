@@ -2,10 +2,10 @@
  * スプレッドシートデータをシートごとの JSON に変換する。
  *
  * 使い方:
- *   deno task special-sheets:import
- *   deno task special-sheets:import -- --file ./scripts/tsv/special.tsv
+ *   deno task enemy-sheets:import
+ *   deno task enemy-sheets:import -- --file ./scripts/tsv/enemy.tsv
  *
- * 出力先: assets/data/special.json のように 1 シート = 1 ファイル
+ * 出力先: assets/data/enemy.json のように 1 シート = 1 ファイル
  */
 
 import { join } from "jsr:@std/path";

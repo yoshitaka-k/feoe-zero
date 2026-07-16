@@ -1,6 +1,5 @@
 # feoe-zero
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/yoshitaka-k/feoe-zero)
 [![License](https://img.shields.io/github/license/yoshitaka-k/feoe-zero)](https://github.com/yoshitaka-k/feoe-zero/blob/main/LICENSE)
 
 ![GitHub top language](https://img.shields.io/github/languages/top/yoshitaka-k/feoe-zero)

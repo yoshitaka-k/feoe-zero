@@ -17,6 +17,7 @@ const ROUTES = [
   "/armor",
   "/accessory",
   "/enemy",
+  "/boss",
 ] as const;
 
 function distPathForRoute(pathname: string): string {

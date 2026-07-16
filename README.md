@@ -9,5 +9,7 @@
 
 Deno の勉強がてら、なんか作ってみようと思って 天外魔境ZERO の情報サイトでも作成中なぅ
 
+[https://yoshitaka-k.github.io/feoe-zero/](https://yoshitaka-k.github.io/feoe-zero/)
+
 ## License
 [Apache-2.0](https://github.com/yoshitaka-k/feoe-zero/blob/main/LICENSE)

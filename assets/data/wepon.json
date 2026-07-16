@@ -93,28 +93,28 @@
     {
         "name": "イッパツ刀",
         "power": 1,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "effect": "攻撃力が10～200に変化",
         "price": 8888
     },
     {
         "name": "オモチャの刀",
         "power": 5,
-        "target": "ヒガン、スバル",
+        "target": "ヒガン,スバル",
         "effect": "使うと非力の効果",
         "price": 560
     },
     {
         "name": "木刀",
         "power": 35,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "effect": null,
         "price": 88
     },
     {
         "name": "木のヤリ",
         "power": 42,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "effect": null,
         "price": 140
     },
@@ -135,7 +135,7 @@
     {
         "name": "ブドウ刀",
         "power": 62,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "effect": "敵味方全員を攻撃",
         "price": 22222
     },
@@ -184,7 +184,7 @@
     {
         "name": "ゆうだちの刀",
         "power": 103,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 5600
     },
@@ -205,28 +205,28 @@
     {
         "name": "あらしのツルギ",
         "power": 124,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 7400
     },
     {
         "name": "イカズチのツルギ",
         "power": 128,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 9900
     },
     {
         "name": "ヒメさまのムチ",
         "power": 128,
-        "target": "スバル、テンジン",
+        "target": "スバル,テンジン",
         "effect": null,
         "price": 32000
     },
     {
         "name": "じゃあくのツルギ",
         "power": 132,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 760
     },
@@ -268,7 +268,7 @@
     {
         "name": "もろはのツルギ",
         "power": 165,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 38000
     },
@@ -282,7 +282,7 @@
     {
         "name": "ざわめきのツルギ",
         "power": 174,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 43000
     },
@@ -296,7 +296,7 @@
     {
         "name": "クビきりの刀",
         "power": 182,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": "時々クリティカルヒットが出る",
         "price": 62000
     },
@@ -324,7 +324,7 @@
     {
         "name": "ドキドキの刀",
         "power": 190,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "effect": "戦闘中壊れることがある",
         "price": 777
     },
@@ -365,7 +365,7 @@
     },
     {
         "name": "ハチのツルギ",
-        "power": "攻1",
+        "power": 1,
         "target": "ヒガン",
         "effect": "30%の確率で敵が即死",
         "price": null

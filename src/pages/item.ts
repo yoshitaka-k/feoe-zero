@@ -12,7 +12,7 @@ export async function handleItem(): Promise<Response> {
   );
 
   const itemHtml = items.map((item) => {
-    const effectCell = item.effect.replaceAll("、", "<br />");
+    const effectCell = item.effect.replaceAll(",", "<br />");
     const priceCell = item.price != null ? `${item.price.toLocaleString("ja-JP")}両` : "--";
     const collCell = item.name == rowSpanTdItem ? "rowspan=6" : "";
     const tdEffectCell = rowsSpanTdItems.includes(item.name) ? `` : `<td ${collCell}>${effectCell}</td>`;

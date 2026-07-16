@@ -18,7 +18,7 @@ export async function handleHermit(): Promise<Response> {
     const hermitHtml = country.hermit.map((hermit) => {
       const scroll = hermit.scroll != null ? hermit.scroll : "--";
       const special = hermit.special != null ? hermit.special : "--";
-      const note = hermit.note != null ? hermit.note.replaceAll("、", "<br />") : "--";
+      const note = hermit.note != null ? hermit.note.replaceAll(",", "<br />") : "--";
 
       return `<tr>
         <td>${hermit.name}</td>

@@ -16,7 +16,7 @@ export async function handleEnemy(): Promise<Response> {
 
   const countryHtml = enemies.map((country) => {
     const enemyHtml = country.enemy.map((enemy) => {
-      const specialCell = enemy.special != null ? enemy.special : "--";
+      const specialCell = enemy.special != null ? enemy.special.replaceAll(",", "<br />") : "--";
       const dropCell = enemy.drop != null ? enemy.drop : "--";
 
       return `<tr>

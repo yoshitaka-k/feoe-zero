@@ -16,7 +16,7 @@ export async function handleBoss(): Promise<Response> {
 
   const countryHtml = bosses.map((country) => {
     const bossHtml = country.boss.map((boss) => {
-      const specialCell = boss.special != null ? boss.special : "--";
+      const specialCell = boss.special != null ? boss.special.replaceAll(",", "<br />") : "--";
 
       return `<tr>
   <td class="boss-name no-wrap">${boss.name}</td>

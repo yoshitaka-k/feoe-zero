@@ -10,13 +10,14 @@ export async function handleAccessory(): Promise<Response> {
 
   const accessoryHtml = accessories.map((accessory) => {
     const powerCell = accessory.power != null ? accessory.power : "--";
+    const targetCell = accessory.target.replaceAll(",", "、");
     const effectCell = accessory.effect != null ? accessory.effect : "--";
     const priceCell = accessory.price != null ? `${accessory.price.toLocaleString("ja-JP")}両` : "--";
 
     return `<tr>
 <td class="accessory-name no-wrap">${accessory.name}</td>
 <td>${powerCell}</td>
-<td>${accessory.target}</td>
+<td>${targetCell}</td>
 <td>${effectCell}</td>
 <td class="no-wrap">${priceCell}</td>
 </tr>`;

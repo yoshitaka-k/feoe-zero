@@ -9,11 +9,13 @@ export async function handleScroll(): Promise<Response> {
   );
 
   const scrollHtml = scrolls.map((scroll) => {
+    const targetCell = scroll.target.replaceAll(",", "、");
+
     return `<tr>
 <td class="scroll-name no-wrap">${scroll.name}</td>
 <td>${scroll.effect}</td>
 <td>${scroll.magic_point}</td>
-<td>${scroll.target}</td>
+<td>${targetCell}</td>
 <td>${scroll.location}</td>
 </tr>`;
   }).join("");

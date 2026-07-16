@@ -1,28 +1,28 @@
 [
     {
         "name": "手あみのセーター",
-        "power": "攻20、防260、早20、運20",
+        "power": "攻20,防260,早20,運20",
         "target": "ヒガン",
         "effect": "全て装備しないと効果なし",
         "price": null
     },
     {
         "name": "手あみのぼうし",
-        "power": "攻20、防260、早20、運20",
+        "power": "攻20,防260,早20,運20",
         "target": "ヒガン",
         "effect": "全て装備しないと効果なし",
         "price": null
     },
     {
         "name": "手あみの手ぶくろ",
-        "power": "攻20、防260、早20、運20",
+        "power": "攻20,防260,早20,運20",
         "target": "ヒガン",
         "effect": "全て装備しないと効果なし",
         "price": null
     },
     {
         "name": "手あみのえりまき",
-        "power": "攻20、防260、早20、運20",
+        "power": "攻20,防260,早20,運20",
         "target": "ヒガン",
         "effect": "全て装備しないと効果なし",
         "price": null
@@ -30,14 +30,14 @@
     {
         "name": "ボロぎ",
         "power": 15,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "effect": null,
         "price": 48
     },
     {
         "name": "あさのふく",
         "power": 28,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "effect": null,
         "price": 72
     },
@@ -65,7 +65,7 @@
     {
         "name": "しのびのふく",
         "power": 59,
-        "target": "ヒガン、スバル",
+        "target": "ヒガン,スバル",
         "effect": null,
         "price": 820
     },
@@ -114,14 +114,14 @@
     {
         "name": "スズのあかどう",
         "power": 92,
-        "target": "ヒガン、スバル",
+        "target": "ヒガン,スバル",
         "effect": null,
         "price": 1400
     },
     {
         "name": "火よけの衣",
         "power": 96,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "effect": "火の攻撃に強い",
         "price": 2540
     },
@@ -156,14 +156,14 @@
     {
         "name": "アオバのはおり",
         "power": 121,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 7000
     },
     {
         "name": "キリの衣",
         "power": 128,
-        "target": "スバル、テンジン",
+        "target": "スバル,テンジン",
         "effect": null,
         "price": 8400
     },
@@ -177,7 +177,7 @@
     {
         "name": "ギンのもんつき",
         "power": 138,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 8800
     },
@@ -191,14 +191,14 @@
     {
         "name": "こんばんどう？",
         "power": 145,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": "攻撃してきた敵に混乱効果",
         "price": 22222
     },
     {
         "name": "カスミの衣",
         "power": 149,
-        "target": "スバル、テンジン",
+        "target": "スバル,テンジン",
         "effect": null,
         "price": 17800
     },
@@ -212,7 +212,7 @@
     {
         "name": "ハクライのはおり",
         "power": 167,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": "イカす +1",
         "price": 8888
     },
@@ -226,28 +226,28 @@
     {
         "name": "そよかぜの衣",
         "power": 180,
-        "target": "スバル、テンジン",
+        "target": "スバル,テンジン",
         "effect": null,
         "price": 31700
     },
     {
         "name": "星くずのはおり",
         "power": 183,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 40000
     },
     {
         "name": "らいめいのどう",
         "power": 197,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 62300
     },
     {
         "name": "よつゆの衣",
         "power": 198,
-        "target": "スバル、テンジン",
+        "target": "スバル,テンジン",
         "effect": "使うと非力の効果",
         "price": 48000
     },
@@ -261,7 +261,7 @@
     {
         "name": "だいちのはおり",
         "power": 211,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "effect": null,
         "price": 72800
     },

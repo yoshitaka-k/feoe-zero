@@ -3,14 +3,14 @@
         "name": "元気",
         "effect": "味方1人の体を最大体の35%回復（全体時は対象者の25%）",
         "magic_point": 6,
-        "target": "ヒガン、スバル、テンジン、みずき、ヒスイ",
+        "target": "ヒガン,スバル,テンジン,みずき,ヒスイ",
         "location": "ヒスイ初期"
     },
     {
         "name": "盛盛",
         "effect": "味方1人の体を最大体の55%回復（全体時は対象者の40％）",
         "magic_point": 14,
-        "target": "ヒガン、スバル、みずき",
+        "target": "ヒガン,スバル,みずき",
         "location": "鶴国"
     },
     {
@@ -24,14 +24,14 @@
         "name": "毒取",
         "effect": "味方1人の毒状態回復",
         "magic_point": 8,
-        "target": "ヒガン、スバル、テンジン、みずき、ヒスイ",
+        "target": "ヒガン,スバル,テンジン,みずき,ヒスイ",
         "location": "ヒスイ初期"
     },
     {
         "name": "素切",
         "effect": "味方1人の毒、瀕死以外の状態回復",
         "magic_point": 12,
-        "target": "スバル、テンジン、みずき",
+        "target": "スバル,テンジン,みずき",
         "location": "鶴国"
     },
     {
@@ -52,21 +52,21 @@
         "name": "妖火",
         "effect": "敵1体に約40の火属性ダメージ（敵全体時は1/2）",
         "magic_point": 10,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "location": "ヒガン初期"
     },
     {
         "name": "神火",
         "effect": "敵1体に約250の火属性ダメージ（敵全体時は1/2）",
         "magic_point": 30,
-        "target": "ヒガン、テンジン",
+        "target": "ヒガン,テンジン",
         "location": "竜王国"
     },
     {
         "name": "妖水",
         "effect": "敵1体に約30の水属性ダメージ（敵全体時は1/2）",
         "magic_point": 12,
-        "target": "ヒガン、スバル、テンジン、ヒスイ",
+        "target": "ヒガン,スバル,テンジン,ヒスイ",
         "location": "火熊国"
     },
     {
@@ -80,7 +80,7 @@
         "name": "妖風",
         "effect": "敵1体に約120の風属性ダメージ（敵全体時は1/2）",
         "magic_point": 20,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "location": "テンジン初期"
     },
     {
@@ -94,7 +94,7 @@
         "name": "妖雷",
         "effect": "敵1体に約70の雷属性ダメージ（敵全体時は1/2）",
         "magic_point": 16,
-        "target": "ヒガン、スバル、テンジン",
+        "target": "ヒガン,スバル,テンジン",
         "location": "孔雀国"
     },
     {
@@ -122,21 +122,21 @@
         "name": "力人",
         "effect": "味方１人の攻撃力10％アップ",
         "magic_point": 8,
-        "target": "ヒガン、スバル、みずき",
+        "target": "ヒガン,スバル,みずき",
         "location": "鶴国"
     },
     {
         "name": "堅人",
         "effect": "味方１人の防御力10％アップ",
         "magic_point": 8,
-        "target": "ヒガン、スバル、みずき",
+        "target": "ヒガン,スバル,みずき",
         "location": "鶴国"
     },
     {
         "name": "速人",
         "effect": "味方１人の素早さ50％アップ",
         "magic_point": 8,
-        "target": "ヒガン、スバル、みずき",
+        "target": "ヒガン,スバル,みずき",
         "location": "亀国"
     },
     {
@@ -171,28 +171,28 @@
         "name": "豚魔",
         "effect": "敵味方１人の攻30％、防30％、早30％、運25％、イカす１段のどれかがダウン",
         "magic_point": 20,
-        "target": "スバル、みずき",
+        "target": "スバル,みずき",
         "location": "亀国"
     },
     {
         "name": "非力",
         "effect": "敵全体の攻撃力10％ダウン",
         "magic_point": 20,
-        "target": "スバル、みずき",
+        "target": "スバル,みずき",
         "location": "犬神国"
     },
     {
         "name": "全裸",
         "effect": "敵全体の防御力10％ダウン",
         "magic_point": 12,
-        "target": "スバル、みずき",
+        "target": "スバル,みずき",
         "location": "孔雀国"
     },
     {
         "name": "鈍間",
         "effect": "敵全体の素早さ50％ダウン",
         "magic_point": 20,
-        "target": "スバル、みずき",
+        "target": "スバル,みずき",
         "location": "犬神国"
     },
     {
@@ -213,28 +213,28 @@
         "name": "魔除",
         "effect": "敵１体の術封じ",
         "magic_point": 10,
-        "target": "スバル、テンジン",
+        "target": "スバル,テンジン",
         "location": "鶴国"
     },
     {
         "name": "狂照",
         "effect": "敵１体を混乱状態に",
         "magic_point": 14,
-        "target": "スバル、テンジン",
+        "target": "スバル,テンジン",
         "location": "犬神国"
     },
     {
         "name": "見像",
         "effect": "敵１体の弱点を探す",
         "magic_point": 4,
-        "target": "ヒガン、スバル、みずき",
+        "target": "ヒガン,スバル,みずき",
         "location": "火熊国"
     },
     {
         "name": "天駆",
         "effect": "行ったことのある村に移動",
         "magic_point": 14,
-        "target": "ヒガン、スバル",
+        "target": "ヒガン,スバル",
         "location": "スバル初期"
     },
     {
@@ -248,7 +248,7 @@
         "name": "平気",
         "effect": "毒沼の無効",
         "magic_point": 10,
-        "target": "スバル、テンジン",
+        "target": "スバル,テンジン",
         "location": "孔雀国"
     }
 ]

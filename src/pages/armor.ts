@@ -22,15 +22,15 @@ export async function handleArmor(): Promise<Response> {
     const tdEffectCell = rowSpanTdArmors.includes(armor.name) ? `` : `<td ${collCell}>${effectCell}</td>`;
 
     return `<tr>
-<td class="armor-name no-wrap">${armor.name}</td>
-${tdPowerCell}
-<td>${targetCell}</td>
-${tdEffectCell}
-<td class="no-wrap">${priceCell}</td>
+  <td>${armor.name}</td>
+  ${tdPowerCell}
+  <td>${targetCell}</td>
+  ${tdEffectCell}
+  <td>${priceCell}</td>
 </tr>`;
   }).join("");
 
-  return renderPage(`<table class="armor-armor">
+  return renderPage(`<table class="armor-table">
 <thead>
   <tr>
     <th>防具名</th>

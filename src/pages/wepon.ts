@@ -14,15 +14,15 @@ export async function handleWepon(): Promise<Response> {
     const priceCell = wepon.price != null ? `${wepon.price.toLocaleString("ja-JP")}両` : "--";
 
     return `<tr>
-<td class="wepon-name no-wrap">${wepon.name}</td>
-<td>${wepon.power}</td>
-<td>${targetCell}</td>
-<td>${effectCell}</td>
-<td class="no-wrap">${priceCell}</td>
+  <td>${wepon.name}</td>
+  <td>${wepon.power}</td>
+  <td>${targetCell}</td>
+  <td>${effectCell}</td>
+  <td>${priceCell}</td>
 </tr>`;
   }).join("");
 
-  return renderPage(`<table class="wepon-wepon">
+  return renderPage(`<table class="wepon-table">
 <thead>
   <tr>
     <th>武器名</th>

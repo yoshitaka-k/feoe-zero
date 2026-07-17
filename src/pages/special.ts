@@ -19,7 +19,7 @@ export async function handleSpecial(): Promise<Response> {
       const point = special.point != null ? special.point : "--";
 
       return `<tr>
-  <td class="special-name no-wrap">${special.name}</td>
+  <td>${special.name}</td>
   <td>${special.effect}</td>
   <td>${point}</td>
   <td>${special.note}</td>
@@ -28,7 +28,7 @@ export async function handleSpecial(): Promise<Response> {
 
     return `<div class="special-character">
 <h4 id="${character.character}">${character.character}</h4>
-<table class="special-special">
+<table class="special-table">
 <thead>
   <tr>
     <th>奥義名</th>

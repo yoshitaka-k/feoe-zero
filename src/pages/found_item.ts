@@ -20,7 +20,7 @@ export async function handleFoundItem(): Promise<Response> {
       const noteCell = foundItem.note != null ? foundItem.note : "--";
 
       return `<tr>
-  <td class="found_item-name no-wrap">${foundItem.location}</td>
+  <td>${foundItem.location}</td>
   <td>${itemsCell}</td>
   <td>${noteCell}</td>
 </tr>`;
@@ -28,7 +28,7 @@ export async function handleFoundItem(): Promise<Response> {
 
     return `<div class="found_item-country">
 <h4 id="${country.country}">${country.country}</h4>
-<table class="found_item-found_item">
+<table class="found_item-table">
 <thead>
   <tr>
     <th>場所</th>

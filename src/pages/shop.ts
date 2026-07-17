@@ -20,13 +20,13 @@ export async function handleShop(): Promise<Response> {
         const products = shop.product
           .map((product) =>
             `<tr>
-<td><span class="shop-product-name">${product.name}</span></td>
-<td><span class="shop-product-price">${product.price}両</span></td>
+  <td>${product.name}</td>
+  <td">${product.price}両</td>
 </tr>`).join("");
 
         return `<div class="shop-shop">
 <h4>${shop.shop}</h4>
-<table class="shop-product">
+<table class="shop-table">
 <thead>
   <tr>
     <th>商品名</th>

@@ -21,28 +21,28 @@ export async function handleHermit(): Promise<Response> {
       const note = hermit.note != null ? hermit.note.replaceAll(",", "<br />") : "--";
 
       return `<tr>
-        <td>${hermit.name}</td>
-        <td>${hermit.location}</td>
-        <td>${scroll}</td>
-        <td>${special}</td>
-        <td>${note}</td>
-      </tr>`;
-    }).join("");
+  <td>${hermit.name}</td>
+  <td>${hermit.location}</td>
+  <td>${scroll}</td>
+  <td>${special}</td>
+  <td>${note}</td>
+</tr>`;
+}).join("");
 
     return `<h4 id="${country.country}">${country.country}</h4>
-    <table class="hermit-hermit">
-    <thead>
-    <tr>
+<table class="hermit-table">
+<thead>
+  <tr>
     <th>仙人</th>
     <th>場所</th>
     <th>巻物</th>
     <th>奥義</th>
-    <th>備考</th>
+  <th>備考</th>
   </tr>
-  </thead>
-  <tbody>${hermitHtml}</tbody>
-  </table>
-  </h4>`;
+</thead>
+<tbody>${hermitHtml}</tbody>
+</table>
+</h4>`;
   }).join("");
 
   let html = body.replace("{{nav}}", navHtml);

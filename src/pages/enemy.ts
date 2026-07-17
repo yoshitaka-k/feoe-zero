@@ -20,7 +20,7 @@ export async function handleEnemy(): Promise<Response> {
       const dropCell = enemy.drop != null ? enemy.drop : "--";
 
       return `<tr>
-  <td class="enemy-name no-wrap">${enemy.name}</td>
+  <td>${enemy.name}</td>
   <td>${enemy.hp}</td>
   <td>${enemy.exp}</td>
   <td>${enemy.money}</td>
@@ -31,7 +31,7 @@ export async function handleEnemy(): Promise<Response> {
 
     return `<div class="enemy-country">
 <h4 id="${country.country}">${country.country}</h4>
-<table class="enemy-enemy">
+<table class="enemy-table">
 <thead>
   <tr>
     <th>名前</th>

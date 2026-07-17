@@ -18,13 +18,13 @@ export async function handleItem(): Promise<Response> {
     const tdEffectCell = rowsSpanTdItems.includes(item.name) ? `` : `<td ${collCell}>${effectCell}</td>`;
 
     return `<tr>
-<td class="item-name no-wrap">${item.name}</td>
-${tdEffectCell}
-<td class="no-wrap">${priceCell}</td>
+  <td>${item.name}</td>
+  ${tdEffectCell}
+  <td>${priceCell}</td>
 </tr>`;
   }).join("");
 
-  const html = `<table class="item-item">
+  const html = `<table class="item-table">
 <thead>
   <tr>
     <th>商品名</th>

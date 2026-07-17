@@ -19,7 +19,7 @@ export async function handleBoss(): Promise<Response> {
       const specialCell = boss.special != null ? boss.special.replaceAll(",", "<br />") : "--";
 
       return `<tr>
-  <td class="boss-name no-wrap">${boss.name}</td>
+  <td>${boss.name}</td>
   <td>${boss.hp}</td>
   <td>${boss.exp}</td>
   <td>${boss.money}</td>
@@ -29,7 +29,7 @@ export async function handleBoss(): Promise<Response> {
 
     return `<div class="boss-country">
 <h4 id="${country.country}">${country.country}</h4>
-<table class="boss-boss">
+<table class="boss-table">
 <thead>
   <tr>
     <th>名前</th>

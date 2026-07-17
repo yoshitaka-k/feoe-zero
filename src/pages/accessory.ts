@@ -15,15 +15,15 @@ export async function handleAccessory(): Promise<Response> {
     const priceCell = accessory.price != null ? `${accessory.price.toLocaleString("ja-JP")}両` : "--";
 
     return `<tr>
-<td class="accessory-name no-wrap">${accessory.name}</td>
-<td>${powerCell}</td>
-<td>${targetCell}</td>
-<td>${effectCell}</td>
-<td class="no-wrap">${priceCell}</td>
+  <td>${accessory.name}</td>
+  <td>${powerCell}</td>
+  <td>${targetCell}</td>
+  <td>${effectCell}</td>
+  <td>${priceCell}</td>
 </tr>`;
   }).join("");
 
-  return renderPage(`<table class="accessory-accessory">
+  return renderPage(`<table class="accessory-table">
 <thead>
   <tr>
     <th>アクセサリー名</th>

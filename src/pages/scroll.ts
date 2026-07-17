@@ -12,15 +12,15 @@ export async function handleScroll(): Promise<Response> {
     const targetCell = scroll.target.replaceAll(",", "、");
 
     return `<tr>
-<td class="scroll-name no-wrap">${scroll.name}</td>
-<td>${scroll.effect}</td>
-<td>${scroll.magic_point}</td>
-<td>${targetCell}</td>
-<td>${scroll.location}</td>
+  <td>${scroll.name}</td>
+  <td>${scroll.effect}</td>
+  <td>${scroll.magic_point}</td>
+  <td>${targetCell}</td>
+  <td>${scroll.location}</td>
 </tr>`;
   }).join("");
 
-  return renderPage(`<table class="scroll-scroll">
+  return renderPage(`<table class="scroll-table">
 <thead>
   <tr>
     <th>巻物</th>

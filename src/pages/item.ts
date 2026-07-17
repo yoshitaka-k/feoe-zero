@@ -37,5 +37,5 @@ export async function handleItem(): Promise<Response> {
 </tbody>
 </table>`;
 
-  return renderPage(html);
+  return renderPage(html, "Item");
 }

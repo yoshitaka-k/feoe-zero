@@ -48,5 +48,5 @@ export async function handleBoss(): Promise<Response> {
   let html = body.replace("{{boss}}", countryHtml);
   html = html.replace("{{nav}}", navHtml);
 
-  return renderPage(html);
+  return renderPage(html, "Boss");
 }

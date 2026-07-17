@@ -30,7 +30,7 @@ export async function handleArmor(): Promise<Response> {
 </tr>`;
   }).join("");
 
-  return renderPage(`<table class="armor-table">
+  const html = `<table class="armor-table">
 <thead>
   <tr>
     <th>防具名</th>
@@ -43,5 +43,7 @@ export async function handleArmor(): Promise<Response> {
 <tbody>
   ${body.replace("{{armors}}", armorHtml)}
 </tbody>
-</table>`);
+</table>`;
+
+  return renderPage(html, "Armor");
 }

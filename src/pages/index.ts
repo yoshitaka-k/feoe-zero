@@ -6,5 +6,5 @@ export async function handleIndex(): Promise<Response> {
   const body = await Deno.readTextFile(
     join(STATIC_DIR, "pages/index.html"),
   );
-  return renderPage(body);
+  return renderPage(body, "");
 }

@@ -1,9 +1,9 @@
 import { join } from "jsr:@std/path";
 import { applyBasePath, withBase } from "./base_path.ts";
-import { STATIC_DIR } from "../paths.ts";
+import { STATIC_DIR, SITE_TITLE } from "../paths.ts";
 
 // body を head / header / footer で包んで HTML レスポンスを返す
-export async function renderPage(body: string): Promise<Response> {
+export async function renderPage(body: string, title: string): Promise<Response> {
   const [head, gtag, header, footer] = await Promise.all([
     Deno.readTextFile(join(STATIC_DIR, "partials/head.html")),
     Deno.readTextFile(join(STATIC_DIR, "partials/gtag.html")),
@@ -11,10 +11,12 @@ export async function renderPage(body: string): Promise<Response> {
     Deno.readTextFile(join(STATIC_DIR, "partials/footer.html")),
   ]);
 
+  title = title ? `${SITE_TITLE} - ${title}` : SITE_TITLE;
+
   const html = `<!DOCTYPE html>
 <html lang="ja">
 <head>
-${applyBasePath(head)}
+  ${applyBasePath(head.replace("{{title}}", title))}
 </head>
 <body>
 ${applyBasePath(gtag)}

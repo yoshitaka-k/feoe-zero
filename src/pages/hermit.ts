@@ -48,5 +48,5 @@ export async function handleHermit(): Promise<Response> {
   let html = body.replace("{{nav}}", navHtml);
   html = html.replace("{{hermits}}", countryHtml);
 
-  return renderPage(html);
+  return renderPage(html, "Hermit");
 }

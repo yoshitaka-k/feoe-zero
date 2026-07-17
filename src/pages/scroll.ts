@@ -20,7 +20,7 @@ export async function handleScroll(): Promise<Response> {
 </tr>`;
   }).join("");
 
-  return renderPage(`<table class="scroll-table">
+  const html = `<table class="scroll-table">
 <thead>
   <tr>
     <th>巻物</th>
@@ -33,5 +33,7 @@ export async function handleScroll(): Promise<Response> {
 <tbody>
   ${body.replace("{{scrolls}}", scrollHtml)}
 </tbody>
-</table>`);
+</table>`;
+
+  return renderPage(html, "Scroll");
 }

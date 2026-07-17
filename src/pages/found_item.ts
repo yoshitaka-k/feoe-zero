@@ -45,5 +45,5 @@ export async function handleFoundItem(): Promise<Response> {
   let html = body.replace("{{found_items}}", countryHtml);
   html = html.replace("{{nav}}", navHtml);
 
-  return renderPage(html);
+  return renderPage(html, "Found Item");
 }

@@ -53,5 +53,5 @@ export async function handleShop(): Promise<Response> {
   let html = body.replace("{{nav}}", navHtml);
   html = html.replace("{{shops}}", shopHtml);
 
-  return renderPage(html);
+  return renderPage(html, "Shop");
 }

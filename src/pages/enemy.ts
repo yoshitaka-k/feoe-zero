@@ -51,5 +51,5 @@ export async function handleEnemy(): Promise<Response> {
   let html = body.replace("{{enemies}}", countryHtml);
   html = html.replace("{{nav}}", navHtml);
 
-  return renderPage(html);
+  return renderPage(html, "Enemy");
 }

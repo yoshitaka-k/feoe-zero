@@ -1,11 +1,13 @@
 import { join } from "jsr:@std/path";
 
+// サイトタイトル
+export const SITE_TITLE = "Far East of Eden Zero";
+
 // paths.ts が src/ にある想定
 export const PROJECT_ROOT = join(import.meta.dirname!, "..");
 export const STATIC_DIR = join(PROJECT_ROOT, "static");
 export const ASSETS_DIR = join(PROJECT_ROOT, "assets");
 export const ASSETS_DATA_DIR = join(ASSETS_DIR, "data");
-
 
 // MIME Types
 export const MIME_TYPES: Record<string, string> = {

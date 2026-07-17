@@ -22,7 +22,7 @@ export async function handleWepon(): Promise<Response> {
 </tr>`;
   }).join("");
 
-  return renderPage(`<table class="wepon-table">
+  const html = `<table class="wepon-table">
 <thead>
   <tr>
     <th>武器名</th>
@@ -35,5 +35,7 @@ export async function handleWepon(): Promise<Response> {
 <tbody>
   ${body.replace("{{wepons}}", weponHtml)}
 </tbody>
-</table>`);
+</table>`;
+
+  return renderPage(html, "Wepon");
 }

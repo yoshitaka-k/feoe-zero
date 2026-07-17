@@ -23,7 +23,7 @@ export async function handleAccessory(): Promise<Response> {
 </tr>`;
   }).join("");
 
-  return renderPage(`<table class="accessory-table">
+  const html = `<table class="accessory-table">
 <thead>
   <tr>
     <th>アクセサリー名</th>
@@ -36,5 +36,7 @@ export async function handleAccessory(): Promise<Response> {
 <tbody>
   ${body.replace("{{accessories}}", accessoryHtml)}
 </tbody>
-</table>`);
+</table>`;
+
+  return renderPage(html, "Accessory");
 }

@@ -11,26 +11,32 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "木のヤリ",
+                                "category": "weapon",
                                 "price": 140
                             },
                             {
                                 "name": "あさのふく",
+                                "category": "armor",
                                 "price": 72
                             },
                             {
                                 "name": "ワラのぞうり",
+                                "category": "accessory",
                                 "price": 48
                             }
                         ]
@@ -46,26 +52,32 @@
                         "product": [
                             {
                                 "name": "木のヤリ",
+                                "category": "weapon",
                                 "price": 140
                             },
                             {
                                 "name": "くろぬりの刀",
+                                "category": "weapon",
                                 "price": 730
                             },
                             {
                                 "name": "あさのふく",
+                                "category": "armor",
                                 "price": 72
                             },
                             {
                                 "name": "かわのむねあて",
+                                "category": "armor",
                                 "price": 198
                             },
                             {
                                 "name": "ワラのぞうり",
+                                "category": "accessory",
                                 "price": 48
                             },
                             {
                                 "name": "力のオビ",
+                                "category": "accessory",
                                 "price": 480
                             }
                         ]
@@ -76,34 +88,42 @@
                         "product": [
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "マヒトリ丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             }
                         ]
@@ -114,34 +134,42 @@
                         "product": [
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 50
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 60
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "ウメこけし",
+                                "category": "item",
                                 "price": 450
                             },
                             {
                                 "name": "イカす丸",
+                                "category": "item",
                                 "price": 10000
                             },
                             {
                                 "name": "うもうのフトン",
+                                "category": "item",
                                 "price": 28000
                             }
                         ]
@@ -152,22 +180,27 @@
                         "product": [
                             {
                                 "name": "あたまのエサ",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "からだのエサ",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "こころのエサ",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "おならのエサ",
+                                "category": "item",
                                 "price": 50
                             },
                             {
                                 "name": "なぞのエサ",
+                                "category": "item",
                                 "price": 100
                             }
                         ]
@@ -183,30 +216,37 @@
                         "product": [
                             {
                                 "name": "くろぬりの刀",
+                                "category": "weapon",
                                 "price": 730
                             },
                             {
                                 "name": "いのちの短刀",
+                                "category": "weapon",
                                 "price": 560
                             },
                             {
                                 "name": "かわのむねあて",
+                                "category": "armor",
                                 "price": 198
                             },
                             {
                                 "name": "クサリかたびら",
+                                "category": "armor",
                                 "price": 640
                             },
                             {
                                 "name": "しのびのふく",
+                                "category": "armor",
                                 "price": 820
                             },
                             {
                                 "name": "たびびとのわらじ",
+                                "category": "accessory",
                                 "price": 650
                             },
                             {
                                 "name": "力のこて",
+                                "category": "accessory",
                                 "price": 580
                             }
                         ]
@@ -217,34 +257,42 @@
                         "product": [
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 200
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "白いハンケチ",
+                                "category": "accessory",
                                 "price": 1640
                             }
                         ]
@@ -255,34 +303,42 @@
                         "product": [
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "マヒトリ丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             }
                         ]
@@ -293,14 +349,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
@@ -321,34 +380,42 @@
                         "product": [
                             {
                                 "name": "いのちの短刀",
+                                "category": "weapon",
                                 "price": 560
                             },
                             {
                                 "name": "木こりのオノ",
+                                "category": "weapon",
                                 "price": 1300
                             },
                             {
                                 "name": "ゆがんだ刀",
+                                "category": "weapon",
                                 "price": 1680
                             },
                             {
                                 "name": "しのびのふく",
+                                "category": "armor",
                                 "price": 820
                             },
                             {
                                 "name": "そうりょのふく",
+                                "category": "armor",
                                 "price": 1200
                             },
                             {
                                 "name": "スズのあかどう",
+                                "category": "armor",
                                 "price": 1400
                             },
                             {
                                 "name": "てつカブト",
+                                "category": "accessory",
                                 "price": 500
                             },
                             {
                                 "name": "たびびとのわらじ",
+                                "category": "accessory",
                                 "price": 650
                             }
                         ]
@@ -359,34 +426,42 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 200
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "ウメこけし",
+                                "category": "item",
                                 "price": 450
                             },
                             {
                                 "name": "しあわせのハコ",
+                                "category": "item",
                                 "price": 12500
                             },
                             {
                                 "name": "はなのスイハンキ",
+                                "category": "item",
                                 "price": 15000
                             }
                         ]
@@ -397,22 +472,27 @@
                         "product": [
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "ビンショウざい",
+                                "category": "item",
                                 "price": 400
                             },
                             {
                                 "name": "ゾウキョウざい",
+                                "category": "item",
                                 "price": 500
                             },
                             {
                                 "name": "ガンジョウざい",
+                                "category": "item",
                                 "price": 600
                             }
                         ]
@@ -423,30 +503,37 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "バクチ丸",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "マヒトリ丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             },
                             {
                                 "name": "ばんのう丸",
+                                "category": "item",
                                 "price": 1000
                             }
                         ]
@@ -457,34 +544,42 @@
                         "product": [
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 24
                             },
                             {
                                 "name": "月の光",
+                                "category": "item",
                                 "price": 800
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 96
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 64
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "あかずきん",
+                                "category": "accessory",
                                 "price": 432
                             }
                         ]
@@ -500,30 +595,37 @@
                         "product": [
                             {
                                 "name": "ゆがんだ刀",
+                                "category": "weapon",
                                 "price": 1860
                             },
                             {
                                 "name": "ハガネのくまで",
+                                "category": "weapon",
                                 "price": 2140
                             },
                             {
                                 "name": "うえきバサミ",
+                                "category": "weapon",
                                 "price": 4800
                             },
                             {
                                 "name": "そうりょのふく",
+                                "category": "armor",
                                 "price": 1200
                             },
                             {
                                 "name": "スズのあかどう",
+                                "category": "armor",
                                 "price": 1400
                             },
                             {
                                 "name": "てつカブト",
+                                "category": "accessory",
                                 "price": 500
                             },
                             {
                                 "name": "じかたび",
+                                "category": "accessory",
                                 "price": 750
                             }
                         ]
@@ -534,30 +636,37 @@
                         "product": [
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 200
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "白いハンケチ",
+                                "category": "accessory",
                                 "price": 1640
                             }
                         ]
@@ -568,34 +677,42 @@
                         "product": [
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             },
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "バクチ丸",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "マヒトリ丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             }
                         ]
@@ -606,14 +723,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
@@ -624,18 +744,22 @@
                         "product": [
                             {
                                 "name": "月の光",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "あかずきん",
+                                "category": "accessory",
                                 "price": 540
                             },
                             {
                                 "name": "力のオビ",
+                                "category": "accessory",
                                 "price": 480
                             },
                             {
                                 "name": "守りのオビ",
+                                "category": "accessory",
                                 "price": 1200
                             }
                         ]
@@ -651,34 +775,42 @@
                         "product": [
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 200
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             }
                         ]
@@ -689,14 +821,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
@@ -712,22 +847,27 @@
                         "product": [
                             {
                                 "name": "そうりょのふく",
+                                "category": "armor",
                                 "price": 1200
                             },
                             {
                                 "name": "イナセなきもの",
+                                "category": "armor",
                                 "price": 1680
                             },
                             {
                                 "name": "火よけの衣",
+                                "category": "armor",
                                 "price": 2540
                             },
                             {
                                 "name": "コノハのはおり",
+                                "category": "armor",
                                 "price": 3200
                             },
                             {
                                 "name": "守りのオビ",
+                                "category": "accessory",
                                 "price": 1200
                             }
                         ]
@@ -738,22 +878,27 @@
                         "product": [
                             {
                                 "name": "ばんのうナイフ",
+                                "category": "weapon",
                                 "price": 480
                             },
                             {
                                 "name": "デバぼうちょう",
+                                "category": "weapon",
                                 "price": 1020
                             },
                             {
                                 "name": "木こりのオノ",
+                                "category": "weapon",
                                 "price": 1300
                             },
                             {
                                 "name": "ハガネのくまで",
+                                "category": "weapon",
                                 "price": 2140
                             },
                             {
                                 "name": "うえきバサミ",
+                                "category": "weapon",
                                 "price": 4800
                             }
                         ]
@@ -764,22 +909,27 @@
                         "product": [
                             {
                                 "name": "じかたび",
+                                "category": "accessory",
                                 "price": 750
                             },
                             {
                                 "name": "たかゲタ",
+                                "category": "accessory",
                                 "price": 900
                             },
                             {
                                 "name": "てつゲタ",
+                                "category": "accessory",
                                 "price": 1200
                             },
                             {
                                 "name": "あんぜんナガグツ",
+                                "category": "accessory",
                                 "price": 5000
                             },
                             {
                                 "name": "ヒメのたかゲタ",
+                                "category": "accessory",
                                 "price": 19800
                             }
                         ]
@@ -790,10 +940,12 @@
                         "product": [
                             {
                                 "name": "クリまんじゅう",
+                                "category": "item",
                                 "price": 99
                             },
                             {
                                 "name": "クリのお守り",
+                                "category": "accessory",
                                 "price": 720
                             }
                         ]
@@ -804,22 +956,27 @@
                         "product": [
                             {
                                 "name": "よろめきのゆびわ",
+                                "category": "accessory",
                                 "price": 1400
                             },
                             {
                                 "name": "ゆうわくのゆびわ",
+                                "category": "accessory",
                                 "price": 2200
                             },
                             {
                                 "name": "ほろびのゆびわ",
+                                "category": "accessory",
                                 "price": 3600
                             },
                             {
                                 "name": "やすらぎのゆびわ",
+                                "category": "accessory",
                                 "price": 4800
                             },
                             {
                                 "name": "さばきのゆびわ",
+                                "category": "accessory",
                                 "price": 9800
                             }
                         ]
@@ -830,34 +987,42 @@
                         "product": [
                             {
                                 "name": "ぼうさいずきん",
+                                "category": "accessory",
                                 "price": 9800
                             },
                             {
                                 "name": "マゴの手",
+                                "category": "accessory",
                                 "price": 500
                             },
                             {
                                 "name": "イカす丸",
+                                "category": "item",
                                 "price": 10000
                             },
                             {
                                 "name": "たいあんのタイコ",
+                                "category": "item",
                                 "price": 3600
                             },
                             {
                                 "name": "ぶつめつのタイコ",
+                                "category": "item",
                                 "price": 3600
                             },
                             {
                                 "name": "ネコだるまのスズ",
+                                "category": "item",
                                 "price": 12500
                             },
                             {
                                 "name": "ウメこけし",
+                                "category": "item",
                                 "price": 450
                             },
                             {
                                 "name": "しあわせのハコ",
+                                "category": "item",
                                 "price": 12500
                             }
                         ]
@@ -868,6 +1033,7 @@
                         "product": [
                             {
                                 "name": "ブツまん",
+                                "category": "item",
                                 "price": 120
                             }
                         ]
@@ -883,26 +1049,32 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "石のくびかざり",
+                                "category": "accessory",
                                 "price": 5000
                             }
                         ]
@@ -923,26 +1095,32 @@
                         "product": [
                             {
                                 "name": "ハガネのくまで",
+                                "category": "weapon",
                                 "price": 2140
                             },
                             {
                                 "name": "ゆうだちの刀",
+                                "category": "weapon",
                                 "price": 5600
                             },
                             {
                                 "name": "コノハのはおり",
+                                "category": "armor",
                                 "price": 3200
                             },
                             {
                                 "name": "オトメのふりそで",
+                                "category": "armor",
                                 "price": 4900
                             },
                             {
                                 "name": "こんじょうのどう",
+                                "category": "armor",
                                 "price": 6200
                             },
                             {
                                 "name": "てつカブト",
+                                "category": "accessory",
                                 "price": 500
                             }
                         ]
@@ -953,14 +1131,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "クリまんじゅう",
+                                "category": "item",
                                 "price": 99
                             }
                         ]
@@ -976,22 +1157,27 @@
                         "product": [
                             {
                                 "name": "キノコのよろい",
+                                "category": "armor",
                                 "price": 999
                             },
                             {
                                 "name": "スケスケのふく",
+                                "category": "armor",
                                 "price": 5555
                             },
                             {
                                 "name": "かんじき",
+                                "category": "accessory",
                                 "price": 2
                             },
                             {
                                 "name": "クソふんだクツ",
+                                "category": "accessory",
                                 "price": 1111
                             },
                             {
                                 "name": "ぶつブーツ",
+                                "category": "accessory",
                                 "price": 2222
                             }
                         ]
@@ -1007,14 +1193,17 @@
                         "product": [
                             {
                                 "name": "ヒメさまのムチ",
+                                "category": "weapon",
                                 "price": 32000
                             },
                             {
                                 "name": "クソったれカブト",
+                                "category": "accessory",
                                 "price": 1000
                             },
                             {
                                 "name": "アヤしいかめん",
+                                "category": "accessory",
                                 "price": 17200
                             }
                         ]
@@ -1030,18 +1219,22 @@
                         "product": [
                             {
                                 "name": "バクチ丸",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "イカす丸",
+                                "category": "item",
                                 "price": 10000
                             },
                             {
                                 "name": "クソだらけのめん",
+                                "category": "accessory",
                                 "price": 1000
                             },
                             {
                                 "name": "マゴの手",
+                                "category": "accessory",
                                 "price": 500
                             }
                         ]
@@ -1057,34 +1250,42 @@
                         "product": [
                             {
                                 "name": "ゆうだちの刀",
+                                "category": "weapon",
                                 "price": 5600
                             },
                             {
                                 "name": "あらしのツルギ",
+                                "category": "weapon",
                                 "price": 7400
                             },
                             {
                                 "name": "ねむりの短刀",
+                                "category": "weapon",
                                 "price": 8000
                             },
                             {
                                 "name": "かぜのカブト",
+                                "category": "accessory",
                                 "price": 6500
                             },
                             {
                                 "name": "カミナリのカブト",
+                                "category": "accessory",
                                 "price": 6500
                             },
                             {
                                 "name": "火のカブト",
+                                "category": "accessory",
                                 "price": 6500
                             },
                             {
                                 "name": "水のカブト",
+                                "category": "accessory",
                                 "price": 6500
                             },
                             {
                                 "name": "キヌのたび",
+                                "category": "accessory",
                                 "price": 1200
                             }
                         ]
@@ -1095,34 +1296,42 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 200
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "水玉ハンケチ",
+                                "category": "accessory",
                                 "price": 2860
                             }
                         ]
@@ -1133,34 +1342,42 @@
                         "product": [
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "マヒトリ丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             }
                         ]
@@ -1171,14 +1388,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "クリまんじゅう",
+                                "category": "item",
                                 "price": 99
                             }
                         ]
@@ -1194,30 +1414,37 @@
                         "product": [
                             {
                                 "name": "あらしのツルギ",
+                                "category": "weapon",
                                 "price": 7400
                             },
                             {
                                 "name": "イカズチのツルギ",
+                                "category": "weapon",
                                 "price": 9900
                             },
                             {
                                 "name": "こおりのヤイバ",
+                                "category": "weapon",
                                 "price": 13600
                             },
                             {
                                 "name": "アオバのはおり",
+                                "category": "armor",
                                 "price": 7000
                             },
                             {
                                 "name": "キリの衣",
+                                "category": "armor",
                                 "price": 8400
                             },
                             {
                                 "name": "キヌのたび",
+                                "category": "accessory",
                                 "price": 1200
                             },
                             {
                                 "name": "カギツメのこて",
+                                "category": "accessory",
                                 "price": 4500
                             }
                         ]
@@ -1228,34 +1455,42 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 200
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "マヒトリ丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "しあわせのハコ",
+                                "category": "item",
                                 "price": 12500
                             }
                         ]
@@ -1266,14 +1501,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
@@ -1284,34 +1522,42 @@
                         "product": [
                             {
                                 "name": "たい丹",
+                                "category": "item",
                                 "price": 1160
                             },
                             {
                                 "name": "ち丹",
+                                "category": "item",
                                 "price": 1160
                             },
                             {
                                 "name": "へん丹",
+                                "category": "item",
                                 "price": 1160
                             },
                             {
                                 "name": "れん丹",
+                                "category": "item",
                                 "price": 1160
                             },
                             {
                                 "name": "らく丹",
+                                "category": "item",
                                 "price": 1160
                             },
                             {
                                 "name": "へい丹",
+                                "category": "item",
                                 "price": 1160
                             },
                             {
                                 "name": "もみじのクシ",
+                                "category": "accessory",
                                 "price": 8000
                             },
                             {
                                 "name": "しんじゅのゆびわ",
+                                "category": "accessory",
                                 "price": 20480
                             }
                         ]
@@ -1322,26 +1568,32 @@
                         "product": [
                             {
                                 "name": "アシュラ刀",
+                                "category": "weapon",
                                 "price": 142000
                             },
                             {
                                 "name": "セキリュウ刀",
+                                "category": "weapon",
                                 "price": 228000
                             },
                             {
                                 "name": "いちげきのヤリ",
+                                "category": "weapon",
                                 "price": 301000
                             },
                             {
                                 "name": "カツジン刀",
+                                "category": "weapon",
                                 "price": 564000
                             },
                             {
                                 "name": "体のオビ",
+                                "category": "accessory",
                                 "price": 100000
                             },
                             {
                                 "name": "技のオビ",
+                                "category": "accessory",
                                 "price": 200000
                             }
                         ]
@@ -1357,30 +1609,37 @@
                         "product": [
                             {
                                 "name": "ねむりの短刀",
+                                "category": "weapon",
                                 "price": 8000
                             },
                             {
                                 "name": "イカズチのツルギ",
+                                "category": "weapon",
                                 "price": 9900
                             },
                             {
                                 "name": "こおりのヤイバ",
+                                "category": "weapon",
                                 "price": 13600
                             },
                             {
                                 "name": "こんじょうのどう",
+                                "category": "armor",
                                 "price": 6200
                             },
                             {
                                 "name": "キリの衣",
+                                "category": "armor",
                                 "price": 8400
                             },
                             {
                                 "name": "キヌのたび",
+                                "category": "accessory",
                                 "price": 1200
                             },
                             {
                                 "name": "カギツメのこて",
+                                "category": "accessory",
                                 "price": 4500
                             }
                         ]
@@ -1391,34 +1650,42 @@
                         "product": [
                             {
                                 "name": "ウメのかんざし",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "モモのかんざし",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "サクラのかんざし",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "フジのかんざし",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "はなのくびかざり",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "はなのイヤリング",
+                                "category": "item",
                                 "price": 20000
                             },
                             {
                                 "name": "はなのスイハンキ",
+                                "category": "item",
                                 "price": 15000
                             },
                             {
                                 "name": "はなのきんちゃく",
+                                "category": "item",
                                 "price": 36000
                             }
                         ]
@@ -1429,14 +1696,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
@@ -1447,6 +1717,7 @@
                         "product": [
                             {
                                 "name": "いのちのさけ",
+                                "category": "item",
                                 "price": 1200
                             }
                         ]
@@ -1462,14 +1733,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "クリまんじゅう",
+                                "category": "item",
                                 "price": 99
                             }
                         ]
@@ -1490,30 +1764,37 @@
                         "product": [
                             {
                                 "name": "イカズチのツルギ",
+                                "category": "weapon",
                                 "price": 9900
                             },
                             {
                                 "name": "守りの短刀",
+                                "category": "weapon",
                                 "price": 20000
                             },
                             {
                                 "name": "ギンのもんつき",
+                                "category": "armor",
                                 "price": 8800
                             },
                             {
                                 "name": "カスミの衣",
+                                "category": "armor",
                                 "price": 17800
                             },
                             {
                                 "name": "おもいでのきもの",
+                                "category": "armor",
                                 "price": 19400
                             },
                             {
                                 "name": "くろずきん",
+                                "category": "accessory",
                                 "price": 6200
                             },
                             {
                                 "name": "カギツメのこて",
+                                "category": "accessory",
                                 "price": 4500
                             }
                         ]
@@ -1524,34 +1805,42 @@
                         "product": [
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "木づち",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "マヒトリ丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             }
                         ]
@@ -1562,14 +1851,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
@@ -1580,34 +1872,42 @@
                         "product": [
                             {
                                 "name": "月の光",
+                                "category": "item",
                                 "price": 800
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 64
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "くろずきん",
+                                "category": "accessory",
                                 "price": 4960
                             },
                             {
                                 "name": "かえでのクシ",
+                                "category": "accessory",
                                 "price": 12000
                             },
                             {
                                 "name": "ハヤテのわらじ",
+                                "category": "accessory",
                                 "price": 6400
                             },
                             {
                                 "name": "石のくびかざり",
+                                "category": "accessory",
                                 "price": 4000
                             },
                             {
                                 "name": "水玉ハンケチ",
+                                "category": "accessory",
                                 "price": 2288
                             }
                         ]
@@ -1623,34 +1923,42 @@
                         "product": [
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 200
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "ヒメさまのふく",
+                                "category": "armor",
                                 "price": 26700
                             }
                         ]
@@ -1661,26 +1969,32 @@
                         "product": [
                             {
                                 "name": "イカす丸",
+                                "category": "item",
                                 "price": 10000
                             },
                             {
                                 "name": "カラクリこけし",
+                                "category": "item",
                                 "price": 5800
                             },
                             {
                                 "name": "たいあんのタイコ",
+                                "category": "item",
                                 "price": 3600
                             },
                             {
                                 "name": "ぶつめつのタイコ",
+                                "category": "item",
                                 "price": 3600
                             },
                             {
                                 "name": "ネコだるまのスズ",
+                                "category": "item",
                                 "price": 12500
                             },
                             {
                                 "name": "にじのカケラ",
+                                "category": "item",
                                 "price": 48000
                             }
                         ]
@@ -1691,14 +2005,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
@@ -1709,34 +2026,42 @@
                         "product": [
                             {
                                 "name": "かぜのカブト",
+                                "category": "accessory",
                                 "price": 5200
                             },
                             {
                                 "name": "カミナリのカブト",
+                                "category": "accessory",
                                 "price": 5200
                             },
                             {
                                 "name": "火のカブト",
+                                "category": "accessory",
                                 "price": 5200
                             },
                             {
                                 "name": "水のカブト",
+                                "category": "accessory",
                                 "price": 5200
                             },
                             {
                                 "name": "ウメのかんざし",
+                                "category": "accessory",
                                 "price": 6000
                             },
                             {
                                 "name": "モモのかんざし",
+                                "category": "accessory",
                                 "price": 6000
                             },
                             {
                                 "name": "サクラのかんざし",
+                                "category": "accessory",
                                 "price": 6000
                             },
                             {
                                 "name": "フジのかんざし",
+                                "category": "accessory",
                                 "price": 6000
                             }
                         ]
@@ -1752,34 +2077,42 @@
                         "product": [
                             {
                                 "name": "守りの短刀",
+                                "category": "weapon",
                                 "price": 20000
                             },
                             {
                                 "name": "もろはのツルギ",
+                                "category": "weapon",
                                 "price": 38000
                             },
                             {
                                 "name": "ざわめきのツルギ",
+                                "category": "weapon",
                                 "price": 43000
                             },
                             {
                                 "name": "おもいでのきもの",
+                                "category": "armor",
                                 "price": 19400
                             },
                             {
                                 "name": "ゆうひのどう",
+                                "category": "armor",
                                 "price": 25600
                             },
                             {
                                 "name": "そよかぜの衣",
+                                "category": "armor",
                                 "price": 31700
                             },
                             {
                                 "name": "くろずきん",
+                                "category": "accessory",
                                 "price": 6200
                             },
                             {
                                 "name": "モモのぞうり",
+                                "category": "accessory",
                                 "price": 6000
                             }
                         ]
@@ -1790,34 +2123,42 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             }
                         ]
@@ -1838,48 +2179,58 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
                     },
                     {
                         "shop": "行商人",
-                        "note": "",
+                        "note": "ゴールドシルバーを倒した後は居なくなる",
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "星の光",
+                                "category": "item",
                                 "price": 160
                             },
                             {
                                 "name": "月の光",
+                                "category": "item",
                                 "price": 800
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "ばんのう丸",
+                                "category": "item",
                                 "price": 800
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 64
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 80
                             }
                         ]
@@ -1895,34 +2246,42 @@
                         "product": [
                             {
                                 "name": "守りの短刀",
+                                "category": "weapon",
                                 "price": 20000
                             },
                             {
                                 "name": "ざわめきのツルギ",
+                                "category": "weapon",
                                 "price": 43000
                             },
                             {
                                 "name": "ナミダの短刀",
+                                "category": "weapon",
                                 "price": 106000
                             },
                             {
                                 "name": "ゆうひのどう",
+                                "category": "armor",
                                 "price": 25600
                             },
                             {
                                 "name": "そよかぜの衣",
+                                "category": "armor",
                                 "price": 31700
                             },
                             {
                                 "name": "星くずのはおり",
+                                "category": "armor",
                                 "price": 40000
                             },
                             {
                                 "name": "モモのぞうり",
+                                "category": "accessory",
                                 "price": 6000
                             },
                             {
                                 "name": "ハヤテのわらじ",
+                                "category": "accessory",
                                 "price": 8000
                             }
                         ]
@@ -1933,22 +2292,27 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             }
                         ]
@@ -1964,34 +2328,42 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "月の光",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             },
                             {
                                 "name": "ばんのう丸",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "サ金のカマ",
+                                "category": "accessory",
                                 "price": 500
                             }
                         ]
@@ -2002,14 +2374,17 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             }
                         ]
@@ -2025,34 +2400,42 @@
                         "product": [
                             {
                                 "name": "かがやきの太刀",
+                                "category": "weapon",
                                 "price": 97600
                             },
                             {
                                 "name": "金のてっせん",
+                                "category": "weapon",
                                 "price": 264000
                             },
                             {
                                 "name": "そよかぜの衣",
+                                "category": "armor",
                                 "price": 31700
                             },
                             {
                                 "name": "てんしのふりそで",
+                                "category": "armor",
                                 "price": 54900
                             },
                             {
                                 "name": "らいめいのどう",
+                                "category": "armor",
                                 "price": 62300
                             },
                             {
                                 "name": "おうごんのよろい",
+                                "category": "armor",
                                 "price": 260000
                             },
                             {
                                 "name": "ハヤテのわらじ",
+                                "category": "accessory",
                                 "price": 8000
                             },
                             {
                                 "name": "ヤイバのこて",
+                                "category": "accessory",
                                 "price": 8200
                             }
                         ]
@@ -2063,26 +2446,32 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "月の光",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "ばんのう丸",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "イカす丸",
+                                "category": "item",
                                 "price": 10000
                             },
                             {
                                 "name": "むせかえるかおり",
+                                "category": "item",
                                 "price": 49000
                             },
                             {
                                 "name": "うもうのフトン",
+                                "category": "item",
                                 "price": 28000
                             }
                         ]
@@ -2098,34 +2487,42 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "月の光",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             },
                             {
                                 "name": "ひこう石",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "サ金のカマ",
+                                "category": "accessory",
                                 "price": 500
                             },
                             {
                                 "name": "ハヤテのわらじ",
+                                "category": "accessory",
                                 "price": 8000
                             },
                             {
                                 "name": "きいろいハンケチ",
+                                "category": "accessory",
                                 "price": 7200
                             },
                             {
                                 "name": "まよけのお守り",
+                                "category": "accessory",
                                 "price": 8000
                             }
                         ]
@@ -2141,26 +2538,32 @@
                         "product": [
                             {
                                 "name": "ドキドキの刀",
+                                "category": "weapon",
                                 "price": 777
                             },
                             {
                                 "name": "イッパツ刀",
+                                "category": "weapon",
                                 "price": 8888
                             },
                             {
                                 "name": "ブドウ刀",
+                                "category": "weapon",
                                 "price": 22222
                             },
                             {
                                 "name": "ハクライのはおり",
+                                "category": "armor",
                                 "price": 8888
                             },
                             {
                                 "name": "こんばんどう？",
+                                "category": "armor",
                                 "price": 22222
                             },
                             {
                                 "name": "ニニンバオリ",
+                                "category": "armor",
                                 "price": 44444
                             }
                         ]
@@ -2171,34 +2574,42 @@
                         "product": [
                             {
                                 "name": "おかんむり",
+                                "category": "accessory",
                                 "price": 2222
                             },
                             {
                                 "name": "しるくはっと",
+                                "category": "accessory",
                                 "price": 4444
                             },
                             {
                                 "name": "ネコみみずきん",
+                                "category": "accessory",
                                 "price": 22222
                             },
                             {
                                 "name": "ニソクノワラジ",
+                                "category": "accessory",
                                 "price": 44444
                             },
                             {
                                 "name": "バクチ丸",
+                                "category": "item",
                                 "price": 999
                             },
                             {
                                 "name": "イカす丸",
+                                "category": "item",
                                 "price": 9999
                             },
                             {
                                 "name": "すなどけい",
+                                "category": "item",
                                 "price": 5555
                             },
                             {
                                 "name": "ゆうわくのかおり",
+                                "category": "item",
                                 "price": 55555
                             }
                         ]
@@ -2209,34 +2620,42 @@
                         "product": [
                             {
                                 "name": "チャイナドレス",
+                                "category": "armor",
                                 "price": 7200
                             },
                             {
                                 "name": "ジュウニヒトエ",
+                                "category": "armor",
                                 "price": 121100
                             },
                             {
                                 "name": "はなのイヤリング",
+                                "category": "item",
                                 "price": 20000
                             },
                             {
                                 "name": "しんじゅのゆびわ",
+                                "category": "accessory",
                                 "price": 25600
                             },
                             {
                                 "name": "カラクリこけし",
+                                "category": "item",
                                 "price": 5800
                             },
                             {
                                 "name": "はなのスイハンキ",
+                                "category": "item",
                                 "price": 15000
                             },
                             {
                                 "name": "はなのきんちゃく",
+                                "category": "item",
                                 "price": 36000
                             },
                             {
                                 "name": "よるのかおり",
+                                "category": "item",
                                 "price": 38000
                             }
                         ]
@@ -2252,22 +2671,27 @@
                         "product": [
                             {
                                 "name": "クサだんご",
+                                "category": "item",
                                 "price": 8
                             },
                             {
                                 "name": "まんじゅう",
+                                "category": "item",
                                 "price": 15
                             },
                             {
                                 "name": "ガマのあぶら",
+                                "category": "item",
                                 "price": 30
                             },
                             {
                                 "name": "ばんのう丸",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             }
                         ]
@@ -2288,26 +2712,32 @@
                         "product": [
                             {
                                 "name": "かがやきの太刀",
+                                "category": "weapon",
                                 "price": 97600
                             },
                             {
                                 "name": "らいめいのどう",
+                                "category": "armor",
                                 "price": 62300
                             },
                             {
                                 "name": "だいちのはおり",
+                                "category": "armor",
                                 "price": 72800
                             },
                             {
                                 "name": "光の衣",
+                                "category": "armor",
                                 "price": 92800
                             },
                             {
                                 "name": "ハヤテのわらじ",
+                                "category": "accessory",
                                 "price": 8000
                             },
                             {
                                 "name": "ハネのぞうり",
+                                "category": "accessory",
                                 "price": 10000
                             }
                         ]
@@ -2318,34 +2748,42 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "どくけし",
+                                "category": "item",
                                 "price": 10
                             },
                             {
                                 "name": "たいよう丸",
+                                "category": "item",
                                 "price": 70
                             },
                             {
                                 "name": "わすれなぐさ",
+                                "category": "item",
                                 "price": 120
                             },
                             {
                                 "name": "わさび丸",
+                                "category": "item",
                                 "price": 100
                             },
                             {
                                 "name": "マヒトリ丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "かいせき丸",
+                                "category": "item",
                                 "price": 250
                             },
                             {
                                 "name": "ばんのう丸",
+                                "category": "item",
                                 "price": 1000
                             }
                         ]
@@ -2356,26 +2794,32 @@
                         "product": [
                             {
                                 "name": "たい丹",
+                                "category": "item",
                                 "price": 1450
                             },
                             {
                                 "name": "ち丹",
+                                "category": "item",
                                 "price": 1450
                             },
                             {
                                 "name": "へん丹",
+                                "category": "item",
                                 "price": 1450
                             },
                             {
                                 "name": "れん丹",
+                                "category": "item",
                                 "price": 1450
                             },
                             {
                                 "name": "らく丹",
+                                "category": "item",
                                 "price": 1450
                             },
                             {
                                 "name": "へい丹",
+                                "category": "item",
                                 "price": 1450
                             }
                         ]
@@ -2386,26 +2830,32 @@
                         "product": [
                             {
                                 "name": "金のてっせん",
+                                "category": "weapon",
                                 "price": 132000
                             },
                             {
                                 "name": "おうごんのよろい",
+                                "category": "armor",
                                 "price": 130000
                             },
                             {
                                 "name": "むらさきずきん",
+                                "category": "accessory",
                                 "price": 5150
                             },
                             {
                                 "name": "体のオビ",
+                                "category": "accessory",
                                 "price": 50000
                             },
                             {
                                 "name": "技のオビ",
+                                "category": "accessory",
                                 "price": 100000
                             },
                             {
                                 "name": "きいろいハンケチ",
+                                "category": "accessory",
                                 "price": 3600
                             }
                         ]
@@ -2421,18 +2871,22 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "月の光",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "いのちのさけ",
+                                "category": "item",
                                 "price": 1200
                             },
                             {
                                 "name": "まよけのお守り",
+                                "category": "accessory",
                                 "price": 8000
                             }
                         ]
@@ -2443,22 +2897,27 @@
                         "product": [
                             {
                                 "name": "むらさきずきん",
+                                "category": "accessory",
                                 "price": 10300
                             },
                             {
                                 "name": "けんじゃのぼうし",
+                                "category": "accessory",
                                 "price": 18000
                             },
                             {
                                 "name": "もみじのクシ",
+                                "category": "accessory",
                                 "price": 10000
                             },
                             {
                                 "name": "かえでのクシ",
+                                "category": "accessory",
                                 "price": 15000
                             },
                             {
                                 "name": "ながれ星のクツ",
+                                "category": "accessory",
                                 "price": 20000
                             }
                         ]
@@ -2474,22 +2933,27 @@
                         "product": [
                             {
                                 "name": "ゆめのくびかざり",
+                                "category": "accessory",
                                 "price": 3000
                             },
                             {
                                 "name": "月のくびかざり",
+                                "category": "accessory",
                                 "price": 3000
                             },
                             {
                                 "name": "星のくびかざり",
+                                "category": "accessory",
                                 "price": 5000
                             },
                             {
                                 "name": "石のくびかざり",
+                                "category": "accessory",
                                 "price": 5000
                             },
                             {
                                 "name": "はなのくびかざり",
+                                "category": "accessory",
                                 "price": 7500
                             }
                         ]
@@ -2500,26 +2964,32 @@
                         "product": [
                             {
                                 "name": "かいふく丸",
+                                "category": "item",
                                 "price": 150
                             },
                             {
                                 "name": "バクチ丸",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "ばんのう丸",
+                                "category": "item",
                                 "price": 1000
                             },
                             {
                                 "name": "ビンショウざい",
+                                "category": "item",
                                 "price": 400
                             },
                             {
                                 "name": "ゾウキョウざい",
+                                "category": "item",
                                 "price": 500
                             },
                             {
                                 "name": "ガンジョウざい",
+                                "category": "item",
                                 "price": 600
                             }
                         ]
@@ -2535,30 +3005,37 @@
                         "product": [
                             {
                                 "name": "リュウ王の太刀",
+                                "category": "weapon",
                                 "price": 127000
                             },
                             {
                                 "name": "リュウ王のどう",
+                                "category": "armor",
                                 "price": 114000
                             },
                             {
                                 "name": "光の衣",
+                                "category": "armor",
                                 "price": 92800
                             },
                             {
                                 "name": "かぜのカブト",
+                                "category": "accessory",
                                 "price": 6500
                             },
                             {
                                 "name": "カミナリのカブト",
+                                "category": "accessory",
                                 "price": 6500
                             },
                             {
                                 "name": "火のカブト",
+                                "category": "accessory",
                                 "price": 6500
                             },
                             {
                                 "name": "水のカブト",
+                                "category": "accessory",
                                 "price": 6500
                             }
                         ]
@@ -2569,26 +3046,32 @@
                         "product": [
                             {
                                 "name": "むらさきずきん",
+                                "category": "accessory",
                                 "price": 10300
                             },
                             {
                                 "name": "ウメのかんざし",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "モモのかんざし",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "サクラのかんざし",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "フジのかんざし",
+                                "category": "accessory",
                                 "price": 7500
                             },
                             {
                                 "name": "もどり石",
+                                "category": "item",
                                 "price": 80
                             }
                         ]

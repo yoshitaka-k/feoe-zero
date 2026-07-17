@@ -3,6 +3,7 @@ import { withBase } from "../common/base_path.ts";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 import { shops } from "../data/shop.ts";
+import { CATEGORY_KEY_TO_VALUE } from "../../main.ts";
 
 export async function handleShop(): Promise<Response> {
   const body = await Deno.readTextFile(
@@ -23,6 +24,7 @@ export async function handleShop(): Promise<Response> {
           return `<tr>
   ${shopNameCell}
   <td>${product.name}</td>
+  <td>${CATEGORY_KEY_TO_VALUE[product.category as keyof typeof CATEGORY_KEY_TO_VALUE]}</td>
   <td class="price">${product.price}両</td>
 </tr>`;
           }).join("");
@@ -33,6 +35,7 @@ export async function handleShop(): Promise<Response> {
   <tr>
     <th>店名</th>
     <th>商品名</th>
+    <th>種類</th>
     <th>価格</th>
     </tr>
   </thead>

@@ -1,6 +1,7 @@
 import shopsJson from "../../assets/data/shop.json" with { type: "json" };
 
 export type Product = {
+  category: string;
   name: string;
   price: number;
 };

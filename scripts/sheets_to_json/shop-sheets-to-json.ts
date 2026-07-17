@@ -10,6 +10,7 @@
 
 import { join } from "@std/path";
 import { pick, runSheetImport } from "../lib/sheets-to-json.ts";
+import { CATEGORY_KVALUE_TO_KEY } from "../../main.ts";
 
 const DEFAULT_FILE = join(import.meta.dirname!, "../tsv/shop.tsv");
 
@@ -73,8 +74,10 @@ function formatShopData(records: Record<string, unknown>[]): ShopJson {
       cityNode.shop.push(shopNode);
     }
 
+    const category = pick(row, ["種類", "category"]);
     const product = {
       name: productName,
+      category: CATEGORY_KVALUE_TO_KEY[category as keyof typeof CATEGORY_KVALUE_TO_KEY],
       price: pick(row, ["値段", "price"]),
     };
     (shopNode.product as Array<Record<string, unknown>>).push(product);

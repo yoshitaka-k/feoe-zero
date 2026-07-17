@@ -12,7 +12,7 @@ export async function handleShop(): Promise<Response> {
   let navHtml = shops.map((country) => {
     return `<li><a href="${withBase("/shop")}#${country.country}">${country.country}</a></li>`;
   }).join("");
-  navHtml = `<nav class="content-nav"><ul>${navHtml}</ul></nav>`;
+  navHtml = `<nav id="content-nav" class="content-nav"><ul>${navHtml}</ul></nav>`;
 
   const shopHtml = shops.map((country) => {
     const locations = country.location.map((location) => {

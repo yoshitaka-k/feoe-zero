@@ -12,7 +12,7 @@ export async function handleEnemy(): Promise<Response> {
   let navHtml = enemies.map((country) => {
     return `<li><a href="${withBase("/enemy")}#${country.country}">${country.country}</a></li>`;
   }).join("");
-  navHtml = `<nav class="content-nav"><ul>${navHtml}</ul></nav>`;
+  navHtml = `<nav id="content-nav" class="content-nav"><ul>${navHtml}</ul></nav>`;
 
   const countryHtml = enemies.map((country) => {
     const enemyHtml = country.enemy.map((enemy) => {

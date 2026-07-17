@@ -12,7 +12,7 @@ export async function handleBoss(): Promise<Response> {
   let navHtml = bosses.map((country) => {
     return `<li><a href="${withBase("/boss")}#${country.country}">${country.country}</a></li>`;
   }).join("");
-  navHtml = `<nav><ul>${navHtml}</ul></nav>`;
+  navHtml = `<nav id="content-nav" class="content-nav"><ul>${navHtml}</ul></nav>`;
 
   const countryHtml = bosses.map((country) => {
     const bossHtml = country.boss.map((boss) => {

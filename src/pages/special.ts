@@ -12,7 +12,7 @@ export async function handleSpecial(): Promise<Response> {
   let navHtml = specials.map((character) => {
     return `<li><a href="${withBase("/special")}#${character.character}">${character.character}</a></li>`;
   }).join("");
-  navHtml = `<nav class="content-nav"><ul>${navHtml}</ul></nav>`;
+  navHtml = `<nav id="content-nav" class="content-nav"><ul>${navHtml}</ul></nav>`;
 
   const characterHtml = specials.map((character) => {
     const specialHtml = character.special.map((special) => {

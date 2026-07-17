@@ -12,7 +12,7 @@ export async function handleHermit(): Promise<Response> {
   let navHtml = hermits.map((country) => {
     return `<li><a href="${withBase("/hermit")}#${country.country}">${country.country}</a></li>`;
   }).join("");
-  navHtml = `<nav class="content-nav"><ul>${navHtml}</ul></nav>`;
+  navHtml = `<nav id="content-nav" class="content-nav"><ul>${navHtml}</ul></nav>`;
 
   const countryHtml = hermits.map((country) => {
     const hermitHtml = country.hermit.map((hermit) => {

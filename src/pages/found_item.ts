@@ -12,7 +12,7 @@ export async function handleFoundItem(): Promise<Response> {
   let navHtml = foundItems.map((country) => {
     return `<li><a href="${withBase("/found_item")}#${country.country}">${country.country}</a></li>`;
   }).join("");
-  navHtml = `<nav class="content-nav"><ul>${navHtml}</ul></nav>`;
+  navHtml = `<nav id="content-nav" class="content-nav"><ul>${navHtml}</ul></nav>`;
 
   const countryHtml = foundItems.map((country) => {
     const foundItemHtml = country.foundItem.map((foundItem) => {

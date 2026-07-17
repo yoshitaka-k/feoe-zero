@@ -1,4 +1,49 @@
 (() => {
+  // コンテント要素のID
+  const NAV_ID = "header-nav";
+  const CONTENT_NAV_ID = "content-nav";
+
+  // コンテント要素を取得
+  function navEl() {
+    return document.getElementById(NAV_ID);
+  }
+  function contentNavEl() {
+    return document.getElementById(CONTENT_NAV_ID);
+  }
+
+  // コンテントナビゲーションを更新
+  function updateContentNav() {
+    const nav = navEl();
+    const contentNav = contentNavEl();
+    if (!nav || !contentNav) return;
+
+    const dpr = window.devicePixelRatio || 1;
+    const h = Math.ceil(nav.getBoundingClientRect().height * dpr) / dpr;
+
+    contentNav.style.setProperty("top", `${h}px`);
+  }
+
+  // ロード時に更新
+  window.addEventListener("load", () => {
+    updateContentNav();
+  });
+
+  // リサイズ時に更新
+  window.addEventListener("resize", () => {
+    updateContentNav();
+  });
+
+  // スクロール時に更新
+  window.addEventListener("scroll", () => {
+    updateContentNav();
+  });
+})();
+
+/**
+ * ページ遷移の制御
+ */
+(() => {
+  // コンテント要素のID
   const CONTENT_ID = "page-content";
 
   // コンテント要素を取得
@@ -36,9 +81,11 @@
     const current = contentEl();
     if (!next || !current) return false;
 
+    // コンテント要素を置き換え
     current.replaceWith(next);
     document.title = doc.title || document.title;
 
+    // ハッシュがある場合はスクロールを移動
     if (url.hash) {
       const id = decodeURIComponent(url.hash.slice(1));
       const target = document.getElementById(id);
@@ -48,7 +95,9 @@
       }
     }
 
+    // スクロールを移動
     window.scrollTo(0, 0);
+
     return true;
   }
 
@@ -74,6 +123,7 @@
     const html = await res.text();
     const doc = new DOMParser().parseFromString(html, "text/html");
 
+    // ページを遷移
     const apply = () => {
       if (!updateDocument(doc, url)) {
         location.assign(url.href);
@@ -85,6 +135,7 @@
       trackPageView(url);
     };
 
+    // ビュートランジションが利用可能な場合は使用
     if (document.startViewTransition) {
       await document.startViewTransition(apply).finished.catch(() => {});
     } else {

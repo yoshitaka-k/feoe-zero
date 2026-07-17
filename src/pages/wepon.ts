@@ -12,6 +12,7 @@ export async function handleWepon(): Promise<Response> {
     const targetCell = wepon.target.replaceAll(",", "、");
     const effectCell = wepon.effect != null ? wepon.effect : "--";
     const priceCell = wepon.price != null ? `${wepon.price.toLocaleString("ja-JP")}両` : "--";
+    const noteCell = wepon.note ? wepon.note : "--";
 
     return `<tr>
   <td>${wepon.name}</td>
@@ -19,6 +20,7 @@ export async function handleWepon(): Promise<Response> {
   <td>${targetCell}</td>
   <td>${effectCell}</td>
   <td class="price">${priceCell}</td>
+  <td>${noteCell}</td>
 </tr>`;
   }).join("");
 
@@ -30,6 +32,7 @@ export async function handleWepon(): Promise<Response> {
     <th>対象</th>
     <th>効果</th>
     <th>価格</th>
+    <th>備考</th>
   </tr>
 </thead>
 <tbody>

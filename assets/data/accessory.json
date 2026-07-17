@@ -4,657 +4,751 @@
         "power": "防7",
         "target": "スバル",
         "effect": null,
-        "price": 540
+        "price": 540,
+        "note": null
     },
     {
         "name": "くろずきん",
         "power": "防14",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 6200
+        "price": 6200,
+        "note": null
     },
     {
         "name": "むらさきずきん",
         "power": "防23",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 10300
+        "price": 10300,
+        "note": null
     },
     {
         "name": "ネコみみずきん",
         "power": "防2、早1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "直接攻撃回避率アップ",
-        "price": 22222
+        "price": 22222,
+        "note": null
     },
     {
         "name": "ぼうさいずきん",
         "power": "防3",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 9800
+        "price": 9800,
+        "note": null
     },
     {
         "name": "アヤしいかめん",
         "power": "運18",
         "target": "ヒガン,スバル,テンジン",
         "effect": "攻撃してきた敵に混乱効果",
-        "price": 17200
+        "price": 17200,
+        "note": null
     },
     {
         "name": "おかんむり",
         "power": "防18",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 2222
+        "price": 2222,
+        "note": null
     },
     {
         "name": "しるくはっと",
         "power": "防10",
         "target": "ヒガン,テンジン",
         "effect": "イカす +1",
-        "price": 4444
+        "price": 4444,
+        "note": null
     },
     {
         "name": "えんにちのおめん",
         "power": "運8",
         "target": "ヒガン,スバル,テンジン",
         "effect": "イカす -1",
-        "price": 340
+        "price": 340,
+        "note": null
     },
     {
         "name": "ヒョットコのめん",
         "power": "運12",
         "target": "ヒガン,スバル,テンジン",
         "effect": "イカす -1",
-        "price": 460
+        "price": 460,
+        "note": null
     },
     {
         "name": "オカメのめん",
         "power": "運18",
         "target": "ヒガン,スバル,テンジン",
         "effect": "イカす -1",
-        "price": 680
+        "price": 680,
+        "note": null
     },
     {
         "name": "トリのカブト",
         "power": "防1",
         "target": "ヒガン,テンジン",
         "effect": "攻撃してきた敵に毒効果",
-        "price": 666
+        "price": 666,
+        "note": null
     },
     {
         "name": "火のカブト",
         "power": "防2",
         "target": "ヒガン,テンジン",
         "effect": "火系術を受けるダメージを75%に減らす",
-        "price": 6500
+        "price": 6500,
+        "note": null
     },
     {
         "name": "水のカブト",
         "power": "防2",
         "target": "ヒガン,テンジン",
         "effect": "水系術を受けるダメージを75%に減らす",
-        "price": 6500
+        "price": 6500,
+        "note": null
     },
     {
         "name": "かぜのカブト",
         "power": "防2",
         "target": "ヒガン,テンジン",
         "effect": "風系術を受けるダメージを75%に減らす",
-        "price": 6500
+        "price": 6500,
+        "note": null
     },
     {
         "name": "カミナリのカブト",
         "power": "防2",
         "target": "ヒガン,テンジン",
         "effect": "雷系術を受けるダメージを75%に減らす",
-        "price": 6500
+        "price": 6500,
+        "note": null
     },
     {
         "name": "てつカブト",
         "power": "防8",
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 500
+        "price": 500,
+        "note": null
     },
     {
         "name": "サ金のカマ",
         "power": "防2",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 500
+        "price": 500,
+        "note": null
     },
     {
         "name": "サクラのかんざし",
         "power": "防1",
         "target": "スバル",
         "effect": "火系術を受けるダメージを75%に減らす",
-        "price": 7500
+        "price": 7500,
+        "note": null
     },
     {
         "name": "フジのかんざし",
         "power": "防1",
         "target": "スバル",
         "effect": "水系術を受けるダメージを75%に減らす",
-        "price": 7500
+        "price": 7500,
+        "note": null
     },
     {
         "name": "ウメのかんざし",
         "power": "防1",
         "target": "スバル",
         "effect": "風系術を受けるダメージを75%に減らす",
-        "price": 7500
+        "price": 7500,
+        "note": null
     },
     {
         "name": "モモのかんざし",
         "power": "防1",
         "target": "スバル",
         "effect": "雷系術を受けるダメージを75%に減らす",
-        "price": 7500
+        "price": 7500,
+        "note": null
     },
     {
         "name": "もみじのクシ",
         "power": "防1",
         "target": "スバル",
         "effect": "戦闘終了後、体50回復",
-        "price": 10000
+        "price": 10000,
+        "note": null
     },
     {
         "name": "かえでのクシ",
         "power": "防1",
         "target": "スバル",
         "effect": "戦闘終了後、技50回復",
-        "price": 15000
+        "price": 15000,
+        "note": null
     },
     {
         "name": "けんじゃのぼうし",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "技消費量が10%減る",
-        "price": 18000
+        "price": 18000,
+        "note": null
     },
     {
         "name": "ニソクノワラジ",
         "power": "早1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "1ターン2回攻撃（ダメージ半分）",
-        "price": 44444
+        "price": 44444,
+        "note": null
     },
     {
         "name": "ワラのぞうり",
         "power": "早2",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 48
+        "price": 48,
+        "note": null
     },
     {
         "name": "ヒメのたかゲタ",
         "power": "早2",
         "target": "スバル",
         "effect": "20%の確率で道具を盗む",
-        "price": 19800
+        "price": 19800,
+        "note": null
     },
     {
         "name": "たびびとのわらじ",
         "power": "早5",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 650
+        "price": 650,
+        "note": null
     },
     {
         "name": "じかたび",
         "power": "早9",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 750
+        "price": 750,
+        "note": null
     },
     {
         "name": "キヌのたび",
         "power": "早12",
         "target": "スバル",
         "effect": null,
-        "price": 1200
+        "price": 1200,
+        "note": null
     },
     {
         "name": "ハヤテのわらじ",
         "power": "早15",
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 8000
+        "price": 8000,
+        "note": null
     },
     {
         "name": "モモのぞうり",
         "power": "早18",
         "target": "スバル",
         "effect": null,
-        "price": 6000
+        "price": 6000,
+        "note": null
     },
     {
         "name": "ながれ星のクツ",
         "power": "早20",
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 20000
+        "price": 20000,
+        "note": null
     },
     {
         "name": "ハネのぞうり",
         "power": "早24",
         "target": "スバル",
         "effect": null,
-        "price": 10000
+        "price": 10000,
+        "note": null
     },
     {
         "name": "てつゲタ",
         "power": "攻2、早-5",
         "target": "ヒガン,テンジン",
         "effect": "会心の一撃率アップ",
-        "price": 1200
+        "price": 1200,
+        "note": null
     },
     {
         "name": "ぶつブーツ",
         "power": "攻16",
         "target": "ヒガン,テンジン",
         "effect": "常に混乱状態",
-        "price": 2222
+        "price": 2222,
+        "note": null
     },
     {
         "name": "たかゲタ",
         "power": "運14",
         "target": "ヒガン,スバル,テンジン",
         "effect": "イカす +1",
-        "price": 900
+        "price": 900,
+        "note": null
     },
     {
         "name": "あんぜんナガグツ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "毒沼の無効",
-        "price": 5000
+        "price": 5000,
+        "note": null
     },
     {
         "name": "かんじき",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "氷の上を滑らずに歩ける",
-        "price": 2
+        "price": 2,
+        "note": null
     },
     {
         "name": "はなのくびかざり",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "毒防止",
-        "price": 7500
+        "price": 7500,
+        "note": null
     },
     {
         "name": "石のくびかざり",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "石化防止",
-        "price": 5000
+        "price": 5000,
+        "note": null
     },
     {
         "name": "星のくびかざり",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "忘れ防止",
-        "price": 5000
+        "price": 5000,
+        "note": null
     },
     {
         "name": "月のくびかざり",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "マヒ、かすみ防止",
-        "price": 3000
+        "price": 3000,
+        "note": null
     },
     {
         "name": "ゆめのくびかざり",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "混乱、眠り防止",
-        "price": 3000
+        "price": 3000,
+        "note": null
     },
     {
         "name": "あいのくびかざり",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "全ての状態異常を防止",
-        "price": null
+        "price": null,
+        "note": "玉手ばこ"
     },
     {
         "name": "火のゆびわ",
         "power": "攻1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "火系術のダメージが1.5倍に",
-        "price": 10300
+        "price": 10300,
+        "note": null
     },
     {
         "name": "水のゆびわ",
         "power": "攻1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "水系術のダメージが1.5倍に",
-        "price": 10300
+        "price": 10300,
+        "note": null
     },
     {
         "name": "かぜのゆびわ",
         "power": "攻1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "風系術のダメージが1.5倍に",
-        "price": 10300
+        "price": 10300,
+        "note": null
     },
     {
         "name": "カミナリのゆびわ",
         "power": "攻1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "雷系術のダメージが1.5倍に",
-        "price": 10300
+        "price": 10300,
+        "note": null
     },
     {
         "name": "カラクリのゆびわ",
         "power": "攻1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "20%の確率で受けた術ダメージを反射",
-        "price": 104000
+        "price": 104000,
+        "note": null
     },
     {
         "name": "さばきのゆびわ",
         "power": "攻1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "先制攻撃率アップ",
-        "price": 9800
+        "price": 9800,
+        "note": null
     },
     {
         "name": "ほろびのゆびわ",
         "power": "攻2",
         "target": "ヒガン,スバル,テンジン",
         "effect": "直接攻撃に毒効果追加",
-        "price": 3600
+        "price": 3600,
+        "note": null
     },
     {
         "name": "やすらぎのゆびわ",
         "power": "攻2",
         "target": "ヒガン,スバル,テンジン",
         "effect": "直接攻撃に眠り効果追加",
-        "price": 4800
+        "price": 4800,
+        "note": null
     },
     {
         "name": "ゆうわくのゆびわ",
         "power": "攻2",
         "target": "ヒガン,スバル,テンジン",
         "effect": "直接攻撃に混乱効果追加",
-        "price": 2200
+        "price": 2200,
+        "note": null
     },
     {
         "name": "よろめきのゆびわ",
         "power": "攻2",
         "target": "ヒガン,スバル,テンジン",
         "effect": "直接攻撃にかすみ効果追加",
-        "price": 1400
+        "price": 1400,
+        "note": null
     },
     {
         "name": "しんじゅのゆびわ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "イカす +2",
-        "price": 25600
+        "price": 25600,
+        "note": null
     },
     {
         "name": "しあわせのゆびわ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "歩くたびに体技回復",
-        "price": 99800
+        "price": 99800,
+        "note": null
     },
     {
         "name": "たましいのゆびわ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "死亡時に身代わりになってくれる",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "力のこて",
         "power": "攻5",
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 580
+        "price": 580,
+        "note": null
     },
     {
         "name": "カギツメのこて",
         "power": "攻12",
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 4500
+        "price": 4500,
+        "note": null
     },
     {
         "name": "ヤイバのこて",
         "power": "攻18",
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 8200
+        "price": 8200,
+        "note": null
     },
     {
         "name": "けんしのうでわ",
         "power": "攻5",
         "target": "ヒガン",
         "effect": null,
-        "price": null
+        "price": null,
+        "note": "火影村"
     },
     {
         "name": "火のうでわ",
         "power": "防2",
         "target": "ヒガン,スバル,テンジン",
         "effect": "火系攻撃のダメージを20%吸収",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "水のうでわ",
         "power": "防2",
         "target": "ヒガン,スバル,テンジン",
         "effect": "水系攻撃のダメージを20%吸収",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "かぜのうでわ",
         "power": "防2",
         "target": "ヒガン,スバル,テンジン",
         "effect": "風系攻撃のダメージを20%吸収",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "カミナリのうでわ",
         "power": "防2",
         "target": "ヒガン,スバル,テンジン",
         "effect": "雷系攻撃のダメージを20%吸収",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "王のうでわ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "全属性攻撃のダメージを20%吸収",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "力のオビ",
         "power": "攻3",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 480
+        "price": 480,
+        "note": null
     },
     {
         "name": "守りのオビ",
         "power": "防8",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 1200
+        "price": 1200,
+        "note": null
     },
     {
         "name": "体のオビ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "最大体が50増える",
-        "price": 100000
+        "price": 100000,
+        "note": null
     },
     {
         "name": "技のオビ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "最大技が50増える",
-        "price": 200000
+        "price": 200000,
+        "note": null
     },
     {
         "name": "木のせんす",
         "power": "運8",
         "target": "ヒガン,スバル,テンジン",
         "effect": "20%の確率で受けた物理ダメージを反射",
-        "price": 7600
+        "price": 7600,
+        "note": null
     },
     {
         "name": "こうてつのせんす",
         "power": "運11",
         "target": "ヒガン,スバル,テンジン",
         "effect": "20%の確率で受けた物理ダメージを倍返し",
-        "price": 68000
+        "price": 68000,
+        "note": null
     },
     {
         "name": "白いハンケチ",
         "power": "早1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "物理攻撃回避率アップ",
-        "price": 1640
+        "price": 1640,
+        "note": null
     },
     {
         "name": "水玉ハンケチ",
         "power": "早1",
         "target": "ヒガン,スバル,テンジン",
         "effect": "術攻撃回避率アップ",
-        "price": 2860
+        "price": 2860,
+        "note": null
     },
     {
         "name": "きいろいハンケチ",
         "power": "早2、運12",
         "target": "ヒガン,スバル,テンジン",
         "effect": "直接&術攻撃回避率アップ",
-        "price": 7200
+        "price": 7200,
+        "note": null
     },
     {
         "name": "マゴの手",
         "power": "運10",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 500
+        "price": 500,
+        "note": null
     },
     {
         "name": "まよけのお守り",
         "power": "運15",
         "target": "ヒガン,スバル,テンジン",
         "effect": "敵の出現率を減少",
-        "price": 8000
+        "price": 8000,
+        "note": null
     },
     {
         "name": "金バッチ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "術封印（自分で外せない）",
-        "price": 20000
+        "price": 20000,
+        "note": null
     },
     {
         "name": "くうきぶくろ",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "水中に潜れる時間を5秒長くする",
-        "price": 5000
+        "price": 5000,
+        "note": null
     },
     {
         "name": "ヒグマの石",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "物理攻撃が100%成功",
-        "price": null
+        "price": null,
+        "note": "火熊神社"
     },
     {
         "name": "クジャクの石",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "技消費量が20%減る",
-        "price": null
+        "price": null,
+        "note": "孔雀神社"
     },
     {
         "name": "ツルの石",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "体技が毎ターン12回復",
-        "price": null
+        "price": null,
+        "note": "鶴見神社"
     },
     {
         "name": "カメの石",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "戦闘で獲得できる金が倍",
-        "price": null
+        "price": null,
+        "note": "亀岡神社"
     },
     {
         "name": "イヌガミの石",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "直接攻撃に対し20%の確率で反撃",
-        "price": null
+        "price": null,
+        "note": "犬神神社"
     },
     {
         "name": "リュウの石",
         "power": "攻24、防24、早24、運24",
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": null
+        "price": null,
+        "note": "竜神神社"
     },
     {
         "name": "ヒスイのゆびわ",
         "power": null,
         "target": "ヒガン",
         "effect": "スバルを呼び寄せる",
-        "price": null
+        "price": null,
+        "note": "氷山村"
     },
     {
         "name": "ツルのはごろも",
         "power": null,
         "target": "ヒガン,スバル,テンジン",
         "effect": "まぼろし城を発見",
-        "price": null
+        "price": null,
+        "note": "鶴見神社"
     },
     {
         "name": "クソだらけのめん",
         "power": "防11",
         "target": "ヒガン,スバル,テンジン",
         "effect": "イカす -1",
-        "price": 1000
+        "price": 1000,
+        "note": null
     },
     {
         "name": "クソったれカブト",
         "power": "防14",
         "target": "ヒガン,スバル,テンジン",
         "effect": "イカす -1",
-        "price": 1000
+        "price": 1000,
+        "note": null
     },
     {
         "name": "クソふんだクツ",
         "power": "早8",
         "target": "ヒガン,スバル,テンジン",
         "effect": "イカす -1",
-        "price": 1111
+        "price": 1111,
+        "note": null
     },
     {
         "name": "カニのカブト",
         "power": "防14",
         "target": "ヒガン",
         "effect": null,
-        "price": null
+        "price": null,
+        "note": "亀岡神社"
     },
     {
         "name": "クリのお守り",
         "power": "運30",
         "target": "ヒガン",
         "effect": null,
-        "price": 720
+        "price": 720,
+        "note": null
     }
 ]

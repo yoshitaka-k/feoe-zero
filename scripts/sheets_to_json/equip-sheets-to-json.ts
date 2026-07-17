@@ -30,6 +30,7 @@ function formatEquipData(records: Record<string, unknown>[]): EquipJson {
       target: pick(row, ["対象", "target"]),
       effect: pick(row, ["効果", "effect"]),
       price: pick(row, ["値段", "price"]),
+      note: pick(row, ["備考", "note"]),
     };
 
     result.push(product);

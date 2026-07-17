@@ -16,10 +16,12 @@ export async function handleArmor(): Promise<Response> {
     const targetCell = armor.target.replaceAll(",", "、");
     const effectCell = armor.effect != null ? armor.effect : "--";
     const priceCell = armor.price != null ? `${armor.price.toLocaleString("ja-JP")}両` : "--";
+    const noteCell = armor.note ? armor.note : "--";
 
     const collCell = armor.name == rowSpanTdArmor ? "rowspan=4" : "";
     const tdPowerCell = rowSpanTdArmors.includes(armor.name) ? `` : `<td ${collCell}>${powerCell}</td>`;
     const tdEffectCell = rowSpanTdArmors.includes(armor.name) ? `` : `<td ${collCell}>${effectCell}</td>`;
+    const tdNoteCell = rowSpanTdArmors.includes(armor.name) ? `` : `<td ${collCell}>${noteCell}</td>`;
 
     return `<tr>
   <td>${armor.name}</td>
@@ -27,6 +29,7 @@ export async function handleArmor(): Promise<Response> {
   <td>${targetCell}</td>
   ${tdEffectCell}
   <td class="price">${priceCell}</td>
+  ${tdNoteCell}
 </tr>`;
   }).join("");
 
@@ -38,6 +41,7 @@ export async function handleArmor(): Promise<Response> {
     <th>対象</th>
     <th>効果</th>
     <th>価格</th>
+    <th>備考</th>
   </tr>
 </thead>
 <tbody>

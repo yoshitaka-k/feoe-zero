@@ -13,6 +13,7 @@ export async function handleAccessory(): Promise<Response> {
     const targetCell = accessory.target.replaceAll(",", "、");
     const effectCell = accessory.effect != null ? accessory.effect : "--";
     const priceCell = accessory.price != null ? `${accessory.price.toLocaleString("ja-JP")}両` : "--";
+    const noteCell = accessory.note ? accessory.note : "--";
 
     return `<tr>
   <td>${accessory.name}</td>
@@ -20,6 +21,7 @@ export async function handleAccessory(): Promise<Response> {
   <td>${targetCell}</td>
   <td>${effectCell}</td>
   <td class="price">${priceCell}</td>
+  <td>${noteCell}</td>
 </tr>`;
   }).join("");
 
@@ -31,6 +33,7 @@ export async function handleAccessory(): Promise<Response> {
     <th>対象</th>
     <th>効果</th>
     <th>価格</th>
+    <th>備考</th>
   </tr>
 </thead>
 <tbody>

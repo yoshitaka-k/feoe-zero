@@ -4,321 +4,367 @@
         "power": "攻20,防260,早20,運20",
         "target": "ヒガン",
         "effect": "全て装備しないと効果なし",
-        "price": null
+        "price": null,
+        "note": "孔雀神社・出合い茶屋、まりな"
     },
     {
         "name": "手あみのぼうし",
         "power": "攻20,防260,早20,運20",
         "target": "ヒガン",
         "effect": "全て装備しないと効果なし",
-        "price": null
+        "price": null,
+        "note": "孔雀神社・出合い茶屋、まりな"
     },
     {
         "name": "手あみの手ぶくろ",
         "power": "攻20,防260,早20,運20",
         "target": "ヒガン",
         "effect": "全て装備しないと効果なし",
-        "price": null
+        "price": null,
+        "note": "孔雀神社・出合い茶屋、まりな"
     },
     {
         "name": "手あみのえりまき",
         "power": "攻20,防260,早20,運20",
         "target": "ヒガン",
         "effect": "全て装備しないと効果なし",
-        "price": null
+        "price": null,
+        "note": "孔雀神社・出合い茶屋、まりな"
     },
     {
         "name": "ボロぎ",
         "power": 15,
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 48
+        "price": 48,
+        "note": null
     },
     {
         "name": "あさのふく",
         "power": 28,
         "target": "ヒガン,スバル,テンジン",
         "effect": null,
-        "price": 72
+        "price": 72,
+        "note": null
     },
     {
         "name": "かわのむねあて",
         "power": 39,
         "target": "ヒガン",
         "effect": null,
-        "price": 198
+        "price": 198,
+        "note": null
     },
     {
         "name": "ニニンバオリ",
         "power": 48,
         "target": "ヒガン",
         "effect": "時々1ターン2回攻撃",
-        "price": 44444
+        "price": 44444,
+        "note": null
     },
     {
         "name": "ヒスイの衣",
         "power": 52,
         "target": "スバル",
         "effect": null,
-        "price": 530
+        "price": 530,
+        "note": null
     },
     {
         "name": "しのびのふく",
         "power": 59,
         "target": "ヒガン,スバル",
         "effect": null,
-        "price": 820
+        "price": 820,
+        "note": null
     },
     {
         "name": "スケスケのふく",
         "power": 74,
         "target": "スバル",
         "effect": "直接攻撃回避率アップ",
-        "price": 5555
+        "price": 5555,
+        "note": null
     },
     {
         "name": "クサリかたびら",
         "power": 78,
         "target": "ヒガン",
         "effect": null,
-        "price": 640
+        "price": 640,
+        "note": null
     },
     {
         "name": "そうりょのふく",
         "power": 84,
         "target": "ヒガン",
         "effect": "技消費量が５％減る",
-        "price": 1200
+        "price": 1200,
+        "note": null
     },
     {
         "name": "イナセなきもの",
         "power": 88,
         "target": "ヒガン",
         "effect": "イカす +1",
-        "price": 1680
+        "price": 1680,
+        "note": null
     },
     {
         "name": "キノコのよろい",
         "power": 88,
         "target": "ヒガン",
         "effect": "使うと良悪の効果",
-        "price": 999
+        "price": 999,
+        "note": null
     },
     {
         "name": "オトメのふりそで",
         "power": 89,
         "target": "スバル",
         "effect": "使うと元気の効果",
-        "price": 4900
+        "price": 4900,
+        "note": null
     },
     {
         "name": "スズのあかどう",
         "power": 92,
         "target": "ヒガン,スバル",
         "effect": null,
-        "price": 1400
+        "price": 1400,
+        "note": null
     },
     {
         "name": "火よけの衣",
         "power": 96,
         "target": "ヒガン,スバル,テンジン",
         "effect": "火の攻撃に強い",
-        "price": 2540
+        "price": 2540,
+        "note": null
     },
     {
         "name": "チャイナドレス",
         "power": 98,
         "target": "スバル",
         "effect": "素早さ40",
-        "price": 7200
+        "price": 7200,
+        "note": null
     },
     {
         "name": "コノハのはおり",
         "power": 103,
         "target": "ヒガン",
         "effect": null,
-        "price": 3200
+        "price": 3200,
+        "note": null
     },
     {
         "name": "おうごんのよろい",
         "power": 108,
         "target": "ヒガン",
         "effect": null,
-        "price": 260000
+        "price": 260000,
+        "note": null
     },
     {
         "name": "こんじょうのどう",
         "power": 113,
         "target": "ヒガン",
         "effect": null,
-        "price": 6200
+        "price": 6200,
+        "note": null
     },
     {
         "name": "アオバのはおり",
         "power": 121,
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 7000
+        "price": 7000,
+        "note": null
     },
     {
         "name": "キリの衣",
         "power": 128,
         "target": "スバル,テンジン",
         "effect": null,
-        "price": 8400
+        "price": 8400,
+        "note": null
     },
     {
         "name": "ヒメさまのふく",
         "power": 132,
         "target": "スバル",
         "effect": "イカす +1",
-        "price": 26700
+        "price": 26700,
+        "note": null
     },
     {
         "name": "ギンのもんつき",
         "power": 138,
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 8800
+        "price": 8800,
+        "note": null
     },
     {
         "name": "かがみの衣",
         "power": 138,
         "target": "テンジン",
         "effect": null,
-        "price": null
+        "price": null,
+        "note": "テンジン初期"
     },
     {
         "name": "こんばんどう？",
         "power": 145,
         "target": "ヒガン,テンジン",
         "effect": "攻撃してきた敵に混乱効果",
-        "price": 22222
+        "price": 22222,
+        "note": null
     },
     {
         "name": "カスミの衣",
         "power": 149,
         "target": "スバル,テンジン",
         "effect": null,
-        "price": 17800
+        "price": 17800,
+        "note": null
     },
     {
         "name": "ゆうひのどう",
         "power": 155,
         "target": "ヒガン",
         "effect": null,
-        "price": 25600
+        "price": 25600,
+        "note": null
     },
     {
         "name": "ハクライのはおり",
         "power": 167,
         "target": "ヒガン,テンジン",
         "effect": "イカす +1",
-        "price": 8888
+        "price": 8888,
+        "note": null
     },
     {
         "name": "おもいでのきもの",
         "power": 167,
         "target": "スバル",
         "effect": null,
-        "price": 19400
+        "price": 19400,
+        "note": null
     },
     {
         "name": "そよかぜの衣",
         "power": 180,
         "target": "スバル,テンジン",
         "effect": null,
-        "price": 31700
+        "price": 31700,
+        "note": null
     },
     {
         "name": "星くずのはおり",
         "power": 183,
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 40000
+        "price": 40000,
+        "note": null
     },
     {
         "name": "らいめいのどう",
         "power": 197,
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 62300
+        "price": 62300,
+        "note": null
     },
     {
         "name": "よつゆの衣",
         "power": 198,
         "target": "スバル,テンジン",
         "effect": "使うと非力の効果",
-        "price": 48000
+        "price": 48000,
+        "note": null
     },
     {
         "name": "ジュウニヒトエ",
         "power": 210,
         "target": "スバル",
         "effect": "素早さ -120",
-        "price": 121100
+        "price": 121100,
+        "note": null
     },
     {
         "name": "だいちのはおり",
         "power": 211,
         "target": "ヒガン,テンジン",
         "effect": null,
-        "price": 72800
+        "price": 72800,
+        "note": null
     },
     {
         "name": "てんしのふりそで",
         "power": 216,
         "target": "スバル",
         "effect": null,
-        "price": 54900
+        "price": 54900,
+        "note": null
     },
     {
         "name": "リュウ王のどう",
         "power": 223,
         "target": "ヒガン",
         "effect": null,
-        "price": 114000
+        "price": 114000,
+        "note": null
     },
     {
         "name": "カイキのよろい",
         "power": 230,
         "target": "ヒガン",
         "effect": "攻撃力 -98",
-        "price": null
+        "price": null,
+        "note": "怪樹城"
     },
     {
         "name": "水かがみのどう",
         "power": 231,
         "target": "テンジン",
         "effect": null,
-        "price": null
+        "price": null,
+        "note": "かがみ村"
     },
     {
         "name": "光の衣",
         "power": 233,
         "target": "スバル",
         "effect": null,
-        "price": 92800
+        "price": 92800,
+        "note": null
     },
     {
         "name": "ツルギのよろい",
         "power": 238,
         "target": "ヒガン",
         "effect": null,
-        "price": null
+        "price": null,
+        "note": "かたな村"
     },
     {
         "name": "玉星の衣",
         "power": 249,
         "target": "スバル",
         "effect": null,
-        "price": null
+        "price": null,
+        "note": "たまつくり村"
     },
     {
         "name": "ウスのよろい",
         "power": "防60",
         "target": "ヒガン",
         "effect": null,
-        "price": null
+        "price": null,
+        "note": "孔雀神社の祭り、犬神神社の祭りなど"
     }
 ]

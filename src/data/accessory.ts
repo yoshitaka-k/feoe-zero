@@ -6,6 +6,7 @@ export type Accessory = {
   target: string;
   effect: string;
   price: number;
+  note: string;
 };
 
 export const accessories = accessoryJson as unknown as Accessory[];

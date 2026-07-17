@@ -77,7 +77,7 @@
 
   // ドキュメントを更新
   function updateDocument(doc, url) {
-    const next = $doc.getElementById(CONTENT_ID);
+    const next = doc.getElementById(CONTENT_ID);
     const current = contentEl();
     if (!next || !current) return false;
 

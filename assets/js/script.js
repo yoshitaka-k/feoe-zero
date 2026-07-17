@@ -1,14 +1,14 @@
-((win, doc) => {
+(($win, $doc) => {
   // コンテント要素のID
   const NAV_ID = "header-nav";
   const CONTENT_NAV_ID = "content-nav";
 
   // コンテント要素を取得
   function navEl() {
-    return doc.getElementById(NAV_ID);
+    return $doc.getElementById(NAV_ID);
   }
   function contentNavEl() {
-    return doc.getElementById(CONTENT_NAV_ID);
+    return $doc.getElementById(CONTENT_NAV_ID);
   }
 
   // コンテントナビゲーションを更新
@@ -17,24 +17,24 @@
     const contentNav = contentNavEl();
     if (!nav || !contentNav) return;
 
-    const dpr = win.devicePixelRatio || 1;
+    const dpr = $win.devicePixelRatio || 1;
     const h = Math.ceil(nav.getBoundingClientRect().height * dpr) / dpr;
 
     contentNav.style.setProperty("top", `${h}px`);
   }
 
   // ロード時に更新
-  win.addEventListener("load", () => {
+  $win.addEventListener("load", () => {
     updateContentNav();
   });
 
   // リサイズ時に更新
-  win.addEventListener("resize", () => {
+  $win.addEventListener("resize", () => {
     updateContentNav();
   });
 
   // スクロール時に更新
-  win.addEventListener("scroll", () => {
+  $win.addEventListener("scroll", () => {
     updateContentNav();
   });
 })(window, document);
@@ -42,13 +42,13 @@
 /**
  * ページ遷移の制御
  */
-((win, doc) => {
+(($win, $doc) => {
   // コンテント要素のID
   const CONTENT_ID = "page-content";
 
   // コンテント要素を取得
   function contentEl() {
-    return doc.getElementById(CONTENT_ID);
+    return $doc.getElementById(CONTENT_ID);
   }
 
   // 同じドキュメントかどうかを判断
@@ -77,18 +77,18 @@
 
   // ドキュメントを更新
   function updateDocument(doc, url) {
-    const next = doc.getElementById(CONTENT_ID);
+    const next = $doc.getElementById(CONTENT_ID);
     const current = contentEl();
     if (!next || !current) return false;
 
     // コンテント要素を置き換え
     current.replaceWith(next);
-    doc.title = doc.title || doc.title;
+    $doc.title = doc.title || $doc.title;
 
     // ハッシュがある場合はスクロールを移動
     if (url.hash) {
       const id = decodeURIComponent(url.hash.slice(1));
-      const target = doc.getElementById(id);
+      const target = $doc.getElementById(id);
       if (target) {
         target.scrollIntoView();
         return true;
@@ -96,7 +96,7 @@
     }
 
     // スクロールを移動
-    win.scrollTo(0, 0);
+    $win.scrollTo(0, 0);
 
     return true;
   }
@@ -121,11 +121,11 @@
     }
 
     const html = await res.text();
-    const newDoc = new DOMParser().parseFromString(html, "text/html");
+    const doc = new DOMParser().parseFromString(html, "text/html");
 
     // ページを遷移
     const apply = () => {
-      if (!updateDocument(newDoc, url)) {
+      if (!updateDocument(doc, url)) {
         location.assign(url.href);
         return;
       }
@@ -136,15 +136,15 @@
     };
 
     // ビュートランジションが利用可能な場合は使用
-    if (doc.startViewTransition) {
-      await doc.startViewTransition(apply).finished.catch(() => {});
+    if ($doc.startViewTransition) {
+      await $doc.startViewTransition(apply).finished.catch(() => {});
     } else {
       apply();
     }
   }
 
   // リンクをクリックしたときに処理を行う
-  doc.addEventListener("click", (event) => {
+  $doc.addEventListener("click", (event) => {
     const anchor = event.target.closest("a[href]");
     if (!anchor || !shouldIntercept(event, anchor)) return;
 
@@ -154,7 +154,7 @@
   });
 
   // ブラウザの戻るボタンを押したときに処理を行う
-  win.addEventListener("popstate", () => {
+  $win.addEventListener("popstate", () => {
     navigate(new URL(location.href), { push: false }).catch(() => {
       location.reload();
     });

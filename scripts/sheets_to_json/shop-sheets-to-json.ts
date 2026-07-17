@@ -10,7 +10,7 @@
 
 import { join } from "@std/path";
 import { pick, runSheetImport } from "../lib/sheets-to-json.ts";
-import { CATEGORY_KVALUE_TO_KEY } from "../../main.ts";
+import { CATEGORY_KVALUE_TO_KEY } from "../../src/data/category.ts";
 
 const DEFAULT_FILE = join(import.meta.dirname!, "../tsv/shop.tsv");
 

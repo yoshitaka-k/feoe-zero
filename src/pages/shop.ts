@@ -3,7 +3,7 @@ import { withBase } from "../common/base_path.ts";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 import { shops } from "../data/shop.ts";
-import { CATEGORY_KEY_TO_VALUE } from "../../main.ts";
+import { CATEGORY_KEY_TO_VALUE } from "../data/category.ts";
 
 export async function handleShop(): Promise<Response> {
   const body = await Deno.readTextFile(

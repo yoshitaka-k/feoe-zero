@@ -8,7 +8,7 @@
  * 出力先: assets/data/found_item.json のように 1 シート = 1 ファイル
  */
 
-import { join } from "jsr:@std/path";
+import { join } from "@std/path";
 import { pick, runSheetImport } from "../lib/sheets-to-json.ts";
 
 const DEFAULT_FILE = join(import.meta.dirname!, "../tsv/found_item.tsv");

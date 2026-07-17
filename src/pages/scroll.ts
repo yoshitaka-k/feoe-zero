@@ -1,4 +1,4 @@
-import { join } from "jsr:@std/path";
+import { join } from "@std/path";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";
 import { scrolls } from "../data/scroll.ts";

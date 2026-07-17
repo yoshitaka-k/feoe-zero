@@ -1,5 +1,5 @@
-import { copy, emptyDir } from "jsr:@std/fs";
-import { join } from "jsr:@std/path";
+import { copy, emptyDir } from "@std/fs";
+import { join } from "@std/path";
 import { handler } from "../src/handler.ts";
 import { ASSETS_DIR, PROJECT_ROOT } from "../src/paths.ts";
 

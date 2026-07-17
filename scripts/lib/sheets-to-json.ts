@@ -1,5 +1,5 @@
-import { basename, join } from "jsr:@std/path";
-import * as XLSX from "npm:xlsx@0.18.5";
+import { basename, join } from "@std/path";
+import * as XLSX from "xlsx";
 import { ASSETS_DATA_DIR } from "../../src/paths.ts";
 
 /** コマンドライン引数のオプション

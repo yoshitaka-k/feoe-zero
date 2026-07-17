@@ -1,4 +1,4 @@
-import { join } from "jsr:@std/path";
+import { join } from "@std/path";
 
 // サイトタイトル
 export const SITE_TITLE = "Far East of Eden Zero";

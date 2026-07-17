@@ -1,4 +1,4 @@
-import { join } from "jsr:@std/path";
+import { join } from "@std/path";
 import { withBase } from "../common/base_path.ts";
 import { renderPage } from "../common/layout.ts";
 import { STATIC_DIR } from "../paths.ts";

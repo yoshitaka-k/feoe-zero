@@ -1,4 +1,4 @@
-import { extname, join, normalize } from "jsr:@std/path";
+import { extname, join, normalize } from "@std/path";
 import { ASSETS_DIR, MIME_TYPES } from "../paths.ts";
 import { notFound } from "./not_found.ts";
 

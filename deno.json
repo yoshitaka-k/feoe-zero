@@ -1,6 +1,6 @@
 {
   "name": "feoe-zero",
-  "version": "0.4.9",
+  "version": "0.4.10",
   "tasks": {
     "dev": "deno run --watch --allow-net --allow-read --allow-env main.ts",
     "build": "deno run -A scripts/build-static.ts",
@@ -16,6 +16,9 @@
     "found_item-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/found_item-sheets-to-json.ts"
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@1"
+    "@std/assert": "jsr:@std/assert@1",
+    "@std/fs": "jsr:@std/fs@1",
+    "@std/path": "jsr:@std/path@1",
+    "xlsx": "npm:xlsx@0.18.5"
   }
 }

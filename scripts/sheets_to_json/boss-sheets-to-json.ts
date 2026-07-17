@@ -14,7 +14,7 @@ import { pick, runSheetImport } from "../lib/sheets-to-json.ts";
 const DEFAULT_FILE = join(import.meta.dirname!, "../tsv/boss.tsv");
 
 type Country = {
-  name: string;
+  country: string;
   boss: Array<Record<string, unknown>>;
 };
 
@@ -35,7 +35,7 @@ function formatBossData(records: Record<string, unknown>[]): Country[] {
 
     let node = byCountry.get(currentCountry);
     if (!node) {
-      node = { name: currentCountry, boss: [] };
+      node = { country: currentCountry, boss: [] };
       byCountry.set(currentCountry, node);
       result.push(node);
     }

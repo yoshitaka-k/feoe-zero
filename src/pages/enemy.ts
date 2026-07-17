@@ -10,7 +10,7 @@ export async function handleEnemy(): Promise<Response> {
   );
 
   let navHtml = enemies.map((country) => {
-    return `<li><a href="${withBase("/enemy")}#${country.name}">${country.name}</a></li>`;
+    return `<li><a href="${withBase("/enemy")}#${country.country}">${country.country}</a></li>`;
   }).join("");
   navHtml = `<nav><ul>${navHtml}</ul></nav>`;
 
@@ -30,7 +30,7 @@ export async function handleEnemy(): Promise<Response> {
       }).join("");
 
     return `<div class="enemy-country">
-<h4 id="${country.name}">${country.name}</h4>
+<h4 id="${country.country}">${country.country}</h4>
 <table class="enemy-enemy">
 <thead>
   <tr>

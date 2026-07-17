@@ -9,7 +9,7 @@ export type Boss = {
 };
 
 export type Country = {
-  name: string;
+  country: string;
   boss: Boss[];
 };
 

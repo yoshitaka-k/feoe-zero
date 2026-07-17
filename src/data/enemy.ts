@@ -10,7 +10,7 @@ export type Enemy = {
 };
 
 export type Country = {
-  name: string;
+  country: string;
   enemy: Enemy[];
 };
 

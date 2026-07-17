@@ -1,19 +1,37 @@
 {
   "name": "feoe-zero",
-  "version": "0.4.13",
+  "version": "0.4.14",
   "tasks": {
     "dev": "deno run --watch --allow-net --allow-read --allow-env main.ts",
     "build": "deno run -A scripts/build-static.ts",
 
     "shop-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/shop-sheets-to-json.ts",
-    "equip-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/equip-sheets-to-json.ts",
+    "wepon-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/equip-sheets-to-json.ts -- --file scripts/tsv/wepon.tsv",
+    "armor-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/equip-sheets-to-json.ts -- --file scripts/tsv/armor.tsv",
+    "accessory-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/equip-sheets-to-json.ts -- --file scripts/tsv/accessory.tsv",
     "item-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/item-sheets-to-json.ts",
     "scroll-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/scroll-sheets-to-json.ts",
     "special-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/special-sheets-to-json.ts",
     "hermit-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/hermit-sheets-to-json.ts",
     "enemy-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/enemy-sheets-to-json.ts",
     "boss-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/boss-sheets-to-json.ts",
-    "found_item-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/found_item-sheets-to-json.ts"
+    "found_item-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/found_item-sheets-to-json.ts",
+
+    "sheets:import": {
+        "dependencies": [
+            "shop-sheets:import",
+            "wepon-sheets:import",
+            "armor-sheets:import",
+            "accessory-sheets:import",
+            "item-sheets:import",
+            "scroll-sheets:import",
+            "special-sheets:import",
+            "hermit-sheets:import",
+            "enemy-sheets:import",
+            "boss-sheets:import",
+            "found_item-sheets:import"
+        ]
+    }
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",

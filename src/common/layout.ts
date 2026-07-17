@@ -1,5 +1,5 @@
 import { join } from "jsr:@std/path";
-import { applyBasePath } from "./base_path.ts";
+import { applyBasePath, withBase } from "./base_path.ts";
 import { STATIC_DIR } from "../paths.ts";
 
 // body を head / header / footer で包んで HTML レスポンスを返す
@@ -29,8 +29,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2Q83FT7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ${applyBasePath(header)}
+<main id="page-content">
 ${body}
+</main>
 ${applyBasePath(footer)}
+<script src="${withBase("/assets/js/script.js")}"></script>
 </body>
 </html>`;
 

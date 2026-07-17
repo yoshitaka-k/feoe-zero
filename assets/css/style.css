@@ -6,6 +6,11 @@ body {
   padding: 1rem;
 }
 
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 150ms;
+}
+
 td.no-wrap {
   white-space: nowrap;
 }

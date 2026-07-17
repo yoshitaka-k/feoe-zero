@@ -26,7 +26,7 @@ export async function handleArmor(): Promise<Response> {
   ${tdPowerCell}
   <td>${targetCell}</td>
   ${tdEffectCell}
-  <td>${priceCell}</td>
+  <td class="price">${priceCell}</td>
 </tr>`;
   }).join("");
 

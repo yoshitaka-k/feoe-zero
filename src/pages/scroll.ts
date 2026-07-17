@@ -12,7 +12,7 @@ export async function handleScroll(): Promise<Response> {
     const targetCell = scroll.target.replaceAll(",", "、");
 
     return `<tr>
-  <td>${scroll.name}</td>
+  <td class="no-wrap">${scroll.name}</td>
   <td>${scroll.effect}</td>
   <td>${scroll.magic_point}</td>
   <td>${targetCell}</td>

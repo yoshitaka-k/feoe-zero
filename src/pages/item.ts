@@ -20,7 +20,7 @@ export async function handleItem(): Promise<Response> {
     return `<tr>
   <td>${item.name}</td>
   ${tdEffectCell}
-  <td>${priceCell}</td>
+  <td class="price">${priceCell}</td>
 </tr>`;
   }).join("");
 

@@ -19,7 +19,7 @@ export async function handleAccessory(): Promise<Response> {
   <td>${powerCell}</td>
   <td>${targetCell}</td>
   <td>${effectCell}</td>
-  <td>${priceCell}</td>
+  <td class="price">${priceCell}</td>
 </tr>`;
   }).join("");
 

@@ -18,7 +18,7 @@ export async function handleWepon(): Promise<Response> {
   <td>${wepon.power}</td>
   <td>${targetCell}</td>
   <td>${effectCell}</td>
-  <td>${priceCell}</td>
+  <td class="price">${priceCell}</td>
 </tr>`;
   }).join("");
 

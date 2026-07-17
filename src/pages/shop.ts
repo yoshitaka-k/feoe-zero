@@ -12,23 +12,26 @@ export async function handleShop(): Promise<Response> {
   let navHtml = shops.map((country) => {
     return `<li><a href="${withBase("/shop")}#${country.country}">${country.country}</a></li>`;
   }).join("");
-  navHtml = `<nav><ul>${navHtml}</ul></nav>`;
+  navHtml = `<nav class="content-nav"><ul>${navHtml}</ul></nav>`;
 
   const shopHtml = shops.map((country) => {
     const locations = country.location.map((location) => {
       const shopBlocks = location.shop.map((shop) => {
-        const products = shop.product
-          .map((product) =>
-            `<tr>
+        const products = shop.product.map((product, index) => {
+          const shopNameCell = index === 0 && shop.product.length > 1 ? `<td rowspan=${shop.product.length}>${shop.shop}</td>` : "";
+
+          return `<tr>
+  ${shopNameCell}
   <td>${product.name}</td>
-  <td">${product.price}両</td>
-</tr>`).join("");
+  <td class="price">${product.price}両</td>
+</tr>`;
+          }).join("");
 
         return `<div class="shop-shop">
-<h4>${shop.shop}</h4>
 <table class="shop-table">
 <thead>
   <tr>
+    <th>店名</th>
     <th>商品名</th>
     <th>価格</th>
     </tr>

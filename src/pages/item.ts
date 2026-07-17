@@ -16,11 +16,13 @@ export async function handleItem(): Promise<Response> {
     const priceCell = item.price != null ? `${item.price.toLocaleString("ja-JP")}両` : "--";
     const collCell = item.name == rowSpanTdItem ? "rowspan=6" : "";
     const tdEffectCell = rowsSpanTdItems.includes(item.name) ? `` : `<td ${collCell}>${effectCell}</td>`;
+    const noteCell = item.note ? item.note : "--";
 
     return `<tr>
   <td>${item.name}</td>
   ${tdEffectCell}
   <td class="price">${priceCell}</td>
+  <td>${noteCell}</td>
 </tr>`;
   }).join("");
 
@@ -30,6 +32,7 @@ export async function handleItem(): Promise<Response> {
     <th>商品名</th>
     <th>効果</th>
     <th>価格</th>
+    <th>備考</th>
   </tr>
 </thead>
 <tbody>

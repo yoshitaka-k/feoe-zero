@@ -2,431 +2,565 @@
     {
         "name": "クサだんご",
         "effect": "体を15回復",
-        "price": 8
+        "price": 8,
+        "note": null
     },
     {
         "name": "まんじゅう",
         "effect": "体を30回復",
-        "price": 15
+        "price": 15,
+        "note": null
     },
     {
         "name": "ガマのあぶら",
         "effect": "体を50回復",
-        "price": 30
+        "price": 30,
+        "note": null
     },
     {
         "name": "クリまんじゅう",
         "effect": "体を60回復",
-        "price": 99
+        "price": 99,
+        "note": null
     },
     {
         "name": "こうらまんじゅう",
         "effect": "体を60回復",
-        "price": 1200
+        "price": 1200,
+        "note": null
     },
     {
         "name": "ブツまん",
         "effect": "体を100回復",
-        "price": 120
+        "price": 120,
+        "note": null
     },
     {
         "name": "かいふく丸",
         "effect": "体を200回復",
-        "price": 150
+        "price": 150,
+        "note": null
     },
     {
         "name": "てんおう丸",
         "effect": "体を全回復",
-        "price": 10000
+        "price": 10000,
+        "note": null
     },
     {
         "name": "バクチ丸",
         "effect": "半分の確率で体全快か半減",
-        "price": 1000
+        "price": 1000,
+        "note": null
     },
     {
         "name": "星の光",
         "effect": "技を50前後回復",
-        "price": 200
+        "price": 200,
+        "note": null
     },
     {
         "name": "月の光",
         "effect": "技を100前後回復",
-        "price": 1000
+        "price": 1000,
+        "note": null
     },
     {
         "name": "日の光",
         "effect": "技を全回復",
-        "price": 20000
+        "price": 20000,
+        "note": null
     },
     {
         "name": "きせきのさけ",
         "effect": "体技を全回復",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "ゲンブ丸",
         "effect": "体と状態を全回復",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "どくけし",
         "effect": "毒状態を回復",
-        "price": 10
+        "price": 10,
+        "note": null
     },
     {
         "name": "かいせき丸",
         "effect": "石化状態を回復",
-        "price": 250
+        "price": 250,
+        "note": null
     },
     {
         "name": "わすれなぐさ",
         "effect": "忘れ状態を回復",
-        "price": 120
+        "price": 120,
+        "note": null
     },
     {
         "name": "木づち",
         "effect": "混乱状態を回復",
-        "price": 100
+        "price": 100,
+        "note": null
     },
     {
         "name": "わさび丸",
         "effect": "眠り状態を回復",
-        "price": 100
+        "price": 100,
+        "note": null
     },
     {
         "name": "たいよう丸",
         "effect": "かすみ状態を回復",
-        "price": 70
+        "price": 70,
+        "note": null
     },
     {
         "name": "マヒトリ丸",
         "effect": "マヒ状態を回復",
-        "price": 150
+        "price": 150,
+        "note": null
     },
     {
         "name": "ばんのう丸",
         "effect": "瀕死以外の全状態を回復",
-        "price": 1000
+        "price": 1000,
+        "note": null
     },
     {
         "name": "いのちのさけ",
         "effect": "瀕死状態から体1で回復",
-        "price": 1200
+        "price": 1200,
+        "note": null
     },
     {
         "name": "あいのべんとう",
-        "effect": "体全快・女性からのプレゼント",
-        "price": null
+        "effect": "体全快",
+        "price": null,
+        "note": "女性からのプレゼント"
     },
     {
         "name": "キミのほほえみ",
-        "effect": "体と状態全快・女性からのプレゼント",
-        "price": null
+        "effect": "体と状態全快",
+        "price": null,
+        "note": "女性からのプレゼント"
     },
     {
         "name": "ちよこれいと",
-        "effect": "技全快・女性からのプレゼント",
-        "price": null
+        "effect": "技全快",
+        "price": null,
+        "note": "女性からのプレゼント"
     },
     {
         "name": "こころのセンベイ",
-        "effect": "瀕死状態から体1で回復・女性からのプレゼント",
-        "price": null
+        "effect": "瀕死状態から体1で回復",
+        "price": null,
+        "note": "女性からのプレゼント"
     },
     {
         "name": "白いアメ玉",
-        "effect": "瀕死以外の全状態を回復・女性からのプレゼント",
-        "price": null
+        "effect": "瀕死以外の全状態を回復",
+        "price": null,
+        "note": "女性からのプレゼント"
     },
     {
         "name": "たい丹",
         "effect": "プレイ開始時に6つの効果がランダムで配分 1人の瀕死以外の全状態を回復,1人に毒効果,1人に忘れ効果,1人の体技を1回復,又は全快,1人の瀕死状態を20%の確率で体全快で回復,1人の体最大値の50%回復",
-        "price": 1450
+        "price": 1450,
+        "note": null
     },
     {
         "name": "ち丹",
         "effect": "プレイ開始時に6つの効果がランダムで配分 1人の瀕死以外の全状態を回復,1人に毒効果,1人に忘れ効果,1人の体技を1回復,又は全快,1人の瀕死状態を20%の確率で体全快で回復,1人の体最大値の50%回復",
-        "price": 1451
+        "price": 1451,
+        "note": null
     },
     {
         "name": "へん丹",
         "effect": "プレイ開始時に6つの効果がランダムで配分 1人の瀕死以外の全状態を回復,1人に毒効果,1人に忘れ効果,1人の体技を1回復,又は全快,1人の瀕死状態を20%の確率で体全快で回復,1人の体最大値の50%回復",
-        "price": 1452
+        "price": 1452,
+        "note": null
     },
     {
         "name": "れん丹",
         "effect": "プレイ開始時に6つの効果がランダムで配分 1人の瀕死以外の全状態を回復,1人に毒効果,1人に忘れ効果,1人の体技を1回復,又は全快,1人の瀕死状態を20%の確率で体全快で回復,1人の体最大値の50%回復",
-        "price": 1453
+        "price": 1453,
+        "note": null
     },
     {
         "name": "らく丹",
         "effect": "プレイ開始時に6つの効果がランダムで配分 1人の瀕死以外の全状態を回復,1人に毒効果,1人に忘れ効果,1人の体技を1回復,又は全快,1人の瀕死状態を20%の確率で体全快で回復,1人の体最大値の50%回復",
-        "price": 1454
+        "price": 1454,
+        "note": null
     },
     {
         "name": "へい丹",
         "effect": "プレイ開始時に6つの効果がランダムで配分 1人の瀕死以外の全状態を回復,1人に毒効果,1人に忘れ効果,1人の体技を1回復,又は全快,1人の瀕死状態を20%の確率で体全快で回復,1人の体最大値の50%回復",
-        "price": 1455
+        "price": 1455,
+        "note": null
     },
     {
         "name": "ひこう石",
         "effect": "行ったことのある村に移動",
-        "price": 100
+        "price": 100,
+        "note": null
     },
     {
         "name": "もどり石",
         "effect": "迷宮脱出",
-        "price": 80
+        "price": 80,
+        "note": null
     },
     {
         "name": "たいあんのタイコ",
         "effect": "敵の出現率を減少",
-        "price": 3600
+        "price": 3600,
+        "note": null
     },
     {
         "name": "ぶつめつのタイコ",
         "effect": "敵出現率アップ",
-        "price": 3600
+        "price": 3600,
+        "note": null
     },
     {
         "name": "ネコだるまのスズ",
         "effect": "使うと敵が強制出現",
-        "price": 12500
+        "price": 12500,
+        "note": null
     },
     {
         "name": "ヨーヨー",
         "effect": "敵1体に通常ダメージ半分～2倍",
-        "price": 480
+        "price": 480,
+        "note": null
     },
     {
         "name": "ツウコンのこな",
         "effect": "敵全体に通常ダメージの2倍与える",
-        "price": 1840
+        "price": 1840,
+        "note": null
     },
     {
         "name": "火ばしりのツボ",
         "effect": "爆発ダメージ",
-        "price": 100
+        "price": 100,
+        "note": null
     },
     {
         "name": "もえる月",
         "effect": "火系100ダメージ",
-        "price": null
+        "price": null,
+        "note": "美人洞・ラン"
     },
     {
         "name": "おもいでの月",
         "effect": "風系100ダメージ",
-        "price": null
+        "price": null,
+        "note": "美人洞・ミキ"
     },
     {
         "name": "とろける月",
         "effect": "水系100ダメージ",
-        "price": null
+        "price": null,
+        "note": "美人洞・スー"
     },
     {
         "name": "あおい札",
         "effect": "敵全体に通常攻撃ダメージ",
-        "price": 10000
+        "price": 10000,
+        "note": null
     },
     {
         "name": "木の札",
         "effect": "妖火の効果",
-        "price": 400
+        "price": 400,
+        "note": null
     },
     {
         "name": "あかい札",
         "effect": "妖雷の効果",
-        "price": 500
+        "price": 500,
+        "note": null
     },
     {
         "name": "しろい札",
         "effect": "神雷の効果",
-        "price": 800
+        "price": 800,
+        "note": null
     },
     {
         "name": "くろい札",
         "effect": "神水の効果",
-        "price": 1000
+        "price": 1000,
+        "note": null
     },
     {
         "name": "ゾウキョウざい",
         "effect": "力人の効果",
-        "price": 500
+        "price": 500,
+        "note": null
     },
     {
         "name": "ガンジョウざい",
         "effect": "堅人の効果",
-        "price": 600
+        "price": 600,
+        "note": null
     },
     {
         "name": "ビンショウざい",
         "effect": "速人の効果",
-        "price": 400
+        "price": 400,
+        "note": null
     },
     {
         "name": "むらさきの札",
         "effect": "疾風の効果",
-        "price": 10000
+        "price": 10000,
+        "note": null
     },
     {
         "name": "バクスイのこな",
         "effect": "爆睡の効果",
-        "price": 1280
+        "price": 1280,
+        "note": null
     },
     {
         "name": "ヒンジャクのこな",
         "effect": "敵の攻撃力を1にする",
-        "price": 2400
+        "price": 2400,
+        "note": null
     },
     {
         "name": "コンランのこな",
         "effect": "全員混乱状態",
-        "price": 1040
+        "price": 1040,
+        "note": null
     },
     {
         "name": "むせかえるかおり",
         "effect": "敵1体に忘れ状態",
-        "price": 49000
+        "price": 49000,
+        "note": null
     },
     {
         "name": "ゆうわくのかおり",
         "effect": "敵1体に混乱状態",
-        "price": 52000
+        "price": 52000,
+        "note": null
     },
     {
         "name": "よるのかおり",
         "effect": "敵1体に眠り状態",
-        "price": 38000
+        "price": 38000,
+        "note": null
     },
     {
         "name": "守りのクマさん",
         "effect": "一度だけ代わりにダメージを受けてくれる",
-        "price": 20800
+        "price": 20800,
+        "note": null
     },
     {
         "name": "にじのカケラ",
         "effect": "7種類のうちランダムで発動 全員が忘れ状態,敵味方全員が混乱状態,全員の体全快,全員が毒状態,全員に疾風の効果,使用した戦闘のみ獲得できる金を4倍,使用した戦闘のみ獲得できる徳を4倍,",
-        "price": 48000
+        "price": 48000,
+        "note": null
     },
     {
         "name": "体のモト",
         "effect": "最大体が少し上がる",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "技のモト",
         "effect": "最大技が少し上がる",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "力のモト",
         "effect": "攻撃力が少し上がる",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "守りのモト",
         "effect": "防御力が少し上がる",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "はやさのモト",
         "effect": "素早さが少し上がる",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "うんのモト",
         "effect": "運が少し上がる",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "イカす丸",
         "effect": "イカす +1",
-        "price": 10000
+        "price": 10000,
+        "note": null
     },
     {
         "name": "イカず丸",
         "effect": "イカす -1",
-        "price": null
+        "price": null,
+        "note": null
     },
     {
         "name": "ウメこけし",
         "effect": "女性へのおみやげ",
-        "price": 450
+        "price": 450,
+        "note": null
     },
     {
         "name": "カラクリこけし",
         "effect": "女性へのおみやげ",
-        "price": 5800
+        "price": 5800,
+        "note": null
     },
     {
         "name": "しあわせのハコ",
         "effect": "女性へのおみやげ",
-        "price": 12500
+        "price": 12500,
+        "note": null
     },
     {
         "name": "うもうのフトン",
         "effect": "女性へのおみやげ",
-        "price": 28000
+        "price": 28000,
+        "note": null
     },
     {
         "name": "はなのイヤリング",
         "effect": "女性へのおみやげ",
-        "price": 20000
+        "price": 20000,
+        "note": null
     },
     {
         "name": "はなのスイハンキ",
         "effect": "女性へのおみやげ",
-        "price": 15000
+        "price": 15000,
+        "note": null
     },
     {
         "name": "はなのきんちゃく",
         "effect": "女性へのおみやげ",
-        "price": 36000
+        "price": 36000,
+        "note": null
     },
     {
         "name": "あたまのエサ",
         "effect": "与えたエサによって体回復量が違う",
-        "price": 8
+        "price": 8,
+        "note": null
     },
     {
         "name": "からだのエサ",
         "effect": "与えたエサによって体回復量が違う",
-        "price": 10
+        "price": 10,
+        "note": null
     },
     {
         "name": "こころのエサ",
         "effect": "与えたエサによって体回復量が違う",
-        "price": 15
+        "price": 15,
+        "note": null
     },
     {
         "name": "おならのエサ",
         "effect": "与えたエサによって体回復量が違う",
-        "price": 50
+        "price": 50,
+        "note": null
     },
     {
         "name": "なぞのエサ",
         "effect": "与えたエサによって体回復量が違う",
-        "price": 100
+        "price": 100,
+        "note": null
     },
     {
         "name": "すなどけい",
         "effect": "与えたエサによって体回復量が違う",
-        "price": 5555
+        "price": 5555,
+        "note": null
     },
     {
         "name": "火走りのツボ",
         "effect": "氷山村への氷を壊す",
-        "price": null
+        "price": null,
+        "note": "火影村"
     },
     {
         "name": "いのちの水",
         "effect": "体技と死亡以外の全状態を回復",
-        "price": null
+        "price": null,
+        "note": "さざなみ洞"
     },
     {
         "name": "マンダラの笛",
         "effect": "テンジンとみずきを入れ替える",
-        "price": null
+        "price": null,
+        "note": "怪樹城"
+    },
+    {
+        "name": "玉手ばこ",
+        "effect": "ミツコ姫に開けてもらうまでの経過時間によってアイテムを入手,自分で開けると消滅,12時間未満「クサだんご」,30時間未満「にじのカケラ」,50時間未満「あいのくびかざり」,50時間以上「きせきのさけ」",
+        "price": null,
+        "note": "ゲンブ城"
+    },
+    {
+        "name": "サ金なべ",
+        "effect": "砂金をすくうためのなべ",
+        "price": 500,
+        "note": null
+    },
+    {
+        "name": "金ぶくろ",
+        "effect": "金を入れて運ぶための袋",
+        "price": 20000,
+        "note": null
+    },
+    {
+        "name": "やぶれた金ぶくろ",
+        "effect": "歩く毎に金が穴から落ちる",
+        "price": null,
+        "note": null
+    },
+    {
+        "name": "金",
+        "effect": "お金や金券に交換できる",
+        "price": null,
+        "note": "金山"
+    },
+    {
+        "name": "サ金",
+        "effect": "お金や金券に交換できる",
+        "price": null,
+        "note": "砂金村"
+    },
+    {
+        "name": "金けん",
+        "effect": "集めると賞品と交換できる",
+        "price": null,
+        "note": "大虎町"
+    },
+    {
+        "name": "キンキンむしのす",
+        "effect": "金を食べる虫の巣",
+        "price": null,
+        "note": "金山"
     }
 ]

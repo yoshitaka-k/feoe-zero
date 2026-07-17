@@ -1,6 +1,6 @@
 {
   "name": "feoe-zero",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "tasks": {
     "dev": "deno run --watch --allow-net --allow-read main.ts",
     "build": "deno run -A scripts/build-static.ts",

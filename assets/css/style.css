@@ -25,3 +25,7 @@ td.no-wrap {
   text-decoration: none;
   border-radius: 0.5rem;
 }
+
+.header-nav {
+  border-bottom: 1px solid var(--pico-muted-border-color);
+}

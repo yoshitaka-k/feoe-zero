@@ -1,6 +1,6 @@
 {
   "name": "feoe-zero",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "tasks": {
     "dev": "deno run --watch --allow-net --allow-read main.ts",
     "build": "deno run -A scripts/build-static.ts",
@@ -12,7 +12,8 @@
     "special-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/special-sheets-to-json.ts",
     "hermit-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/hermit-sheets-to-json.ts",
     "enemy-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/enemy-sheets-to-json.ts",
-    "boss-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/boss-sheets-to-json.ts"
+    "boss-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/boss-sheets-to-json.ts",
+    "found_item-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/found_item-sheets-to-json.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"

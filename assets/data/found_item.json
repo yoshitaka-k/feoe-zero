@@ -1,0 +1,312 @@
+[
+    {
+        "country": "火熊国",
+        "foundItem": [
+            {
+                "location": "火影村",
+                "item": "クサだんご,まんじゅう",
+                "note": null
+            },
+            {
+                "location": "炭井戸",
+                "item": "まんじゅう,力のオビ",
+                "note": null
+            },
+            {
+                "location": "火熊神社",
+                "item": "まんじゅう,どくけし,木の札",
+                "note": null
+            },
+            {
+                "location": "火立村",
+                "item": "星の光",
+                "note": null
+            },
+            {
+                "location": "いのちの森",
+                "item": "まんじゅう,星の光,どくけし,体のモト",
+                "note": null
+            },
+            {
+                "location": "氷山村",
+                "item": "まんじゅう",
+                "note": null
+            },
+            {
+                "location": "氷牙城",
+                "item": "ガマのあぶら,かいふく丸,どくけし,わさび丸,戻り石,力のモト,技のモト,よろめきのゆびわ",
+                "note": null
+            },
+            {
+                "location": "美人洞",
+                "item": "木の札,ゆうわくのゆびわ",
+                "note": null
+            }
+        ]
+    },
+    {
+        "country": "孔雀国",
+        "foundItem": [
+            {
+                "location": "孔雀神社",
+                "item": "ガマのあぶら,どくけし,ばんのう丸,れん丹,ひこう石,技のモト",
+                "note": null
+            },
+            {
+                "location": "福福村",
+                "item": "ガマのあぶら",
+                "note": null
+            },
+            {
+                "location": "雨寺村",
+                "item": "どくけし,ガマのあぶら",
+                "note": null
+            },
+            {
+                "location": "血戦の塔",
+                "item": "星の光,バクチ丸,ばんのう丸,らく丹,技のモト,うんのモト,ゆうだちの刀",
+                "note": null
+            }
+        ]
+    },
+    {
+        "country": "鶴国",
+        "foundItem": [
+            {
+                "location": "入口村",
+                "item": "ガマのあぶら",
+                "note": null
+            },
+            {
+                "location": "あっぱれ村",
+                "item": "イカず丸",
+                "note": null
+            },
+            {
+                "location": "お宝村",
+                "item": "バクチ丸,イカす丸",
+                "note": null
+            },
+            {
+                "location": "わかめ村",
+                "item": "イカず丸",
+                "note": null
+            },
+            {
+                "location": "出口村",
+                "item": "ガマのあぶら",
+                "note": null
+            },
+            {
+                "location": "鶴見神社",
+                "item": "星の光,イカす丸",
+                "note": null
+            },
+            {
+                "location": "酒村",
+                "item": "いのちのさけ,技のモト",
+                "note": null
+            },
+            {
+                "location": "さざなみ洞",
+                "item": "かいふく丸,火のうでわ,白ツルの剣",
+                "note": null
+            },
+            {
+                "location": "まぼろし城",
+                "item": "かいふく丸,月の光,もどり石,たい丹,守りのモト,力のモト,ギンのもんつき,さばきのゆびわ",
+                "note": null
+            },
+            {
+                "location": "鶴見神社",
+                "item": "ガマのあぶら,はやさのモト",
+                "note": "サラを倒した後"
+            },
+            {
+                "location": "酒村",
+                "item": "いのちのさけ,いのちのさけ",
+                "note": "サラを倒した後"
+            }
+        ]
+    },
+    {
+        "country": "亀国",
+        "foundItem": [
+            {
+                "location": "樹海1",
+                "item": "バクスイのこな,らく丹,カスミの衣",
+                "note": null
+            },
+            {
+                "location": "亀岡神社",
+                "item": "星の光,かいふく丸",
+                "note": null
+            },
+            {
+                "location": "あたま山村",
+                "item": "イカす丸",
+                "note": null
+            },
+            {
+                "location": "樹海3",
+                "item": "コンランのこな,バクチ丸,守りのモト",
+                "note": null
+            },
+            {
+                "location": "青池村",
+                "item": "星の光,かいふく丸",
+                "note": null
+            },
+            {
+                "location": "ジュリのお花畑",
+                "item": "にじのカケラ,体のモト",
+                "note": null
+            },
+            {
+                "location": "怪樹城・右の塔",
+                "item": "へい丹,うんのモト,もろはのツルギ",
+                "note": null
+            },
+            {
+                "location": "怪樹城・左の塔",
+                "item": "ばんのう丸,みずきのかがみ",
+                "note": null
+            },
+            {
+                "location": "怪樹城・中央の塔",
+                "item": "てんおう丸,カイキのよろい",
+                "note": null
+            },
+            {
+                "location": "怪樹城・クイズの間",
+                "item": "日の光",
+                "note": null
+            },
+            {
+                "location": "ゲンブ城",
+                "item": "ゲンブ丸,よつゆの衣,リュウジンの玉,玉手ばこ",
+                "note": null
+            },
+            {
+                "location": "亀岡神社",
+                "item": "イカす丸,守りのモト,みずきの刀",
+                "note": "ジュリ・サラを倒した後"
+            },
+            {
+                "location": "あたま山村",
+                "item": "技のモト",
+                "note": "ジュリ・サラを倒した後"
+            },
+            {
+                "location": "青池村",
+                "item": "はやさのモト",
+                "note": "ジュリ・サラを倒した後"
+            }
+        ]
+    },
+    {
+        "country": "犬神国",
+        "foundItem": [
+            {
+                "location": "犬神神社",
+                "item": "イカず丸,かいふく丸,月の光",
+                "note": null
+            },
+            {
+                "location": "大虎町",
+                "item": "イカす丸",
+                "note": null
+            },
+            {
+                "location": "花丸町",
+                "item": "イカず丸,たいあんのタイコ,ドキドキの刀",
+                "note": null
+            },
+            {
+                "location": "金山",
+                "item": "かいふく丸,はやさのモト,サ金のカマ,かぜのうでわ",
+                "note": null
+            },
+            {
+                "location": "金山内",
+                "item": "れん丹,てんおう丸,日の光,おうごんのよろい",
+                "note": null
+            },
+            {
+                "location": "黄金城",
+                "item": "ち丹,ばんのう丸,いのちのさけ,うんのモト,守りのモト,てんおう丸,にじのカケラ,カミナリのうでわ,カラクリのゆびわ,金のてっせん,かがやきの太刀",
+                "note": null
+            },
+            {
+                "location": "いのちの森",
+                "item": "技のモト,てんおう丸,日の光",
+                "note": null
+            }
+        ]
+    },
+    {
+        "country": "竜王国",
+        "foundItem": [
+            {
+                "location": "竜の口村",
+                "item": "ばんのう丸,月の光",
+                "note": null
+            },
+            {
+                "location": "竜の眼村",
+                "item": "かいふく丸,月の光,月の光,いのちのさけ",
+                "note": null
+            },
+            {
+                "location": "竜の耳村",
+                "item": "ばんのう丸,いのちのさけ",
+                "note": null
+            },
+            {
+                "location": "竜神神社",
+                "item": "ゲンブの玉",
+                "note": null
+            },
+            {
+                "location": "竜王町",
+                "item": "月の光,てんおう丸,水のうでわ",
+                "note": null
+            },
+            {
+                "location": "竜王城",
+                "item": "日の光,きせきのさけ,とどめの短刀",
+                "note": null
+            },
+            {
+                "location": "闇の大穴",
+                "item": "てんおう丸",
+                "note": null
+            }
+        ]
+    },
+    {
+        "country": "高天原",
+        "foundItem": [
+            {
+                "location": "かたな村",
+                "item": "月の光,いのちのさけ,ゲンブ丸,ツルギのよろい",
+                "note": null
+            },
+            {
+                "location": "たまつくり村",
+                "item": "かいふく丸,たい丹,玉星の衣",
+                "note": null
+            },
+            {
+                "location": "かがみ村",
+                "item": "月の光,いのちのさけ,ち丹,水かがみのどう",
+                "note": null
+            },
+            {
+                "location": "むらくも洞",
+                "item": "いのちの水,セン光のヤイバ",
+                "note": null
+            }
+        ]
+    }
+]

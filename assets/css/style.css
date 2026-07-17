@@ -11,6 +11,10 @@ body {
   animation-duration: 150ms;
 }
 
+table thead th {
+  white-space: nowrap;
+}
+
 td.no-wrap {
   white-space: nowrap;
 }

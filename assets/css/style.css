@@ -43,6 +43,7 @@ td.price {
   top: 0;
   background-color: var(--pico-background-color);
   border-bottom: 1px solid var(--pico-muted-border-color);
+  z-index: 20;
 }
 
 .content-nav {
@@ -50,4 +51,18 @@ td.price {
   top: 74px;
   background-color: var(--pico-background-color);
   border-bottom: 1px solid var(--pico-muted-border-color);
+  z-index: 10;
+}
+
+.header-nav-dropdown:hover .header-nav-sub {
+  display: block;
+}
+
+.header-nav-sub {
+  display: none;
+  position: absolute;
+  top: 60px;
+  background-color: var(--pico-background-color);
+  border: 1px solid var(--pico-muted-border-color);
+  padding: 0 var(--pico-nav-element-spacing-horizontal);
 }

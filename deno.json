@@ -1,6 +1,6 @@
 {
   "name": "feoe-zero",
-  "version": "0.4.16",
+  "version": "0.5.0",
   "tasks": {
     "dev": "deno run --watch --allow-net --allow-read --allow-env main.ts",
     "build": "deno run -A scripts/build-static.ts",
@@ -16,6 +16,7 @@
     "enemy-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/enemy-sheets-to-json.ts",
     "boss-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/boss-sheets-to-json.ts",
     "found_item-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/found_item-sheets-to-json.ts",
+    "chaya-sheets:import": "deno run --allow-read --allow-write scripts/sheets_to_json/chaya-sheets-to-json.ts",
 
     "sheets:import": {
         "dependencies": [
@@ -29,7 +30,8 @@
             "hermit-sheets:import",
             "enemy-sheets:import",
             "boss-sheets:import",
-            "found_item-sheets:import"
+            "found_item-sheets:import",
+            "chaya-sheets:import"
         ]
     }
   },

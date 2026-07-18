@@ -12,6 +12,7 @@ import { handleAccessory } from "./pages/accessory.ts";
 import { handleEnemy } from "./pages/enemy.ts";
 import { handleBoss } from "./pages/boss.ts";
 import { handleFoundItem } from "./pages/found_item.ts";
+import { handleChaya } from "./pages/chaya.ts";
 
 // ハンドラー — パスを見て振り分けるだけ
 export async function handler(req: Request): Promise<Response> {
@@ -33,6 +34,7 @@ export async function handler(req: Request): Promise<Response> {
   if (pathname === "/enemy") return handleEnemy();
   if (pathname === "/boss") return handleBoss();
   if (pathname === "/found_item") return handleFoundItem();
+  if (pathname === "/chaya") return handleChaya();
 
   return notFound();
 }

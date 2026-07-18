@@ -23,12 +23,6 @@ type CityNode = {
   shop: Array<Record<string, unknown>>;
 };
 
-type ShopNode = {
-  name: string;
-  note: string | number | null;
-  product: Array<Record<string, unknown>>;
-};
-
 type ShopJson = Array<CountryNode>;
 
 function formatShopData(records: Record<string, unknown>[]): ShopJson {

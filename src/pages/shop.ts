@@ -37,8 +37,8 @@ export async function handleShop(): Promise<Response> {
     <th>商品名</th>
     <th>種類</th>
     <th>価格</th>
-    </tr>
-  </thead>
+  </tr>
+</thead>
 <tbody>${products}</tbody>
 </table>
 </div>`;

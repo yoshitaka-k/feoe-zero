@@ -1,0 +1,179 @@
+[
+    {
+        "country": "火熊国",
+        "location": [
+            {
+                "location": "火熊神社",
+                "chaya": [
+                    {
+                        "room": "きくの間",
+                        "name": "ナオミ",
+                        "event": "幸せを祈ってくれる",
+                        "note": null
+                    },
+                    {
+                        "room": "ゆりの間",
+                        "name": "シズカ",
+                        "event": "3種類の会話",
+                        "note": null
+                    },
+                    {
+                        "room": "さくらの間",
+                        "name": "アキナ",
+                        "event": "「はい」、「いいえ」、「はい」、「いいえ」の順に答えると家を買える",
+                        "note": null
+                    },
+                    {
+                        "room": "さくらの間",
+                        "name": "ミキ",
+                        "event": "会話のみ",
+                        "note": "アキナに家を買った後"
+                    },
+                    {
+                        "room": "ぼたんの間",
+                        "name": "エリ",
+                        "event": "10両を連続でねだってくる",
+                        "note": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "country": "孔雀国",
+        "location": [
+            {
+                "location": "孔雀神社",
+                "chaya": [
+                    {
+                        "room": "きくの間",
+                        "name": "クミコ",
+                        "event": "1000両ねだってきて、あげると泊まれる",
+                        "note": null
+                    },
+                    {
+                        "room": "ゆりの間",
+                        "name": "さやか",
+                        "event": "イカす度で会話が変化",
+                        "note": null
+                    },
+                    {
+                        "room": "さくらの間",
+                        "name": "まりな",
+                        "event": "4日連続で会いに行くと家を買える",
+                        "note": null
+                    },
+                    {
+                        "room": "さくらの間",
+                        "name": "リホ",
+                        "event": "会話のみ",
+                        "note": "まりなに家を買った後"
+                    },
+                    {
+                        "room": "ぼたんの間",
+                        "name": "ちひろ",
+                        "event": "会話のみ",
+                        "note": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "country": "鶴国",
+        "location": [
+            {
+                "location": "鶴見神社",
+                "chaya": [
+                    {
+                        "room": "きくの間",
+                        "name": "ユミ",
+                        "event": "3種類の会話後に、お金をねだってくる",
+                        "note": null
+                    },
+                    {
+                        "room": "ゆりの間",
+                        "name": "セイコ",
+                        "event": "「はなのイヤリング」をあげると「キミのほほえみ」くれる（1回だけ）",
+                        "note": null
+                    },
+                    {
+                        "room": "さくらの間",
+                        "name": "アリサ",
+                        "event": "イカす度で会話が変化",
+                        "note": null
+                    },
+                    {
+                        "room": "ぼたんの間",
+                        "name": "ももこ",
+                        "event": "2通の手紙を探して渡すと家を変える",
+                        "note": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "country": "犬神国",
+        "location": [
+            {
+                "location": "犬神神社",
+                "chaya": [
+                    {
+                        "room": "きくの間",
+                        "name": "うめ",
+                        "event": "3種類の会話",
+                        "note": null
+                    },
+                    {
+                        "room": "ゆりの間",
+                        "name": "ヨネ",
+                        "event": "「はい」と答えると家が買われてる",
+                        "note": null
+                    },
+                    {
+                        "room": "さくらの間",
+                        "name": "すず",
+                        "event": "会話のみ",
+                        "note": null
+                    },
+                    {
+                        "room": "ぼたんの間",
+                        "name": "かな",
+                        "event": "会話のみ",
+                        "note": null
+                    }
+                ]
+            },
+            {
+                "location": "大虎町",
+                "chaya": [
+                    {
+                        "room": "きくの間",
+                        "name": "ミホ",
+                        "event": "アイテムを3種類渡したら家を買える",
+                        "note": null
+                    },
+                    {
+                        "room": "ゆりの間",
+                        "name": "サユリ",
+                        "event": "3種類の会話",
+                        "note": null
+                    },
+                    {
+                        "room": "さくらの間",
+                        "name": "リエ",
+                        "event": "サイドイベント発生",
+                        "note": null
+                    },
+                    {
+                        "room": "ぼたんの間",
+                        "name": "アケミ",
+                        "event": "イカす度で会話が変化",
+                        "note": null
+                    }
+                ]
+            }
+        ]
+    }
+]

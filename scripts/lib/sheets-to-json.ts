@@ -249,6 +249,66 @@ function formatSheetData(
   return formatter ? formatter(records) : records;
 }
 
+/** デリミタ付きテキストを行・セルに分割する（値は文字列のまま保持）
+ *
+ * XLSX.read だと `1/4` などが日付として解釈されシリアル値になるため、
+ * TSV/CSV は自前でパースしてからシート化する。
+ */
+function parseDelimitedText(text: string, delimiter: string): string[][] {
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let cell = "";
+  let inQuotes = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    const next = text[i + 1];
+
+    if (inQuotes) {
+      if (ch === '"' && next === '"') {
+        cell += '"';
+        i++;
+      } else if (ch === '"') {
+        inQuotes = false;
+      } else {
+        cell += ch;
+      }
+      continue;
+    }
+
+    if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === delimiter) {
+      row.push(cell);
+      cell = "";
+    } else if (ch === "\n") {
+      row.push(cell);
+      rows.push(row);
+      row = [];
+      cell = "";
+    } else if (ch === "\r") {
+      row.push(cell);
+      rows.push(row);
+      row = [];
+      cell = "";
+      if (next === "\n") i++;
+    } else {
+      cell += ch;
+    }
+  }
+
+  if (cell !== "" || row.length > 0) {
+    row.push(cell);
+    rows.push(row);
+  }
+
+  if (rows.length > 0 && rows[rows.length - 1].every((c) => c === "")) {
+    rows.pop();
+  }
+
+  return rows;
+}
+
 /** デリミタ付きファイルを読み込む関数
  * @param path パス
  * @param text テキスト
@@ -261,15 +321,10 @@ function readDelimitedFile(
   const ext = path.toLowerCase().split(".").pop();
   const delimiter = ext === "csv" ? "," : "\t";
   const sheetName = basename(path).replace(/\.[^.]+$/, "");
-  const workbook = XLSX.read(text, { type: "string", FS: delimiter });
-  const firstSheet = workbook.SheetNames[0];
-
-  if (firstSheet && firstSheet !== sheetName) {
-    workbook.Sheets[sheetName] = workbook.Sheets[firstSheet];
-    delete workbook.Sheets[firstSheet];
-    workbook.SheetNames = [sheetName];
-  }
-
+  const rows = parseDelimitedText(text, delimiter);
+  const sheet = XLSX.utils.aoa_to_sheet(rows);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, sheet, sheetName);
   return workbook;
 }
 

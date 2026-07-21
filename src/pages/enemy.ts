@@ -45,7 +45,6 @@ export async function handleEnemy(): Promise<Response> {
 <tbody>${enemyHtml}</tbody>
 </table>
 </div>`;
-
   }).join("");
 
   let html = body.replace("{{enemies}}", countryHtml);

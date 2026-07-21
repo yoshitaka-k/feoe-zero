@@ -42,7 +42,6 @@ export async function handleBoss(): Promise<Response> {
 <tbody>${bossHtml}</tbody>
 </table>
 </div>`;
-
   }).join("");
 
   let html = body.replace("{{boss}}", countryHtml);

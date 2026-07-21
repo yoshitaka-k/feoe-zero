@@ -41,8 +41,7 @@ export async function handleHermit(): Promise<Response> {
   </tr>
 </thead>
 <tbody>${hermitHtml}</tbody>
-</table>
-</h4>`;
+</table>`;
   }).join("");
 
   let html = body.replace("{{nav}}", navHtml);

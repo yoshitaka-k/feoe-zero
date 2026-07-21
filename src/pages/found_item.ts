@@ -39,7 +39,6 @@ export async function handleFoundItem(): Promise<Response> {
 <tbody>${foundItemHtml}</tbody>
 </table>
 </div>`;
-
   }).join("");
 
   let html = body.replace("{{found_items}}", countryHtml);
